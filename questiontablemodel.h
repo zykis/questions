@@ -41,6 +41,9 @@ public:
 
   Q_INVOKABLE QList<QVariantMap> answers(int questionRowID) const;
 
+  void fromJSON(QString filePath);
+  QString toJSON();
+
 private:
   QHash<int, QByteArray> m_roles;
   QList<Question> m_questions;

@@ -3,9 +3,14 @@
 #include <questiontablemodel.h>
 #include <QQmlContext>
 
+// Local
+#include "initdb.h"
+
 int main(int argc, char *argv[])
 {
   QGuiApplication app(argc, argv);
+
+  database::initDB();
 
   QQmlApplicationEngine engine;
   QuestionTableModel questionModel;

@@ -47,3 +47,8 @@ QList<QVariantMap> QuestionTableModel::answers(int questionRowID) const
   }
   return vml;
 }
+
+void QuestionTableModel::fromJSON(QString filePath)
+{
+
+}

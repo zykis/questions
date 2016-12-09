@@ -138,7 +138,7 @@ Item {
             id: browse
             anchors.right: parent.right
             anchors.verticalCenter: parent.verticalCenter
-            text: "Browse"
+            text: "Указать"
             onClicked: fileDialog.open()
           }
         }
