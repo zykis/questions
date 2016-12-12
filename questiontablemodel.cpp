@@ -6,6 +6,7 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
+#include <QSettings>
 
 QuestionQueryModel::QuestionQueryModel(QObject *parent):
   QSqlQueryModel::QSqlQueryModel(parent)
@@ -92,6 +93,8 @@ void QuestionQueryModel::fromJSON(QString filePath)
   setQuery("SELECT * FROM questions");
 
   qDebug() << QString("%1 total questions loaded").arg(m_questions.count());
+  QSettings settings;
+  settings.setValue("jsonFilePath", filePath);
 }
 
 int QuestionQueryModel::rowCount(const QModelIndex &parent) const

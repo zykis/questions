@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.5
 import QtQuick.Controls 1.4
 import QtQuick.Dialogs 1.2
 
@@ -11,6 +11,7 @@ Item {
     anchors.top: parent.top
     anchors.left: panel.right
     anchors.right: parent.right
+    anchors.leftMargin: 16
     height: 220
 
     color: "#eee"
@@ -237,6 +238,27 @@ Item {
     width: 200
 
     model: questionModel
+
+    header: Rectangle {
+      width: parent.width
+      height: 58
+
+      ComboBox {
+        model: ["все", "лор", "соревнования", "механика"]
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.top: parent.top
+        anchors.margins: 8
+        anchors.topMargin: 24
+
+        Text {
+          anchors.bottom: parent.top
+          anchors.margins: 4
+          anchors.horizontalCenter: parent.horizontalCenter
+          text: "Тема"
+        }
+      }
+    }
 
     delegate: Item {
       id: del
