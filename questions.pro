@@ -18,4 +18,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     questiontablemodel.h \
-    initdb.h
+    initdb.h \
+    answer.h \
+    quesiton.h

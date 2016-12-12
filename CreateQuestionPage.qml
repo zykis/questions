@@ -146,6 +146,16 @@ Item {
     }
   }
 
+  Button {
+    anchors.right: parent.right
+    anchors.top: parent.top
+    width: 32
+    height: 32
+    text: "WTF"
+    onClicked: {
+      jsonOpenDialog.open()
+    }
+  }
 
   Rectangle {
     id: imagePreview
@@ -200,6 +210,21 @@ Item {
     }
   }
 
+  FileDialog {
+    id: jsonOpenDialog
+    folder: shortcuts.home
+    title: "Открыть файл с вопросами"
+    width: 800
+    height: 600
+    nameFilters: [ "JSON files (*.json)" ]
+    onAccepted: {
+      var path = fileUrl.toString();
+      path = path.replace(/^(file:\/{2})/,"");
+      console.log(path)
+      questionModel.fromJSON(path)
+    }
+  }
+
   ExclusiveGroup {
     id: answerRadioGroup
   }
@@ -212,25 +237,39 @@ Item {
     width: 200
 
     model: questionModel
+
     delegate: Item {
+      id: del
       width: parent.width
       height: 40
+      property string q_text: question_text
 
       Rectangle {
         anchors.fill: parent
         anchors.margins: 1
         color: "#eee"
+      }
 
-        Rectangle {
-          anchors.horizontalCenter: parent.right
-          anchors.verticalCenter: parent.verticalCenter
-          width: 12
-          height: width
-          radius: height / 2
-          color: "#4CAF50"
-          border.color: "#1B5E20"
+      Rectangle {
+        anchors.horizontalCenter: parent.right
+        anchors.verticalCenter: parent.verticalCenter
+        width: 12
+        height: width
+        radius: height / 2
+        color: "#4CAF50"
+        border.color: "#1B5E20"
+
+        Text {
+          anchors.fill: parent
+          verticalAlignment: Text.AlignVCenter
+          anchors.leftMargin: 4
+          elide: Text.ElideRight
+          text: del.q_text
+          color: "#000"
+          opacity: 0.54
         }
       }
+
     }
   }
 }

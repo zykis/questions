@@ -50,16 +50,9 @@ bool initDB()
       qDebug() << query.lastError();
     }
 
-    query.prepare(queryText);
-    query.bindValue(":name", "\'lore\'");
-    if (!query.exec())
-    {
-      qDebug() << "Wrong query:" << queryText;
-      qDebug() << query.lastError();
-    }
-
     queryText = "INSERT INTO themes (name) VALUES (:name)";
-    query.bindValue(":name", "\'tournaments\'");
+    query.prepare(queryText);
+    query.bindValue(":name", "lore");
     if (!query.exec())
     {
       qDebug() << "Wrong query:" << queryText;
@@ -68,7 +61,16 @@ bool initDB()
 
     queryText = "INSERT INTO themes (name) VALUES (:name)";
     query.prepare(queryText);
-    query.bindValue(":name", "\"\tmechanics\"");
+    query.bindValue(":name", "tournaments");
+    if (!query.exec())
+    {
+      qDebug() << "Wrong query:" << queryText;
+      qDebug() << query.lastError();
+    }
+
+    queryText = "INSERT INTO themes (name) VALUES (:name)";
+    query.prepare(queryText);
+    query.bindValue(":name", "mechanics");
     if (!query.exec())
     {
       qDebug() << "Wrong query:" << queryText;
