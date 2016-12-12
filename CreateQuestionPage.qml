@@ -237,9 +237,6 @@ Item {
     width: 200
 
     model: questionModel
-    onModelChanged: {
-      console.log(model)
-    }
 
     delegate: Item {
       id: del
@@ -270,9 +267,8 @@ Item {
         width: 12
         height: width
         radius: height / 2
-        color: "#4CAF50"
+        color: approved? "#4CAF50": "gray"
         border.color: "#1B5E20"
-
       }
 
       MouseArea {

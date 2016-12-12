@@ -32,9 +32,9 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
     case ROLE_TEXT:
       return question.text;
     case ROLE_IMAGE_NAME:
-    return question.imageName;
+      return question.imageName;
     case ROLE_APPROVED:
-    return question.approved;
+      return question.approved;
     default:
       return QVariant();
     }
@@ -72,20 +72,20 @@ void QuestionQueryModel::fromJSON(QString filePath)
     QJsonObject obj = qObj.toObject();
     Question q;
     q.theme = obj.value("theme").toString();
-    q.imageName = obj.value("image").toString();
-    q.text = obj.value("question").toString();
+    q.imageName = obj.value("image_name").toString();
+    q.text = obj.value("text").toString();
+    q.approved = obj.value("approved").toString() == "true"? true: false;
 
     QJsonArray answersArr = obj.value("answers").toArray();
     for (auto aObj: answersArr)
     {
+      QJsonObject aaObj = aObj.toObject();
       Answer a;
-      a.text = aObj.toString();
+      a.text = aaObj.value("text").toString();
+      a.isCorrect = aaObj.value("is_correct").toString() == "true"? true: false;
 
       q.answers.append(a);
     }
-
-    int rightIndex = obj.value("correct_answer_index").toInt();
-    q.answers[rightIndex - 1].isCorrect = true;
 
     m_questions.append(q);
   }

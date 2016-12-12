@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>CreateQuestionPage.qml</file>
+        <file>questions.json</file>
     </qresource>
 </RCC>
