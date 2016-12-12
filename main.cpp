@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
   database::initDB();
 
   QQmlApplicationEngine engine;
-  QuestionTableModel questionModel;
+  QuestionQueryModel questionModel;
   QQmlContext* objectContext = engine.rootContext();
   objectContext->setContextProperty("questionModel", &questionModel);
   engine.load(QUrl(QStringLiteral("qrc:/main.qml")));

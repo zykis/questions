@@ -1,7 +1,7 @@
 #ifndef QUESTIONTABLEMODEL_H
 #define QUESTIONTABLEMODEL_H
 
-#include <QSqlTableModel>
+#include <QSqlQueryModel>
 
 #include "quesiton.h"
 
@@ -11,12 +11,12 @@
 #define ROLE_APPROVED Qt::UserRole + 4
 
 
-class QuestionTableModel : public QSqlTableModel
+class QuestionQueryModel : public QSqlQueryModel
 {
   Q_OBJECT
 
 public:
-  QuestionTableModel(QObject* parent = 0);
+  QuestionQueryModel(QObject* parent = 0);
 
   QHash<int, QByteArray> roleNames() const;
   QVariant data(const QModelIndex &idx, int role) const;

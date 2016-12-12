@@ -7,21 +7,21 @@
 #include <QJsonArray>
 #include <QJsonObject>
 
-QuestionTableModel::QuestionTableModel(QObject *parent):
-  QSqlTableModel::QSqlTableModel(parent)
+QuestionQueryModel::QuestionQueryModel(QObject *parent):
+  QSqlQueryModel::QSqlQueryModel(parent)
 {
-  m_roles.insert(ROLE_ID, "id");
-  m_roles.insert(ROLE_TEXT, "question_text");
-  m_roles.insert(ROLE_IMAGE_NAME, "image_name");
-  m_roles.insert(ROLE_APPROVED, "approved");
+  m_roles[ROLE_ID] = "id";
+  m_roles[ROLE_TEXT] = "question_text";
+  m_roles[ROLE_IMAGE_NAME] = "image_name";
+  m_roles[ROLE_APPROVED] = "approved";
 }
 
-QHash<int, QByteArray> QuestionTableModel::roleNames() const
+QHash<int, QByteArray> QuestionQueryModel::roleNames() const
 {
   return m_roles;
 }
 
-QVariant QuestionTableModel::data(const QModelIndex &idx, int role) const
+QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
 {
   if (role > Qt::UserRole)
   {
@@ -41,12 +41,12 @@ QVariant QuestionTableModel::data(const QModelIndex &idx, int role) const
   }
   else
   {
-    return QSqlTableModel::data(idx, role);
+    return QSqlQueryModel::data(idx, role);
   }
 }
 
 
-QList<QVariantMap> QuestionTableModel::answers(int questionRowID) const
+QList<QVariantMap> QuestionQueryModel::answers(int questionRowID) const
 {
   QList<QVariantMap> vml;
   for (Answer a: m_questions.at(questionRowID).answers) {
@@ -56,7 +56,7 @@ QList<QVariantMap> QuestionTableModel::answers(int questionRowID) const
   return vml;
 }
 
-void QuestionTableModel::fromJSON(QString filePath)
+void QuestionQueryModel::fromJSON(QString filePath)
 {
   m_questions.clear();
 
@@ -89,18 +89,18 @@ void QuestionTableModel::fromJSON(QString filePath)
 
     m_questions.append(q);
   }
-  setTable("questions");
-  select();
+  setQuery("SELECT * FROM questions");
 
   qDebug() << QString("%1 total questions loaded").arg(m_questions.count());
 }
 
-int QuestionTableModel::rowCount(const QModelIndex &parent) const
+int QuestionQueryModel::rowCount(const QModelIndex &parent) const
 {
+  Q_UNUSED(parent)
   return m_questions.count();
 }
 
-QString QuestionTableModel::toJSON()
+QString QuestionQueryModel::toJSON()
 {
   return QString();
 }

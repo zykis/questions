@@ -237,17 +237,31 @@ Item {
     width: 200
 
     model: questionModel
+    onModelChanged: {
+      console.log(model)
+    }
 
     delegate: Item {
       id: del
       width: parent.width
       height: 40
-      property string q_text: question_text
 
       Rectangle {
         anchors.fill: parent
         anchors.margins: 1
         color: "#eee"
+
+        Text {
+          id: txt
+          anchors.fill: parent
+          verticalAlignment: Text.AlignVCenter
+          horizontalAlignment: Text.AlignLeft
+          anchors.leftMargin: 4
+          elide: Text.ElideRight
+          text: question_text
+          color: "#000"
+          opacity: 0.54
+        }
       }
 
       Rectangle {
@@ -259,17 +273,15 @@ Item {
         color: "#4CAF50"
         border.color: "#1B5E20"
 
-        Text {
-          anchors.fill: parent
-          verticalAlignment: Text.AlignVCenter
-          anchors.leftMargin: 4
-          elide: Text.ElideRight
-          text: del.q_text
-          color: "#000"
-          opacity: 0.54
-        }
       }
 
+      MouseArea {
+        anchors.fill: parent
+        onClicked: {
+          //! TODO: Загрузка интерфейса из модели для последующего редактирования
+          console.log(txt.text)
+        }
+      }
     }
   }
 }
