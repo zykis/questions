@@ -65,6 +65,7 @@ void QuestionQueryModel::fromJSON(QString filePath)
   QFile jsonFile(fileInfo.absoluteFilePath());
   jsonFile.open(QIODevice::ReadOnly);
   QByteArray ba = jsonFile.readAll();
+  jsonFile.close();
 
   QJsonDocument document = QJsonDocument::fromJson(ba);
   for (auto qObj: document.array())
@@ -106,6 +107,40 @@ int QuestionQueryModel::rowCount(const QModelIndex &parent) const
 
 QString QuestionQueryModel::toJSON()
 {
+  QSettings settings;
+  QFileInfo fileInfo(settings.value("jsonFilePath").toString());
+  QFile jsonFile(fileInfo.absoluteFilePath());
+  jsonFile.open(QIODevice::WriteOnly | QIODevice::Truncate);
+
+  // [2] Fill json
+  QJsonDocument document;
+  QJsonArray questionsArray;
+  for (const Question& q: m_questions)
+  {
+    QJsonObject questionObject;
+    questionObject["theme"] = q.theme;
+    questionObject["image_name"] = q.imageName;
+    questionObject["text"] = q.text;
+    questionObject["approved"] = q.approved? "true": "false";
+
+    QJsonArray answersArray;
+    for (const Answer& a: q.answers)
+    {
+      QJsonObject answerObject;
+      answerObject["text"] = a.text;
+      answerObject["is_correct"] = a.isCorrect? "true": "false";
+      answersArray.append(answerObject);
+    }
+    questionObject["answers"] = answersArray;
+
+    questionsArray.append(questionObject);
+  }
+
+  document.setArray(questionsArray);
+  QByteArray ba = document.toJson();
+  jsonFile.write(ba.data());
+  jsonFile.close();
+
   return QString();
 }
 

@@ -208,6 +208,7 @@ Item {
       anchors.verticalCenter: parent.verticalCenter
       anchors.margins: 16
       text: "Загрузить"
+      onClicked: questionModel.toJSON()
     }
 
     Button {
