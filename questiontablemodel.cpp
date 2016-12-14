@@ -95,6 +95,7 @@ void QuestionQueryModel::fromJSON(QString filePath)
   qDebug() << QString("%1 total questions loaded").arg(m_questions.count());
   QSettings settings;
   settings.setValue("jsonFilePath", filePath);
+  settings.setValue("questionsFolder", "file://" + fileInfo.absolutePath() + "/question_images/");
 }
 
 int QuestionQueryModel::rowCount(const QModelIndex &parent) const
@@ -107,3 +108,27 @@ QString QuestionQueryModel::toJSON()
 {
   return QString();
 }
+
+
+QVariantMap QuestionQueryModel::get(int row)
+{
+  QVariantMap result;
+
+  for (auto role : m_roles.keys())
+    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0).data(role);
+
+  Question q = m_questions.at(row);
+  QVariantList answersList;
+  for (Answer& a: q.answers)
+  {
+    QVariantMap aMap;
+    aMap["text"] = a.text;
+    aMap["is_correct"] = a.isCorrect;
+    answersList.append(aMap);
+  }
+  result["answers"] = answersList;
+
+  return result;
+}
+
+

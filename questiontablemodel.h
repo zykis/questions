@@ -27,6 +27,8 @@ public:
   Q_INVOKABLE QString toJSON();
   int rowCount(const QModelIndex &parent) const;
 
+  Q_INVOKABLE QVariantMap get(int row);
+
 private:
   QHash<int, QByteArray> m_roles;
   QList<Question> m_questions;

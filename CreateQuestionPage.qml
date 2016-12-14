@@ -1,9 +1,29 @@
 import QtQuick 2.5
 import QtQuick.Controls 1.4
 import QtQuick.Dialogs 1.2
+import Qt.labs.settings 1.0
 
 Item {
   id: root
+
+  function loadQuestion(question) {
+
+    answer1.text = question.answers[0] !== undefined? question.answers[0].text: ""
+    answer2.text = question.answers[1] !== undefined? question.answers[1].text: ""
+    answer3.text = question.answers[2] !== undefined? question.answers[2].text: ""
+    answer4.text = question.answers[3] !== undefined? question.answers[3].text: ""
+
+    questionText.text = question.question_text
+
+    pathText.text = settings.questionsFolder + question.image_name
+    image.source = pathText.text
+  }
+
+  Settings {
+    id: settings
+    property string jsonFilePath
+    property string questionsFolder
+  }
 
   Rectangle {
     id: questionItem
@@ -221,7 +241,6 @@ Item {
     onAccepted: {
       var path = fileUrl.toString();
       path = path.replace(/^(file:\/{2})/,"");
-      console.log(path)
       questionModel.fromJSON(path)
     }
   }
@@ -298,6 +317,7 @@ Item {
         onClicked: {
           //! TODO: Загрузка интерфейса из модели для последующего редактирования
           console.log(txt.text)
+          loadQuestion(questionModel.get(index))
         }
       }
     }

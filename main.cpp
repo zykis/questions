@@ -10,6 +10,9 @@
 int main(int argc, char *argv[])
 {
   QGuiApplication app(argc, argv);
+  app.setOrganizationName("zykis");
+  app.setOrganizationDomain("zykis.ru");
+  app.setApplicationName("questions");
 
   database::initDB();
 
