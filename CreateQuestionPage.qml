@@ -323,6 +323,8 @@ Item {
         anchors.fill: parent
         anchors.margins: 1
         color: "#eee"
+        border.width: index === panel.currentIndex? 1: 0
+        border.color: "#000"
 
         Text {
           id: txt
@@ -344,7 +346,8 @@ Item {
         height: width
         radius: height / 2
         color: approved? "#4CAF50": "gray"
-        border.color: "#1B5E20"
+        border.color: index === panel.currentIndex? "#000": "#1B5E20"
+        border.width: index === panel.currentIndex? 1: 0
       }
 
       MouseArea {
