@@ -166,4 +166,26 @@ QVariantMap QuestionQueryModel::get(int row)
   return result;
 }
 
+void QuestionQueryModel::set(int row, const QVariantMap &value)
+{
+  Question& q = m_questions[row];
+  q.text = value.value("text").toString();
+  q.approved = value.value("approved").toString() == "true"? true: false;
+  q.imageName = value.value("image_name").toString();
+  q.theme = value.value("theme").toString();
+  q.answers.clear();
+
+  for (int i = 0; i < value.value("answers").toList().count(); i++)
+  {
+    QVariantList answersList = value.value("answers").toList();
+    QVariantMap answerMap = answersList[i].toMap();
+    Answer a;
+    a.text = answerMap.value("text").toString();
+    a.isCorrect = answerMap.value("is_correct").toString() == "true"? true: false;
+    q.answers.append(a);
+  }
+
+  m_questions[row] = q;
+}
+
 

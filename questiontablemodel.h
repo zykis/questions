@@ -28,6 +28,7 @@ public:
   int rowCount(const QModelIndex &parent) const;
 
   Q_INVOKABLE QVariantMap get(int row);
+  Q_INVOKABLE void set(int row, const QVariantMap& value);
 
 private:
   QHash<int, QByteArray> m_roles;

@@ -13,10 +13,36 @@ Item {
     answer3.text = question.answers[2] !== undefined? question.answers[2].text: ""
     answer4.text = question.answers[3] !== undefined? question.answers[3].text: ""
 
+    answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? true: false: false
+    answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? true: false: false
+    answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
+    answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
+
     questionText.text = question.question_text
 
     pathText.text = settings.questionsFolder + question.image_name
     image.source = pathText.text
+  }
+
+  function getQuestion(row) {
+    var q = {}
+    q.text = questionText.text
+    q.image_name = pathText.text.substring(pathText.text.lastIndexOf('/') + 1)
+    q.answers = []
+    var a1 = { "text": answer1.text, "is_correct": answer1CorrectRadio.checked? "true": "false" }
+    var a2 = { "text": answer2.text, "is_correct": answer2CorrectRadio.checked? "true": "false" }
+    var a3 = { "text": answer3.text, "is_correct": answer3CorrectRadio.checked? "true": "false" }
+    var a4 = { "text": answer4.text, "is_correct": answer4CorrectRadio.checked? "true": "false" }
+    if (a1.text !== "")
+      q.answers.push(a1)
+    if (a2.text !== "")
+      q.answers.push(a2)
+    if (a3.text !== "")
+      q.answers.push(a3)
+    if (a4.text !== "")
+      q.answers.push(a4)
+
+    return q
   }
 
   Settings {
@@ -155,6 +181,10 @@ Item {
           anchors.rightMargin: 44
           placeholderText: "Путь до файла изображения"
 
+          onEditingFinished: {
+            image.source = text
+          }
+
           Button {
             id: browse
             anchors.right: parent.right
@@ -208,7 +238,11 @@ Item {
       anchors.verticalCenter: parent.verticalCenter
       anchors.margins: 16
       text: "Загрузить"
-      onClicked: questionModel.toJSON()
+      onClicked: {
+        var data = getQuestion(panel.currentIndex)
+        questionModel.set(panel.currentIndex, data)
+        questionModel.toJSON()
+      }
     }
 
     Button {
@@ -319,6 +353,7 @@ Item {
           //! TODO: Загрузка интерфейса из модели для последующего редактирования
           console.log(txt.text)
           loadQuestion(questionModel.get(index))
+          panel.currentIndex = index
         }
       }
     }
