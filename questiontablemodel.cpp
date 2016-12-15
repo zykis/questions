@@ -191,6 +191,7 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
 void QuestionQueryModel::create()
 {
   Question q;
+  q.approved = false;
   m_questions.prepend(q);
   setQuery("SELECT * FROM questions");
 }

@@ -17,7 +17,6 @@ Item {
   }
 
   function loadQuestion(question) {
-
     answer1.text = question.answers[0] !== undefined? question.answers[0].text: ""
     answer2.text = question.answers[1] !== undefined? question.answers[1].text: ""
     answer3.text = question.answers[2] !== undefined? question.answers[2].text: ""
@@ -30,8 +29,16 @@ Item {
 
     questionText.text = question.question_text
 
-    pathText.text = settings.questionsFolder + question.image_name
-    image.source = pathText.text
+    if (question.image_name)
+    {
+      pathText.text = settings.questionsFolder + question.image_name
+      image.source = pathText.text
+    }
+    else
+    {
+      pathText.text = ""
+      image.source = ""
+    }
   }
 
   function createQuestion() {
