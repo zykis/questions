@@ -261,7 +261,6 @@ Item {
     height: 600
     nameFilters: [ "Image files (*.jpg *.png)" ]
     onAccepted: {
-      image.source = fileUrl
       pathText.text = fileUrl
     }
   }
