@@ -203,3 +203,12 @@ void QuestionQueryModel::remove(int row)
     setQuery("SELECT * FROM questions");
   }
 }
+
+void QuestionQueryModel::approve(int row)
+{
+  if (m_questions.count() > row)
+  {
+    m_questions[row].approved = true;
+    setQuery("SELECT * FROM questions");
+  }
+}

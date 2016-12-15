@@ -45,6 +45,7 @@ Item {
     q.text = questionText.text
     q.image_name = pathText.text.substring(pathText.text.lastIndexOf('/') + 1)
     q.answers = []
+    q.approved = questionModel.get(row).approved
     var a1 = { "text": answer1.text, "is_correct": answer1CorrectRadio.checked? "true": "false" }
     var a2 = { "text": answer2.text, "is_correct": answer2CorrectRadio.checked? "true": "false" }
     var a3 = { "text": answer3.text, "is_correct": answer3CorrectRadio.checked? "true": "false" }
@@ -245,7 +246,19 @@ Item {
     anchors.right: parent.right
 
     Button {
-      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.right: parent.horizontalCenter
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.margins: 16
+      text: "Утвердить"
+      onClicked: {
+        if (panel.currentIndex >= 0) {
+          questionModel.approve(panel.currentIndex)
+        }
+      }
+    }
+
+    Button {
+      anchors.left: parent.horizontalCenter
       anchors.verticalCenter: parent.verticalCenter
       anchors.margins: 16
       text: "Удалить"
