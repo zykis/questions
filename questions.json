@@ -2,6 +2,22 @@
     {
         "answers": [
             {
+                "is_correct": "false",
+                "text": "Ответ1"
+            },
+            {
+                "is_correct": "true",
+                "text": "Правильный"
+            }
+        ],
+        "approved": "false",
+        "image_name": "mechanics_sacred_arrow.jpg",
+        "text": "Вопрос новый",
+        "theme": ""
+    },
+    {
+        "answers": [
+            {
                 "is_correct": "true",
                 "text": "Blood Elf"
             },
@@ -11,17 +27,17 @@
             },
             {
                 "is_correct": "false",
-                "text": "Blood Elf"
+                "text": "High Elf"
             },
             {
                 "is_correct": "false",
                 "text": "Orc"
             }
         ],
-        "approved": "true",
+        "approved": "false",
         "image_name": "lore_invoker_race.jpg",
         "text": "What race Invoker belong to?",
-        "theme": "lore"
+        "theme": ""
     },
     {
         "answers": [

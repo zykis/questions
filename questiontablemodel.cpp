@@ -188,4 +188,18 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
   m_questions[row] = q;
 }
 
+void QuestionQueryModel::create()
+{
+  Question q;
+  m_questions.prepend(q);
+  setQuery("SELECT * FROM questions");
+}
 
+void QuestionQueryModel::remove(int row)
+{
+  if (m_questions.count() > row)
+  {
+    m_questions.removeAt(row);
+    setQuery("SELECT * FROM questions");
+  }
+}

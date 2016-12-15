@@ -4,7 +4,7 @@
         "approved": "true",
         "theme":"lore",
         "image_name":"lore_invoker_race.jpg",
-        "answers":[ {"text": "Blood Elf", "is_correct": "true"}, {"text": "Human", "is_correct": "false"}, {"text": "Blood Elf", "is_correct": "false"}, {"text": "Orc", "is_correct": "false"}]
+        "answers":[ {"text": "Blood Elf", "is_correct": "true"}, {"text": "Human", "is_correct": "false"}, {"text": "High Elf", "is_correct": "false"}, {"text": "Orc", "is_correct": "false"}]
 	},
 	{
         "text":"What da fuck is a treant?",

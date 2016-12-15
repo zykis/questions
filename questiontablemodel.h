@@ -29,6 +29,8 @@ public:
 
   Q_INVOKABLE QVariantMap get(int row);
   Q_INVOKABLE void set(int row, const QVariantMap& value);
+  Q_INVOKABLE void create();
+  Q_INVOKABLE void remove(int row);
 
 private:
   QHash<int, QByteArray> m_roles;

@@ -6,6 +6,16 @@ import Qt.labs.settings 1.0
 Item {
   id: root
 
+  Settings {
+    id: settings
+    property string jsonFilePath
+    property string questionsFolder
+  }
+
+  Component.onCompleted: {
+    panel.currentIndex = 0
+  }
+
   function loadQuestion(question) {
 
     answer1.text = question.answers[0] !== undefined? question.answers[0].text: ""
@@ -22,6 +32,12 @@ Item {
 
     pathText.text = settings.questionsFolder + question.image_name
     image.source = pathText.text
+  }
+
+  function createQuestion() {
+    questionModel.create()
+    panel.currentIndex = -1
+    panel.currentIndex = 0
   }
 
   function getQuestion(row) {
@@ -43,12 +59,6 @@ Item {
       q.answers.push(a4)
 
     return q
-  }
-
-  Settings {
-    id: settings
-    property string jsonFilePath
-    property string questionsFolder
   }
 
   Rectangle {
@@ -168,6 +178,7 @@ Item {
             anchors.right: answer4.left
             anchors.verticalCenter: parent.verticalCenter
             exclusiveGroup: answerRadioGroup
+
           }
         }
 
@@ -234,22 +245,17 @@ Item {
     anchors.right: parent.right
 
     Button {
-      anchors.right: parent.horizontalCenter
+      anchors.horizontalCenter: parent.horizontalCenter
       anchors.verticalCenter: parent.verticalCenter
       anchors.margins: 16
-      text: "Загрузить"
+      text: "Удалить"
       onClicked: {
-        var data = getQuestion(panel.currentIndex)
-        questionModel.set(panel.currentIndex, data)
-        questionModel.toJSON()
+        if (panel.currentIndex >= 0) {
+          questionModel.remove(panel.currentIndex)
+          panel.currentIndex = -1
+          panel.currentIndex = 0
+        }
       }
-    }
-
-    Button {
-      anchors.left: parent.horizontalCenter
-      anchors.verticalCenter: parent.verticalCenter
-      anchors.margins: 16
-      text: "Очистить"
     }
   }
 
@@ -291,12 +297,20 @@ Item {
     width: 200
 
     model: questionModel
+    currentIndex: -1
+
+    onCurrentIndexChanged: {
+      if (currentIndex >= 0)
+        loadQuestion(questionModel.get(currentIndex))
+    }
 
     header: Rectangle {
       width: parent.width
-      height: 58
+      height: 88
 
       ComboBox {
+        id: themesComboBox
+
         model: ["все", "лор", "соревнования", "механика"]
         anchors.left: parent.left
         anchors.right: parent.right
@@ -310,6 +324,30 @@ Item {
           anchors.horizontalCenter: parent.horizontalCenter
           text: "Тема"
         }
+      }
+
+      Button {
+        id: saveButton
+
+        anchors.right: parent.horizontalCenter
+        anchors.top: themesComboBox.bottom
+        anchors.topMargin: 5
+        anchors.rightMargin: 4
+        text: "Сохранить"
+        onClicked: {
+          var data = getQuestion(panel.currentIndex)
+          questionModel.set(panel.currentIndex, data)
+          questionModel.toJSON()
+        }
+      }
+
+      Button {
+        anchors.top: themesComboBox.bottom
+        anchors.topMargin: 5
+        anchors.leftMargin: 4
+        anchors.left: parent.horizontalCenter
+        text: "Новый"
+        onClicked: createQuestion()
       }
     }
 
@@ -352,12 +390,13 @@ Item {
       MouseArea {
         anchors.fill: parent
         onClicked: {
-          //! TODO: Загрузка интерфейса из модели для последующего редактирования
-          console.log(txt.text)
-          loadQuestion(questionModel.get(index))
+          var data = getQuestion(panel.currentIndex)
+          questionModel.set(panel.currentIndex, data)
           panel.currentIndex = index
         }
       }
     }
   }
+
+
 }
