@@ -76,7 +76,8 @@ void QuestionQueryModel::fromJSON(QString filePath)
     // stepping into question
     QJsonObject obj = qObj.toObject();
     Question q;
-    q.theme = obj.value("theme").toString();
+    QJsonObject themeObject = obj.value("theme").toObject();
+    q.theme = themeObject.value("name").toString();
     q.imageName = obj.value("image_name").toString();
     q.text = obj.value("text").toString();
     q.approved = obj.value("approved").toString() == "true"? true: false;
@@ -121,7 +122,9 @@ QString QuestionQueryModel::toJSON()
   for (const Question& q: m_questions)
   {
     QJsonObject questionObject;
-    questionObject["theme"] = q.theme;
+    QJsonObject themeObject;
+    themeObject["name"] = q.theme;
+    questionObject["theme"] = themeObject;
     questionObject["image_name"] = q.imageName;
     questionObject["text"] = q.text;
     questionObject["approved"] = q.approved? "true": "false";
