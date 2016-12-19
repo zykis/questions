@@ -9,6 +9,7 @@
 #define ROLE_TEXT Qt::UserRole + 2
 #define ROLE_IMAGE_NAME Qt::UserRole + 3
 #define ROLE_APPROVED Qt::UserRole + 4
+#define ROLE_THEME Qt::UserRole + 5
 
 
 class QuestionQueryModel : public QSqlQueryModel

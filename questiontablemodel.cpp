@@ -15,6 +15,7 @@ QuestionQueryModel::QuestionQueryModel(QObject *parent):
   m_roles[ROLE_TEXT] = "question_text";
   m_roles[ROLE_IMAGE_NAME] = "image_name";
   m_roles[ROLE_APPROVED] = "approved";
+  m_roles[ROLE_THEME] = "theme";
 }
 
 QHash<int, QByteArray> QuestionQueryModel::roleNames() const
@@ -36,6 +37,8 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
       return question.imageName;
     case ROLE_APPROVED:
       return question.approved;
+    case ROLE_THEME:
+      return question.theme;
     default:
       return QVariant();
     }

@@ -16,6 +16,30 @@ Item {
     panel.currentIndex = 0
   }
 
+  function canApproveCurrentQuestion() {
+    if (questionText.text === "") {
+      return "Текст вопроса - пуст"
+    }
+
+    if (answer1.text === "" || answer2.text === "") {
+      return "Должно быть минимум 2 ответа"
+    }
+
+    if (answerRadioGroup.current === null) {
+      return "Не выбран правильный ответ"
+    }
+
+    if (comboBoxThemes.currentIndex === 0) {
+      return "Не указана тема"
+    }
+
+    if (image.status === Image.Null) {
+      return "Отсутствует изображение вопроса"
+    }
+
+    return ""
+  }
+
   function loadQuestion(question) {
     answer1.text = question.answers[0] !== undefined? question.answers[0].text: ""
     answer2.text = question.answers[1] !== undefined? question.answers[1].text: ""
@@ -28,6 +52,15 @@ Item {
     answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
 
     questionText.text = question.question_text
+
+    if (question.theme === "lore")
+      comboBoxThemes.currentIndex = 1
+    else if (question.theme === "mechanics")
+      comboBoxThemes.currentIndex = 2
+    else if (question.theme === "tournaments")
+      comboBoxThemes.currentIndex = 3
+    else
+      comboBoxThemes.currentIndex = 0
 
     if (question.image_name)
     {
@@ -66,6 +99,24 @@ Item {
     if (a4.text !== "")
       q.answers.push(a4)
 
+    switch (comboBoxThemes.currentIndex)
+    {
+    case 0:
+      q.theme = ""
+      break;
+    case 1:
+      q.theme = "lore"
+      break;
+    case 2:
+      q.theme = "mechanics"
+      break;
+    case 3:
+      q.theme = "tournaments"
+      break;
+    default:
+      q.theme = ""
+    }
+
     return q
   }
 
@@ -76,7 +127,7 @@ Item {
     anchors.left: panel.right
     anchors.right: parent.right
     anchors.leftMargin: 16
-    height: 220
+    height: 240
 
     color: "#eee"
 
@@ -190,9 +241,26 @@ Item {
           }
         }
 
+        ComboBox {
+          id: comboBoxThemes
+
+          anchors.top: row2.bottom
+          anchors.topMargin: 8
+          anchors.horizontalCenter: parent.horizontalCenter
+          width: 250
+          model: ["Не указана", "Лор", "Турниры", "Механика"]
+
+          Text {
+            anchors.right: parent.left
+            anchors.rightMargin: 12
+            anchors.verticalCenter: parent.verticalCenter
+            text: "Тема:"
+          }
+        }
+
         TextField {
           id: pathText
-          anchors.top: row2.bottom
+          anchors.top: comboBoxThemes.bottom
           anchors.topMargin: 8
           anchors.left: parent.left
           anchors.right: parent.right
@@ -241,6 +309,7 @@ Item {
       anchors.fill: parent
       fillMode: Image.PreserveAspectFit
       asynchronous: true
+      visible: false
     }
   }
 
@@ -259,7 +328,14 @@ Item {
       text: "Утвердить"
       onClicked: {
         if (panel.currentIndex >= 0) {
-          questionModel.approve(panel.currentIndex)
+          var str = canApproveCurrentQuestion()
+          if (str !== "") {
+            messageDialog.text = str
+            messageDialog.open()
+          }
+          else {
+            questionModel.approve(panel.currentIndex)
+          }
         }
       }
     }
@@ -418,5 +494,8 @@ Item {
     }
   }
 
-
+  MessageDialog {
+    id: messageDialog
+    title: "Невозможно утвердить вопрос"
+  }
 }
