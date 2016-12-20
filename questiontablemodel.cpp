@@ -8,8 +8,8 @@
 #include <QJsonObject>
 #include <QSettings>
 
-QuestionQueryModel::QuestionQueryModel(QObject *parent):
-  QSqlQueryModel::QSqlQueryModel(parent)
+QuestionQueryModel::QuestionQueryModel(QObject *parent)
+  : QAbstractItemModel(parent)
 {
   m_roles[ROLE_ID] = "id";
   m_roles[ROLE_TEXT] = "question_text";
@@ -44,9 +44,7 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
     }
   }
   else
-  {
-    return QSqlQueryModel::data(idx, role);
-  }
+    return QVariant();
 }
 
 
@@ -95,7 +93,6 @@ void QuestionQueryModel::fromJSON(QString filePath)
 
     m_questions.append(q);
   }
-  setQuery("SELECT * FROM questions");
 
   qDebug() << QString("%1 total questions loaded").arg(m_questions.count());
   QSettings settings;
@@ -156,7 +153,7 @@ QVariantMap QuestionQueryModel::get(int row)
   QVariantMap result;
 
   for (auto role : m_roles.keys())
-    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0).data(role);
+    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
 
   Question q = m_questions.at(row);
   QVariantList answersList;
@@ -199,7 +196,6 @@ void QuestionQueryModel::create()
   Question q;
   q.approved = false;
   m_questions.prepend(q);
-  setQuery("SELECT * FROM questions");
 }
 
 void QuestionQueryModel::remove(int row)
@@ -207,7 +203,6 @@ void QuestionQueryModel::remove(int row)
   if (m_questions.count() > row)
   {
     m_questions.removeAt(row);
-    setQuery("SELECT * FROM questions");
   }
 }
 
@@ -216,6 +211,26 @@ void QuestionQueryModel::approve(int row)
   if (m_questions.count() > row)
   {
     m_questions[row].approved = true;
-    setQuery("SELECT * FROM questions");
   }
+}
+
+void QuestionQueryModel::setTheme(const QString &theme)
+{
+  m_theme = theme;
+}
+
+QModelIndex QuestionQueryModel::index(int row, int column, const QModelIndex &parent) const
+{
+  Q_UNUSED(parent)
+  return createIndex(row, column);
+}
+
+int QuestionQueryModel::columnCount(const QModelIndex &parent) const
+{
+  return 1;
+}
+
+QModelIndex QuestionQueryModel::parent(const QModelIndex &child) const
+{
+  return QModelIndex();
 }

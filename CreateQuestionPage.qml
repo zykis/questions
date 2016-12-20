@@ -413,6 +413,28 @@ Item {
         anchors.top: parent.top
         anchors.margins: 8
         anchors.topMargin: 24
+        onCurrentIndexChanged: {
+          if (currentIndex == -1)
+            return
+          console.log(currentIndex)
+          if (currentIndex === 0)
+          {
+            questionModel.setTheme("");
+          }
+          else if (currentIndex === 1)
+          {
+            questionModel.setTheme("lore");
+          }
+          else if (currentIndex === 2)
+          {
+           questionModel.setTheme("tournaments");
+          }
+          else if (currentIndex === 3)
+          {
+            questionModel.setTheme("mechanics");
+          }
+        }
+
 
         Text {
           anchors.bottom: parent.top

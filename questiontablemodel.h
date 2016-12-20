@@ -1,7 +1,7 @@
 #ifndef QUESTIONTABLEMODEL_H
 #define QUESTIONTABLEMODEL_H
 
-#include <QSqlQueryModel>
+#include <QAbstractItemModel>
 
 #include "quesiton.h"
 
@@ -12,7 +12,7 @@
 #define ROLE_THEME Qt::UserRole + 5
 
 
-class QuestionQueryModel : public QSqlQueryModel
+class QuestionQueryModel : public QAbstractItemModel
 {
   Q_OBJECT
 
@@ -26,17 +26,23 @@ public:
 
   Q_INVOKABLE void fromJSON(QString filePath);
   Q_INVOKABLE QString toJSON();
-  int rowCount(const QModelIndex &parent) const;
 
   Q_INVOKABLE QVariantMap get(int row);
   Q_INVOKABLE void set(int row, const QVariantMap& value);
   Q_INVOKABLE void create();
   Q_INVOKABLE void remove(int row);
   Q_INVOKABLE void approve(int row);
+  Q_INVOKABLE void setTheme(const QString& theme);
 
 private:
   QHash<int, QByteArray> m_roles;
   QList<Question> m_questions;
+  QString m_theme;
+
+  QModelIndex index(int row, int column, const QModelIndex &parent) const;
+  int rowCount(const QModelIndex &parent) const;
+  int columnCount(const QModelIndex &parent) const;
+  QModelIndex parent(const QModelIndex &child) const;
 };
 
 #endif // QUESTIONTABLEMODEL_H
