@@ -488,7 +488,7 @@ Item {
           horizontalAlignment: Text.AlignLeft
           anchors.leftMargin: 4
           elide: Text.ElideRight
-          text: question_text
+          text: questionModel.count - index + '. ' + question_text
           color: "#000"
           opacity: 0.54
         }

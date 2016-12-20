@@ -195,14 +195,18 @@ void QuestionQueryModel::create()
 {
   Question q;
   q.approved = false;
+  beginInsertRows(QModelIndex(), 0, 0);
   m_questions.prepend(q);
+  endInsertRows();
 }
 
 void QuestionQueryModel::remove(int row)
 {
   if (m_questions.count() > row)
   {
+    beginRemoveRows(QModelIndex(), row, row);
     m_questions.removeAt(row);
+    endRemoveRows();
   }
 }
 
@@ -211,6 +215,8 @@ void QuestionQueryModel::approve(int row)
   if (m_questions.count() > row)
   {
     m_questions[row].approved = true;
+    QModelIndex mi = createIndex(row, 0);
+    emit dataChanged(mi, mi);
   }
 }
 
@@ -227,10 +233,17 @@ QModelIndex QuestionQueryModel::index(int row, int column, const QModelIndex &pa
 
 int QuestionQueryModel::columnCount(const QModelIndex &parent) const
 {
+  Q_UNUSED(parent)
   return 1;
 }
 
 QModelIndex QuestionQueryModel::parent(const QModelIndex &child) const
 {
+  Q_UNUSED(child)
   return QModelIndex();
+}
+
+int QuestionQueryModel::count() const
+{
+  return m_questions.count();
 }

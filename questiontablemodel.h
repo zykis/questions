@@ -15,9 +15,11 @@
 class QuestionQueryModel : public QAbstractItemModel
 {
   Q_OBJECT
+  Q_PROPERTY(int count READ count NOTIFY countChanged)
 
 public:
   QuestionQueryModel(QObject* parent = 0);
+
 
   QHash<int, QByteArray> roleNames() const;
   QVariant data(const QModelIndex &idx, int role) const;
@@ -39,6 +41,13 @@ private:
   QList<Question> m_questions;
   QString m_theme;
 
+public:
+  Q_INVOKABLE int count() const;
+
+signals:
+  void countChanged();
+
+private:
   QModelIndex index(int row, int column, const QModelIndex &parent) const;
   int rowCount(const QModelIndex &parent) const;
   int columnCount(const QModelIndex &parent) const;
