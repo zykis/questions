@@ -13,7 +13,8 @@ Item {
   }
 
   Component.onCompleted: {
-    panel.currentIndex = 0
+    if (questionModel.count > 0)
+      panel.currentIndex = 0
   }
 
   function canApproveCurrentQuestion() {
@@ -33,7 +34,7 @@ Item {
       return "Не указана тема"
     }
 
-    if (image.status === Image.Null) {
+    if (image.status !== Image.Ready) {
       return "Отсутствует изображение вопроса"
     }
 
@@ -55,9 +56,9 @@ Item {
 
     if (question.theme === "lore")
       comboBoxThemes.currentIndex = 1
-    else if (question.theme === "mechanics")
-      comboBoxThemes.currentIndex = 2
     else if (question.theme === "tournaments")
+      comboBoxThemes.currentIndex = 2
+    else if (question.theme === "mechanics")
       comboBoxThemes.currentIndex = 3
     else
       comboBoxThemes.currentIndex = 0
@@ -72,6 +73,25 @@ Item {
       pathText.text = ""
       image.source = ""
     }
+  }
+
+  function clearQuestion() {
+    answer1.text = ""
+    answer2.text = ""
+    answer3.text = ""
+    answer4.text = ""
+
+    answer1CorrectRadio.checked = false
+    answer2CorrectRadio.checked = false
+    answer3CorrectRadio.checked = false
+    answer4CorrectRadio.checked = false
+
+    questionText.text = ""
+
+    comboBoxThemes.currentIndex = 0
+
+    pathText.text = ""
+    image.source = ""
   }
 
   function createQuestion() {
@@ -108,10 +128,10 @@ Item {
       q.theme = "lore"
       break;
     case 2:
-      q.theme = "mechanics"
+      q.theme = "tournaments"
       break;
     case 3:
-      q.theme = "tournaments"
+      q.theme = "mechanics"
       break;
     default:
       q.theme = ""
@@ -180,6 +200,7 @@ Item {
             anchors.right: answer1.left
             anchors.verticalCenter: parent.verticalCenter
             exclusiveGroup: answerRadioGroup
+            activeFocusOnTab: false
           }
 
           TextField {
@@ -196,6 +217,7 @@ Item {
             anchors.right: answer2.left
             anchors.verticalCenter: parent.verticalCenter
             exclusiveGroup: answerRadioGroup
+            activeFocusOnTab: false
           }
         }
 
@@ -221,6 +243,7 @@ Item {
             anchors.right: answer3.left
             anchors.verticalCenter: parent.verticalCenter
             exclusiveGroup: answerRadioGroup
+            activeFocusOnTab: false
           }
 
           TextField {
@@ -237,7 +260,7 @@ Item {
             anchors.right: answer4.left
             anchors.verticalCenter: parent.verticalCenter
             exclusiveGroup: answerRadioGroup
-
+            activeFocusOnTab: false
           }
         }
 
@@ -349,7 +372,8 @@ Item {
         if (panel.currentIndex >= 0) {
           questionModel.remove(panel.currentIndex)
           panel.currentIndex = -1
-          panel.currentIndex = 0
+          if (questionModel.count > 0)
+            panel.currentIndex = 0
         }
       }
     }
@@ -398,6 +422,8 @@ Item {
     onCurrentIndexChanged: {
       if (currentIndex >= 0)
         loadQuestion(questionModel.get(currentIndex))
+      else
+        clearQuestion()
     }
 
     header: Rectangle {

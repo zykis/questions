@@ -25,6 +25,10 @@ QHash<int, QByteArray> QuestionQueryModel::roleNames() const
 
 QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
 {
+  if (idx.row() >= m_questions.count())
+    return QVariant();
+  if (m_questions.count() == 0)
+    return QVariant();
   if (role > Qt::UserRole)
   {
     const Question& question = m_questions.at(idx.row());
@@ -151,6 +155,10 @@ QString QuestionQueryModel::toJSON()
 QVariantMap QuestionQueryModel::get(int row)
 {
   QVariantMap result;
+  if (row >= m_questions.count())
+    return QVariantMap();
+  if (m_questions.count() == 0)
+    return QVariantMap();
 
   for (auto role : m_roles.keys())
     result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
@@ -171,6 +179,8 @@ QVariantMap QuestionQueryModel::get(int row)
 
 void QuestionQueryModel::set(int row, const QVariantMap &value)
 {
+  if (row < 0)
+    return;
   Question& q = m_questions[row];
   q.text = value.value("text").toString();
   q.approved = value.value("approved").toString() == "true"? true: false;
@@ -189,6 +199,8 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
   }
 
   m_questions[row] = q;
+  QModelIndex mi = createIndex(row, 0);
+  emit dataChanged(mi, mi);
 }
 
 void QuestionQueryModel::create()

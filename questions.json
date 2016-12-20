@@ -3,102 +3,24 @@
         "answers": [
             {
                 "is_correct": "true",
-                "text": "Blood Elf"
+                "text": "8"
             },
             {
                 "is_correct": "false",
-                "text": "Human"
+                "text": "4"
             },
             {
                 "is_correct": "false",
-                "text": "High Elf"
+                "text": "5"
             },
             {
                 "is_correct": "false",
-                "text": "Orc"
+                "text": "7"
             }
         ],
-        "approved": "true",
-        "image_name": "lore_invoker_race.jpg",
-        "text": "What race Invoker belong to?",
-        "theme": {
-            "name": "lore"
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "false",
-                "text": "Beast"
-            },
-            {
-                "is_correct": "false",
-                "text": "Orc"
-            },
-            {
-                "is_correct": "false",
-                "text": "Machine"
-            },
-            {
-                "is_correct": "true",
-                "text": "Fucking tree"
-            }
-        ],
-        "approved": "true",
-        "image_name": "lore_treant.jpg",
-        "text": "What da fuck is a treant?",
-        "theme": {
-            "name": "lore"
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "false",
-                "text": "Treant Protector"
-            },
-            {
-                "is_correct": "false",
-                "text": "Faceless Void"
-            },
-            {
-                "is_correct": "true",
-                "text": "Pugna"
-            },
-            {
-                "is_correct": "false",
-                "text": "Bane"
-            }
-        ],
-        "approved": "true",
-        "image_name": "lore_child.jpg",
-        "text": "Who of these characters is a child?",
-        "theme": {
-            "name": "lore"
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "false",
-                "text": "1 second"
-            },
-            {
-                "is_correct": "false",
-                "text": "3.5 seconds"
-            },
-            {
-                "is_correct": "true",
-                "text": "5 seconds"
-            },
-            {
-                "is_correct": "false",
-                "text": "2.2 seconds"
-            }
-        ],
-        "approved": "true",
-        "image_name": "mechanics_sacred_arrow.jpg",
-        "text": "What is max duration of Sacred Arrow stun?",
+        "approved": "false",
+        "image_name": "",
+        "text": "Максимальное количество стаков способности Quiling Spray (Bristleback) на одном герое",
         "theme": {
             "name": "mechanics"
         }
@@ -107,34 +29,24 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text": "Yes"
-            },
-            {
-                "is_correct": "true",
-                "text": "No"
-            }
-        ],
-        "approved": "true",
-        "image_name": "mechanics_bara_cogs.jpg",
-        "text": "Bara can run through Clockwerk Cogs?",
-        "theme": {
-            "name": "tournaments"
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text": "Yes"
+                "text": "2.5 сек"
             },
             {
                 "is_correct": "false",
-                "text": "No"
+                "text": "7 сек"
+            },
+            {
+                "is_correct": "false",
+                "text": "4.5 сек"
+            },
+            {
+                "is_correct": "true",
+                "text": "5 сек"
             }
         ],
-        "approved": "true",
-        "image_name": "mechanics_storm_chronosphere.jpg",
-        "text": "Storm Spirit can fly through Void's Chronosphere?",
+        "approved": "false",
+        "image_name": "",
+        "text": "Максимальная длительность оглушения от способности Sacred Arrow (Mirana)",
         "theme": {
             "name": "mechanics"
         }
@@ -143,76 +55,150 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text": "TongFu"
+                "text": "1.5 сек"
             },
             {
                 "is_correct": "true",
-                "text": "Natus Vincere"
+                "text": "2 сек"
             },
             {
                 "is_correct": "false",
-                "text": "Invictus Gaming"
+                "text": "0.5 сек"
             },
             {
                 "is_correct": "false",
-                "text": "Evil Genuises"
+                "text": "1.7 сек"
             }
         ],
-        "approved": "true",
-        "image_name": "tournaments_TI1_winner.jpg",
-        "text": "Who take 1st place in International 1?",
+        "approved": "false",
+        "image_name": "",
+        "text": "Длительность стана Treant Protector при выходе из невидимости за счёт способности \"Invisible tree\" на максимальном уровне прокачки:",
         "theme": {
-            "name": "tournaments"
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text": "6.000.000$"
-            },
-            {
-                "is_correct": "false",
-                "text": "1.500.000$"
-            },
-            {
-                "is_correct": "false",
-                "text": "16.000.000$"
-            },
-            {
-                "is_correct": "false",
-                "text": "1.000.000$"
-            }
-        ],
-        "approved": "true",
-        "image_name": "tournaments_TI2015_prizepool.jpg",
-        "text": "What is a 1st place price in TI-2015?",
-        "theme": {
-            "name": "tournaments"
+            "name": ""
         }
     },
     {
         "answers": [
             {
                 "is_correct": "false",
-                "text": "BestOf3"
+                "text": "15%"
             },
             {
                 "is_correct": "false",
-                "text": "Double Elimination"
+                "text": "20%"
             },
             {
                 "is_correct": "true",
-                "text": "BestOf5"
+                "text": "25%"
             },
             {
                 "is_correct": "false",
-                "text": "BestOf7"
+                "text": "40%"
             }
         ],
-        "approved": "true",
-        "image_name": "tournaments_TI1_grandfinal_qualification.jpg",
-        "text": "The International 1 Grand-Final qualification type was:",
+        "approved": "false",
+        "image_name": "",
+        "text": "Вероятность уклонения способности Blur (Mortred) на 1-ом уровне прокачки?",
+        "theme": {
+            "name": "mechanics"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text": "Glimpse (Disruptor)"
+            },
+            {
+                "is_correct": "false",
+                "text": "Life Drain (Pugna)"
+            },
+            {
+                "is_correct": "false",
+                "text": "Stone Gaze (Medusa)"
+            },
+            {
+                "is_correct": "true",
+                "text": "Swap (Vengerful Spirit)"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Какая из этих способностей НЕ способна уничтожить иллюзию?",
+        "theme": {
+            "name": "mechanics"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text": "Физический"
+            },
+            {
+                "is_correct": "false",
+                "text": "Чистый"
+            },
+            {
+                "is_correct": "true",
+                "text": "Магический"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Тип урона, наносимый первой способностью Аббадона \"Mist Coil\":",
+        "theme": {
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text": "310"
+            },
+            {
+                "is_correct": "false",
+                "text": "295"
+            },
+            {
+                "is_correct": "false",
+                "text": "280"
+            },
+            {
+                "is_correct": "false",
+                "text": "320"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Базовая скорость передвижения Аббадона равна:",
+        "theme": {
+            "name": "mechanics"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text": "1.38"
+            },
+            {
+                "is_correct": "false",
+                "text": "4.75"
+            },
+            {
+                "is_correct": "false",
+                "text": "1.2"
+            },
+            {
+                "is_correct": "false",
+                "text": "1.76"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Базовый показатель брони Аббадона равен:",
         "theme": {
             "name": "mechanics"
         }
