@@ -2,6 +2,58 @@
     {
         "answers": [
             {
+                "is_correct": "true",
+                "text": "Rubic"
+            },
+            {
+                "is_correct": "false",
+                "text": "Mirana"
+            },
+            {
+                "is_correct": "false",
+                "text": "Juggernaut"
+            },
+            {
+                "is_correct": "false",
+                "text": "Timbersaw"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Наиболее частый пик на основном событии The Boston Major 2016?",
+        "theme": {
+            "name": "tournaments"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text": "Rubic"
+            },
+            {
+                "is_correct": "false",
+                "text": "Shadow Demon"
+            },
+            {
+                "is_correct": "true",
+                "text": "Alchemist"
+            },
+            {
+                "is_correct": "false",
+                "text": "Batrider"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Наиболее частый бан на основном событии The Boston Major 2016?",
+        "theme": {
+            "name": "tournaments"
+        }
+    },
+    {
+        "answers": [
+            {
                 "is_correct": "false",
                 "text": "Shadow Demon"
             },
@@ -20,7 +72,7 @@
         ],
         "approved": "false",
         "image_name": "",
-        "text": "Наиболее частый пик на основном событии The Boston Major 2016?",
+        "text": "Наиболее частый пик на групповой стадии The Boston Major 2016?",
         "theme": {
             "name": "tournaments"
         }
