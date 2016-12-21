@@ -3,6 +3,84 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text": "Shadow Demon"
+            },
+            {
+                "is_correct": "false",
+                "text": "Sand King"
+            },
+            {
+                "is_correct": "false",
+                "text": "Mirana"
+            },
+            {
+                "is_correct": "true",
+                "text": "Ogre Magi"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Наиболее частый пик на основном событии The Boston Major 2016?",
+        "theme": {
+            "name": "tournaments"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text": "Invoker"
+            },
+            {
+                "is_correct": "false",
+                "text": "Slark"
+            },
+            {
+                "is_correct": "true",
+                "text": "Batrider"
+            },
+            {
+                "is_correct": "false",
+                "text": "Pugna"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Наиболее частый бан в групповой стадии The Boston Major 2016?",
+        "theme": {
+            "name": "tournaments"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text": "18 000 000$"
+            },
+            {
+                "is_correct": "false",
+                "text": "6 000 000$"
+            },
+            {
+                "is_correct": "false",
+                "text": "1 000 000$"
+            },
+            {
+                "is_correct": "true",
+                "text": "3 000 000$"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text": "Призовой фонд The Boston Major 2016:",
+        "theme": {
+            "name": "tournaments"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
                 "text": "Замедление"
             },
             {
@@ -54,7 +132,7 @@
     {
         "answers": [
             {
-                "is_correct": "false",
+                "is_correct": "true",
                 "text": "25%"
             },
             {
