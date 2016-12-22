@@ -3,5 +3,7 @@
         <file>main.qml</file>
         <file>CreateQuestionPage.qml</file>
         <file>questions.json</file>
+        <file>icon.svg</file>
+        <file>icon_black.svg</file>
     </qresource>
 </RCC>

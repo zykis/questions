@@ -17,6 +17,12 @@ Item {
       panel.currentIndex = 0
   }
 
+  function ifImageExists(imageName) {
+    var img = Image
+    img.source = settings.questionsFolder + imageName
+    return img.status === Image.Ready
+  }
+
   function canApproveCurrentQuestion() {
     if (questionText.text === "") {
       return "Текст вопроса - пуст"
@@ -471,7 +477,6 @@ Item {
             }
           }
 
-
           Text {
             anchors.bottom: parent.top
             anchors.margins: 4
@@ -510,7 +515,7 @@ Item {
       delegate: Item {
         id: del
         width: parent.width
-        height: index == panel.currentIndex? 50: 25
+        height: index == panel.currentIndex? 80: 40
         Behavior on height { NumberAnimation { easing.type: Easing.InOutQuad } }
 
         Rectangle {
@@ -520,9 +525,30 @@ Item {
           border.width: index === panel.currentIndex? 1: 0
           border.color: "#000"
 
+          Image {
+            id: invisibleImage
+            source: image_name !== ""? settings.questionsFolder + image_name: ""
+            visible: false
+          }
+
+          Image {
+            id: iconExists
+            source: invisibleImage.status === Image.Ready? "qrc:///icon.svg": "qrc:///icon_black.svg"
+            visible: image_name
+            sourceSize.width: 36
+            sourceSize.height: 36
+            anchors.left: parent.left
+            anchors.verticalCenter: parent.verticalCenter
+            width: visible? 36: 0
+          }
+
           Text {
             id: txt
-            anchors.fill: parent
+            anchors.left: iconExists.right
+            anchors.right: parent.right
+            anchors.bottom: parent.bottom
+            anchors.top: parent.top
+
             verticalAlignment: Text.AlignVCenter
             horizontalAlignment: Text.AlignLeft
             anchors.leftMargin: 4
