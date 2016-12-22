@@ -144,7 +144,7 @@ Item {
     id: questionItem
 
     anchors.top: parent.top
-    anchors.left: panel.right
+    anchors.left: scrollView.right
     anchors.right: parent.right
     anchors.leftMargin: 16
     height: 240
@@ -169,7 +169,8 @@ Item {
           anchors.horizontalCenter: questionText.horizontalCenter
           anchors.margins: 4
           text: "Вопрос:"
-          opacity: 0.54
+          opacity: 0.86
+          color: "#fff"
         }
       }
 
@@ -278,6 +279,8 @@ Item {
             anchors.rightMargin: 12
             anchors.verticalCenter: parent.verticalCenter
             text: "Тема:"
+            opacity: 0.86
+            color: "#fff"
           }
         }
 
@@ -409,134 +412,135 @@ Item {
     id: answerRadioGroup
   }
 
-  ListView {
-    id: panel
+  ScrollView {
+    id: scrollView
+
     anchors.left: parent.left
     anchors.top: parent.top
     anchors.bottom: parent.bottom
-    width: 200
+    width: 320
 
-    model: questionModel
-    currentIndex: -1
+    ListView {
+      id: panel
 
-    onCurrentIndexChanged: {
-      if (currentIndex >= 0)
-        loadQuestion(questionModel.get(currentIndex))
-      else
-        clearQuestion()
-    }
+      anchors.fill: parent
+      anchors.rightMargin: 0
 
-    header: Rectangle {
-      width: parent.width
-      height: 88
+      model: questionModel
+      currentIndex: -1
 
-      ComboBox {
-        id: themesComboBox
+      onCurrentIndexChanged: {
+        if (currentIndex >= 0)
+          loadQuestion(questionModel.get(currentIndex))
+        else
+          clearQuestion()
+      }
 
-        model: ["все", "лор", "соревнования", "механика"]
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.margins: 8
-        anchors.topMargin: 24
-        onCurrentIndexChanged: {
-          if (currentIndex == -1)
-            return
-          console.log(currentIndex)
-          if (currentIndex === 0)
-          {
-            questionModel.setTheme("");
+      header: Rectangle {
+        width: parent.width
+        height: 88
+
+        ComboBox {
+          id: themesComboBox
+
+          model: ["все", "лор", "соревнования", "механика"]
+          anchors.left: parent.left
+          anchors.right: parent.right
+          anchors.top: parent.top
+          anchors.margins: 8
+          anchors.topMargin: 24
+          onCurrentIndexChanged: {
+            if (currentIndex == -1)
+              return
+            console.log(currentIndex)
+            if (currentIndex === 0)
+            {
+              questionModel.setTheme("");
+            }
+            else if (currentIndex === 1)
+            {
+              questionModel.setTheme("lore");
+            }
+            else if (currentIndex === 2)
+            {
+             questionModel.setTheme("tournaments");
+            }
+            else if (currentIndex === 3)
+            {
+              questionModel.setTheme("mechanics");
+            }
           }
-          else if (currentIndex === 1)
-          {
-            questionModel.setTheme("lore");
-          }
-          else if (currentIndex === 2)
-          {
-           questionModel.setTheme("tournaments");
-          }
-          else if (currentIndex === 3)
-          {
-            questionModel.setTheme("mechanics");
+
+
+          Text {
+            anchors.bottom: parent.top
+            anchors.margins: 4
+            anchors.horizontalCenter: parent.horizontalCenter
+            text: "Тема"
+            opacity: 0.54
+            color: "#fff"
           }
         }
 
+        Button {
+          id: saveButton
 
-        Text {
-          anchors.bottom: parent.top
-          anchors.margins: 4
-          anchors.horizontalCenter: parent.horizontalCenter
-          text: "Тема"
+          anchors.right: parent.horizontalCenter
+          anchors.top: themesComboBox.bottom
+          anchors.topMargin: 5
+          anchors.rightMargin: 4
+          text: "Сохранить"
+          onClicked: {
+            var data = getQuestion(panel.currentIndex)
+            questionModel.set(panel.currentIndex, data)
+            questionModel.toJSON()
+          }
         }
-      }
 
-      Button {
-        id: saveButton
-
-        anchors.right: parent.horizontalCenter
-        anchors.top: themesComboBox.bottom
-        anchors.topMargin: 5
-        anchors.rightMargin: 4
-        text: "Сохранить"
-        onClicked: {
-          var data = getQuestion(panel.currentIndex)
-          questionModel.set(panel.currentIndex, data)
-          questionModel.toJSON()
-        }
-      }
-
-      Button {
-        anchors.top: themesComboBox.bottom
-        anchors.topMargin: 5
-        anchors.leftMargin: 4
-        anchors.left: parent.horizontalCenter
-        text: "Новый"
-        onClicked: createQuestion()
-      }
-    }
-
-    delegate: Item {
-      id: del
-      width: parent.width
-      height: 40
-
-      Rectangle {
-        anchors.fill: parent
-        anchors.margins: 1
-        color: "#eee"
-        border.width: index === panel.currentIndex? 1: 0
-        border.color: "#000"
-
-        Text {
-          id: txt
-          anchors.fill: parent
-          verticalAlignment: Text.AlignVCenter
-          horizontalAlignment: Text.AlignLeft
+        Button {
+          anchors.top: themesComboBox.bottom
+          anchors.topMargin: 5
           anchors.leftMargin: 4
-          elide: Text.ElideRight
-          text: questionModel.count - index + '. ' + question_text
-          color: "#000"
-          opacity: 0.54
+          anchors.left: parent.horizontalCenter
+          text: "Новый"
+          onClicked: createQuestion()
         }
       }
 
-      Rectangle {
-        anchors.horizontalCenter: parent.right
-        anchors.verticalCenter: parent.verticalCenter
-        width: 12
-        height: width
-        radius: height / 2
-        color: approved? "#4CAF50": "gray"
-        border.color: index === panel.currentIndex? "#000": "#1B5E20"
-        border.width: index === panel.currentIndex? 1: 0
-      }
+      delegate: Item {
+        id: del
+        width: parent.width
+        height: index == panel.currentIndex? 50: 25
+        Behavior on height { NumberAnimation { easing.type: Easing.InOutQuad } }
 
-      MouseArea {
-        anchors.fill: parent
-        onClicked: {
-          var data = getQuestion(panel.currentIndex)
-          questionModel.set(panel.currentIndex, data)
-          panel.currentIndex = index
+        Rectangle {
+          anchors.fill: parent
+          anchors.bottomMargin: 1
+          color: approved? "#3F51B5": "#BF360C"
+          border.width: index === panel.currentIndex? 1: 0
+          border.color: "#000"
+
+          Text {
+            id: txt
+            anchors.fill: parent
+            verticalAlignment: Text.AlignVCenter
+            horizontalAlignment: Text.AlignLeft
+            anchors.leftMargin: 4
+            anchors.rightMargin: 8
+            elide: Text.ElideRight
+            text: "<b>" + (questionModel.count - index) + ".</b> " + question_text
+            color: "#fff"
+            opacity: 0.86
+          }
+        }
+
+        MouseArea {
+          anchors.fill: parent
+          onClicked: {
+            var data = getQuestion(panel.currentIndex)
+            questionModel.set(panel.currentIndex, data)
+            panel.currentIndex = index
+          }
         }
       }
     }

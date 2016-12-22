@@ -444,7 +444,7 @@
     {
         "answers": [
             {
-                "is_correct": "false",
+                "is_correct": "true",
                 "text": "12"
             },
             {
@@ -665,7 +665,7 @@
             },
             {
                 "is_correct": "true",
-                "text": "Swap (Vengerful Spirit)"
+                "text": "Telekinesis (Rubic)"
             }
         ],
         "approved": "false",
