@@ -753,24 +753,24 @@
         "answers": [
             {
                 "is_correct": "true",
-                "text": "Blood Elf"
+                "text": "Кровавый Эльф"
             },
             {
                 "is_correct": "false",
-                "text": "Human"
+                "text": "Человек"
             },
             {
                 "is_correct": "false",
-                "text": "High Elf"
+                "text": "Высокий Эльф"
             },
             {
                 "is_correct": "false",
-                "text": "Orc"
+                "text": "Орк"
             }
         ],
         "approved": "true",
         "image_name": "lore_invoker_race.jpg",
-        "text": "What race Invoker belong to?",
+        "text": "Какой рассе принадлежит Инвокер?",
         "theme": {
             "name": "lore"
         }
@@ -779,24 +779,24 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text": "Beast"
+                "text": "Тварь"
             },
             {
                 "is_correct": "false",
-                "text": "Orc"
+                "text": "Орк"
             },
             {
                 "is_correct": "false",
-                "text": "Machine"
+                "text": "Механическая поипень"
             },
             {
                 "is_correct": "true",
-                "text": "Fucking tree"
+                "text": "Чёртово дерево"
             }
         ],
         "approved": "true",
         "image_name": "lore_treant.jpg",
-        "text": "What da fuck is a treant?",
+        "text": "Кто такое Дерево?",
         "theme": {
             "name": "lore"
         }
@@ -822,7 +822,7 @@
         ],
         "approved": "true",
         "image_name": "lore_child.jpg",
-        "text": "Who of these characters is a child?",
+        "text": "Кто из этих персонажей является ребёнком?",
         "theme": {
             "name": "lore"
         }
@@ -831,24 +831,24 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text": "1 second"
+                "text": "1 сек"
             },
             {
                 "is_correct": "false",
-                "text": "3.5 seconds"
+                "text": "3.5 сек"
             },
             {
                 "is_correct": "true",
-                "text": "5 seconds"
+                "text": "5 сек"
             },
             {
                 "is_correct": "false",
-                "text": "2.2 seconds"
+                "text": "2.2 сек"
             }
         ],
         "approved": "true",
         "image_name": "mechanics_sacred_arrow.jpg",
-        "text": "What is max duration of Sacred Arrow stun?",
+        "text": "Максимальная длительность оглушения от способности Sacred Arrow (Mirana)?",
         "theme": {
             "name": "mechanics"
         }
@@ -857,16 +857,16 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text": "Yes"
+                "text": "Да"
             },
             {
                 "is_correct": "true",
-                "text": "No"
+                "text": "Нет"
             }
         ],
         "approved": "true",
         "image_name": "mechanics_bara_cogs.jpg",
-        "text": "Bara can run through Clockwerk Cogs?",
+        "text": "Barathrum может пробежать сквозь Cogs?",
         "theme": {
             "name": "tournaments"
         }
@@ -875,16 +875,16 @@
         "answers": [
             {
                 "is_correct": "true",
-                "text": "Yes"
+                "text": "Да"
             },
             {
                 "is_correct": "false",
-                "text": "No"
+                "text": "Нет"
             }
         ],
         "approved": "true",
         "image_name": "mechanics_storm_chronosphere.jpg",
-        "text": "Storm Spirit can fly through Void's Chronosphere?",
+        "text": "Storm Spirit может пролететь сквозь хроносферу Void'а?",
         "theme": {
             "name": "mechanics"
         }
@@ -910,7 +910,7 @@
         ],
         "approved": "true",
         "image_name": "tournaments_TI1_winner.jpg",
-        "text": "Who take 1st place in International 1?",
+        "text": "Кто стал победителем The International - 1?",
         "theme": {
             "name": "tournaments"
         }
@@ -936,7 +936,7 @@
         ],
         "approved": "true",
         "image_name": "tournaments_TI2015_prizepool.jpg",
-        "text": "What is a 1st place price in TI-2015?",
+        "text": "Награда за первое место в The International - 2015:",
         "theme": {
             "name": "tournaments"
         }
@@ -949,7 +949,7 @@
             },
             {
                 "is_correct": "false",
-                "text": "Double Elimination"
+                "text": "BestOf1"
             },
             {
                 "is_correct": "true",
@@ -962,7 +962,7 @@
         ],
         "approved": "true",
         "image_name": "tournaments_TI1_grandfinal_qualification.jpg",
-        "text": "The International 1 Grand-Final qualification type was:",
+        "text": "Формат грандфинала The International 1:",
         "theme": {
             "name": "mechanics"
         }
