@@ -40,9 +40,9 @@ Item {
       return "Не указана тема"
     }
 
-    if (image.status !== Image.Ready) {
-      return "Отсутствует изображение вопроса"
-    }
+//    if (image.status !== Image.Ready) {
+//      return "Отсутствует изображение вопроса"
+//    }
 
     return ""
   }
