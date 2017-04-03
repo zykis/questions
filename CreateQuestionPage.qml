@@ -5,6 +5,7 @@ import Qt.labs.settings 1.0
 
 Item {
   id: root
+  property var questions: []
 
   Settings {
     id: settings
@@ -13,6 +14,9 @@ Item {
   }
 
   Component.onCompleted: {
+    for (var i = 0; i < questionModel.count; i++) {
+      questions.push(questionModel.get(i))
+    }
     if (questionModel.count > 0)
       panel.currentIndex = 0
   }
@@ -47,18 +51,32 @@ Item {
     return ""
   }
 
-  function loadQuestion(question) {
-    answer1.text = question.answers[0] !== undefined? question.answers[0].text: ""
-    answer2.text = question.answers[1] !== undefined? question.answers[1].text: ""
-    answer3.text = question.answers[2] !== undefined? question.answers[2].text: ""
-    answer4.text = question.answers[3] !== undefined? question.answers[3].text: ""
+  function updateUIFromQuestion(question) {
 
-    answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? true: false: false
-    answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? true: false: false
-    answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
-    answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
+    // 0 - EN, 1 - RU
+    var lang = comboBoxLanguage.currentIndex
+    switch (lang) {
+      case 0: // EN
+        questionText.text = question.text_en
+        answer1.text = question.answers[0] !== undefined? question.answers[0].text_en: ""
+        answer2.text = question.answers[1] !== undefined? question.answers[1].text_en: ""
+        answer3.text = question.answers[2] !== undefined? question.answers[2].text_en: ""
+        answer4.text = question.answers[3] !== undefined? question.answers[3].text_en: ""
+        break;
 
-    questionText.text = question.question_text
+      case 1:
+        questionText.text = question.text_ru
+        answer1.text = question.answers[0] !== undefined? question.answers[0].text_ru: ""
+        answer2.text = question.answers[1] !== undefined? question.answers[1].text_ru: ""
+        answer3.text = question.answers[2] !== undefined? question.answers[2].text_ru: ""
+        answer4.text = question.answers[3] !== undefined? question.answers[3].text_ru: ""
+        break;
+    }
+
+    answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? 1: false: false
+    answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? 1: false: false
+    answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? 1: false: false
+    answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? 1: false: false
 
     if (question.theme === "lore")
       comboBoxThemes.currentIndex = 1
@@ -95,6 +113,7 @@ Item {
     questionText.text = ""
 
     comboBoxThemes.currentIndex = 0
+    comboBoxLanguage.currentIndex = 1
 
     pathText.text = ""
     image.source = ""
@@ -106,25 +125,58 @@ Item {
     panel.currentIndex = 0
   }
 
-  function getQuestion(row) {
-    var q = {}
-    q.text = questionText.text
-    q.image_name = pathText.text.substring(pathText.text.lastIndexOf('/') + 1)
-    q.answers = []
-    q.approved = questionModel.get(row).approved
-    var a1 = { "text": answer1.text, "is_correct": answer1CorrectRadio.checked? "true": "false" }
-    var a2 = { "text": answer2.text, "is_correct": answer2CorrectRadio.checked? "true": "false" }
-    var a3 = { "text": answer3.text, "is_correct": answer3CorrectRadio.checked? "true": "false" }
-    var a4 = { "text": answer4.text, "is_correct": answer4CorrectRadio.checked? "true": "false" }
-    if (a1.text !== "")
-      q.answers.push(a1)
-    if (a2.text !== "")
-      q.answers.push(a2)
-    if (a3.text !== "")
-      q.answers.push(a3)
-    if (a4.text !== "")
-      q.answers.push(a4)
+  function updateQuestionFromUI(row) {
+    var q = questions[row]
+    // 0 - EN, 1 - RU
+    var lang = comboBoxLanguage.oldIndex
+    var a1 = q.answers[0];
+    var a2 = q.answers[1];
+    var a3 = q.answers[2];
+    var a4 = q.answers[3];
 
+    switch(lang) {
+      case 0: // EN
+        q.text_en = questionText.text
+
+        if (answer1.text !== "")
+          a1.text_en = answer1.text
+        if (answer2.text !== "")
+          a2.text_en = answer2.text
+        if (answer3.text !== "")
+          a3.text_en = answer3.text
+        if (answer4.text !== "")
+          a4.text_en = answer4.text
+        break;
+
+      case 1: // RU
+        q.text_ru = questionText.text
+
+        if (answer1.text !== "")
+          a1.text_ru = answer1.text
+        if (answer2.text !== "")
+          a2.text_ru = answer2.text
+        if (answer3.text !== "")
+          a3.text_ru = answer3.text
+        if (answer4.text !== "")
+          a4.text_ru = answer4.text
+        break;
+    }
+
+    if (a1)
+      a1.is_correct = answer1CorrectRadio.checked? true: false
+    if (a2)
+      a2.is_correct = answer2CorrectRadio.checked? true: false
+    if (a3)
+      a3.is_correct = answer3CorrectRadio.checked? true: false
+    if (a4)
+      a4.is_correct = answer4CorrectRadio.checked? true: false
+    q.answers = []
+    q.answers.push(a1)
+    q.answers.push(a2)
+    q.answers.push(a3)
+    q.answers.push(a4)
+    q.approved = questionModel.get(row).approved
+    q.image_name = pathText.text.substring(pathText.text.lastIndexOf('/') + 1)
     switch (comboBoxThemes.currentIndex)
     {
     case 0:
@@ -276,8 +328,9 @@ Item {
 
           anchors.top: row2.bottom
           anchors.topMargin: 8
-          anchors.horizontalCenter: parent.horizontalCenter
-          width: 250
+          anchors.right: parent.horizontalCenter
+          anchors.rightMargin: 8
+          width: 180
           model: ["Не указана", "Лор", "Турниры", "Механика"]
 
           Text {
@@ -287,6 +340,35 @@ Item {
             text: "Тема:"
             opacity: 0.86
             color: "#fff"
+          }
+        }
+
+        ComboBox {
+          id: comboBoxLanguage
+
+          anchors.top: row2.bottom
+          anchors.topMargin: 8
+          anchors.left: parent.horizontalCenter
+          anchors.leftMargin: 48
+          width: 180
+          model: ["Английский", "Русский"]
+          property int oldIndex: 0
+
+          Text {
+            anchors.right: parent.left
+            anchors.rightMargin: 12
+            anchors.verticalCenter: parent.verticalCenter
+            text: "Язык:"
+            opacity: 0.86
+            color: "#fff"
+          }
+
+          signal langageChanged()
+
+          onCurrentIndexChanged: {
+            updateQuestionFromUI(panel.currentIndex)
+            updateUIFromQuestion(questions[panel.currentIndex])
+            oldIndex = currentIndex
           }
         }
 
@@ -437,7 +519,7 @@ Item {
 
       onCurrentIndexChanged: {
         if (currentIndex >= 0)
-          loadQuestion(questionModel.get(currentIndex))
+          updateUIFromQuestion(questions[currentIndex])
         else
           clearQuestion()
       }
@@ -496,7 +578,7 @@ Item {
           anchors.rightMargin: 4
           text: "Сохранить"
           onClicked: {
-            var data = getQuestion(panel.currentIndex)
+            var data = updateQuestionFromUI(panel.currentIndex)
             questionModel.set(panel.currentIndex, data)
             questionModel.toJSON()
           }
@@ -554,7 +636,7 @@ Item {
             anchors.leftMargin: 4
             anchors.rightMargin: 8
             elide: Text.ElideRight
-            text: "<b>" + (questionModel.count - index) + ".</b> " + question_text
+            text: "<b>" + (questionModel.count - index) + ".</b> " + text_en
             color: "#fff"
             opacity: 0.86
           }
@@ -563,7 +645,7 @@ Item {
         MouseArea {
           anchors.fill: parent
           onClicked: {
-            var data = getQuestion(panel.currentIndex)
+            var data = updateQuestionFromUI(panel.currentIndex)
             questionModel.set(panel.currentIndex, data)
             panel.currentIndex = index
           }

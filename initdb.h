@@ -81,7 +81,8 @@ bool initDB()
                 "id INTEGER PRIMARY KEY, "
                 "theme_id INTEGER NOT NULL, "
                 "image_url TEXT, "
-                "text TEXT NOT NULL, "
+                "text_en TEXT NOT NULL, "
+                "text_ru TEXT NOT NULL, "
                 "approved BOOLEAN DEFAULT FALSE, "
                 "FOREIGN KEY(theme_id) REFERENCES themes(id) ON DELETE CASCADE ON UPDATE CASCADE"
                 ")";
@@ -94,7 +95,8 @@ bool initDB()
     queryText = "CREATE TABLE IF NOT EXISTS answers ("
                 "id INTEGER PRIMARY KEY, "
                 "question_id INTEGER NOT NULL, "
-                "text TEXT, "
+                "text_en TEXT, "
+                "text_ru TEXT, "
                 "is_correct BOOLEAN, "
                 "FOREIGN KEY(question_id) REFERENCES questions(id) ON DELETE CASCADE ON UPDATE CASCADE"
                 ")";

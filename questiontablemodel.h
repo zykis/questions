@@ -6,10 +6,11 @@
 #include "quesiton.h"
 
 #define ROLE_ID Qt::UserRole + 1
-#define ROLE_TEXT Qt::UserRole + 2
-#define ROLE_IMAGE_NAME Qt::UserRole + 3
-#define ROLE_APPROVED Qt::UserRole + 4
-#define ROLE_THEME Qt::UserRole + 5
+#define ROLE_IMAGE_NAME Qt::UserRole + 2
+#define ROLE_APPROVED Qt::UserRole + 3
+#define ROLE_THEME Qt::UserRole + 4
+#define ROLE_TEXT_EN Qt::UserRole + 5
+#define ROLE_TEXT_RU Qt::UserRole + 6
 
 
 class QuestionQueryModel : public QAbstractItemModel

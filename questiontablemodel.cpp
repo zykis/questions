@@ -12,7 +12,8 @@ QuestionQueryModel::QuestionQueryModel(QObject *parent)
   : QAbstractItemModel(parent)
 {
   m_roles[ROLE_ID] = "id";
-  m_roles[ROLE_TEXT] = "question_text";
+  m_roles[ROLE_TEXT_EN] = "text_en";
+  m_roles[ROLE_TEXT_RU] = "text_ru";
   m_roles[ROLE_IMAGE_NAME] = "image_name";
   m_roles[ROLE_APPROVED] = "approved";
   m_roles[ROLE_THEME] = "theme";
@@ -35,8 +36,10 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
     switch (role) {
     case ROLE_ID:
       return question.id;
-    case ROLE_TEXT:
-      return question.text;
+    case ROLE_TEXT_EN:
+      return question.textEn;
+    case ROLE_TEXT_RU:
+      return question.textRu;
     case ROLE_IMAGE_NAME:
       return question.imageName;
     case ROLE_APPROVED:
@@ -81,7 +84,8 @@ void QuestionQueryModel::fromJSON(QString filePath)
     QJsonObject themeObject = obj.value("theme").toObject();
     q.theme = themeObject.value("name").toString();
     q.imageName = obj.value("image_name").toString();
-    q.text = obj.value("text").toString();
+    q.textEn = obj.value("text_en").toString();
+    q.textRu = obj.value("text_ru").toString();
     q.approved = obj.value("approved").toString() == "true"? true: false;
 
     QJsonArray answersArr = obj.value("answers").toArray();
@@ -89,7 +93,8 @@ void QuestionQueryModel::fromJSON(QString filePath)
     {
       QJsonObject aaObj = aObj.toObject();
       Answer a;
-      a.text = aaObj.value("text").toString();
+      a.textEn = aaObj.value("text_en").toString();
+      a.textRu = aaObj.value("text_ru").toString();
       a.isCorrect = aaObj.value("is_correct").toString() == "true"? true: false;
 
       q.answers.append(a);
@@ -127,14 +132,16 @@ QString QuestionQueryModel::toJSON()
     themeObject["name"] = q.theme;
     questionObject["theme"] = themeObject;
     questionObject["image_name"] = q.imageName;
-    questionObject["text"] = q.text;
+    questionObject["text_en"] = q.textEn;
+    questionObject["text_ru"] = q.textRu;
     questionObject["approved"] = q.approved? "true": "false";
 
     QJsonArray answersArray;
     for (const Answer& a: q.answers)
     {
       QJsonObject answerObject;
-      answerObject["text"] = a.text;
+      answerObject["text_en"] = a.textEn;
+      answerObject["text_ru"] = a.textRu;
       answerObject["is_correct"] = a.isCorrect? "true": "false";
       answersArray.append(answerObject);
     }
@@ -168,7 +175,8 @@ QVariantMap QuestionQueryModel::get(int row)
   for (Answer& a: q.answers)
   {
     QVariantMap aMap;
-    aMap["text"] = a.text;
+    aMap["text_en"] = a.textEn;
+    aMap["text_ru"] = a.textRu;
     aMap["is_correct"] = a.isCorrect;
     answersList.append(aMap);
   }
@@ -182,7 +190,8 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
   if (row < 0)
     return;
   Question& q = m_questions[row];
-  q.text = value.value("text").toString();
+  q.textEn = value.value("text_en").toString();
+  q.textRu = value.value("text_ru").toString();
   q.approved = value.value("approved").toString() == "true"? true: false;
   q.imageName = value.value("image_name").toString();
   q.theme = value.value("theme").toString();
@@ -193,7 +202,8 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
     QVariantList answersList = value.value("answers").toList();
     QVariantMap answerMap = answersList[i].toMap();
     Answer a;
-    a.text = answerMap.value("text").toString();
+    a.textEn = answerMap.value("text_en").toString();
+    a.textRu = answerMap.value("text_ru").toString();
     a.isCorrect = answerMap.value("is_correct").toString() == "true"? true: false;
     q.answers.append(a);
   }

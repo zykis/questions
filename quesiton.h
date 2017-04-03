@@ -6,7 +6,8 @@
 struct Question
 {
   int id;
-  QString text;
+  QString textEn;
+  QString textRu;
   QString imageName;
   QString theme;
   bool approved;

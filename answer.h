@@ -5,12 +5,14 @@
 
 struct Answer {
   int id;
-  QString text;
+  QString textEn;
+  QString textRu;
   bool isCorrect;
 
   operator QVariantMap() const {
     QVariantMap vm;
-    vm.insert("text", text);
+    vm.insert("text_en", textEn);
+    vm.insert("text_ru", textRu);
     vm.insert("isCorrect", isCorrect);
     return vm;
   }
