@@ -5,7 +5,6 @@ import Qt.labs.settings 1.0
 
 Item {
   id: root
-  property var questions: []
 
   Settings {
     id: settings
@@ -14,9 +13,6 @@ Item {
   }
 
   Component.onCompleted: {
-    for (var i = 0; i < questionModel.count; i++) {
-      questions.push(questionModel.get(i))
-    }
     if (questionModel.count > 0)
       panel.currentIndex = 0
   }
@@ -73,10 +69,15 @@ Item {
         break;
     }
 
-    answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? 1: false: false
-    answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? 1: false: false
-    answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? 1: false: false
-    answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? 1: false: false
+    answer1.placeholderText = question.answers[0]? question.answers[0].text_en === "" ? "Ответ 1" : question.answers[0].text_en : ""
+    answer2.placeholderText = question.answers[1]? question.answers[1].text_en === "" ? "Ответ 2" : question.answers[1].text_en : ""
+    answer3.placeholderText = question.answers[2]? question.answers[2].text_en === "" ? "Ответ 3" : question.answers[2].text_en : ""
+    answer4.placeholderText = question.answers[3]? question.answers[3].text_en === "" ? "Ответ 4" : question.answers[3].text_en : ""
+
+    answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? true: false: false
+    answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? true: false: false
+    answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
+    answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
 
     if (question.theme === "lore")
       comboBoxThemes.currentIndex = 1
@@ -113,7 +114,7 @@ Item {
     questionText.text = ""
 
     comboBoxThemes.currentIndex = 0
-    comboBoxLanguage.currentIndex = 1
+    comboBoxLanguage.currentIndex = 0
 
     pathText.text = ""
     image.source = ""
@@ -126,7 +127,7 @@ Item {
   }
 
   function updateQuestionFromUI(row) {
-    var q = questions[row]
+    var q = questionModel.get(row)
     // 0 - EN, 1 - RU
     var lang = comboBoxLanguage.oldIndex
     var a1 = q.answers[0];
@@ -195,6 +196,7 @@ Item {
       q.theme = ""
     }
 
+    questionModel.set(row, q)
     return q
   }
 
@@ -367,7 +369,7 @@ Item {
 
           onCurrentIndexChanged: {
             updateQuestionFromUI(panel.currentIndex)
-            updateUIFromQuestion(questions[panel.currentIndex])
+            updateUIFromQuestion(questionModel.get(panel.currentIndex))
             oldIndex = currentIndex
           }
         }
@@ -519,7 +521,7 @@ Item {
 
       onCurrentIndexChanged: {
         if (currentIndex >= 0)
-          updateUIFromQuestion(questions[currentIndex])
+          updateUIFromQuestion(questionModel.get(currentIndex))
         else
           clearQuestion()
       }
@@ -578,8 +580,7 @@ Item {
           anchors.rightMargin: 4
           text: "Сохранить"
           onClicked: {
-            var data = updateQuestionFromUI(panel.currentIndex)
-            questionModel.set(panel.currentIndex, data)
+            updateQuestionFromUI(panel.currentIndex)
             questionModel.toJSON()
           }
         }
