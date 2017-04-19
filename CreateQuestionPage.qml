@@ -79,7 +79,7 @@ Item {
     answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
     answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
 
-    if (question.theme === "lore")
+    if (question.theme === "heroes / items")
       comboBoxThemes.currentIndex = 1
     else if (question.theme === "tournaments")
       comboBoxThemes.currentIndex = 2
@@ -181,10 +181,9 @@ Item {
     switch (comboBoxThemes.currentIndex)
     {
     case 0:
-      q.theme = ""
       break;
     case 1:
-      q.theme = "lore"
+      q.theme = "heroes / items"
       break;
     case 2:
       q.theme = "tournaments"
@@ -193,7 +192,7 @@ Item {
       q.theme = "mechanics"
       break;
     default:
-      q.theme = ""
+      break;
     }
 
     questionModel.set(row, q)
@@ -333,7 +332,7 @@ Item {
           anchors.right: parent.horizontalCenter
           anchors.rightMargin: 8
           width: 180
-          model: ["Не указана", "Лор", "Турниры", "Механика"]
+          model: ["Не указана", "Герои / Предметы", "Турниры", "Механика"]
 
           Text {
             anchors.right: parent.left
@@ -549,7 +548,7 @@ Item {
             }
             else if (currentIndex === 1)
             {
-              questionModel.setTheme("lore");
+              questionModel.setTheme("heroes / items");
             }
             else if (currentIndex === 2)
             {
