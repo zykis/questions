@@ -40,10 +40,6 @@ Item {
       return "Не указана тема"
     }
 
-//    if (image.status !== Image.Ready) {
-//      return "Отсутствует изображение вопроса"
-//    }
-
     return ""
   }
 
@@ -126,6 +122,10 @@ Item {
     panel.currentIndex = 0
   }
 
+  function createQuestionFromTemplate() {
+
+  }
+
   function updateQuestionFromUI(row) {
     var q = questionModel.get(row)
     // 0 - EN, 1 - RU
@@ -172,10 +172,14 @@ Item {
     if (a4)
       a4.is_correct = answer4CorrectRadio.checked? true: false
     q.answers = []
-    q.answers.push(a1)
-    q.answers.push(a2)
-    q.answers.push(a3)
-    q.answers.push(a4)
+    if (a1)
+      q.answers.push(a1)
+    if (a2)
+      q.answers.push(a2)
+    if (a3)
+      q.answers.push(a3)
+    if (a4)
+      q.answers.push(a4)
     q.approved = questionModel.get(row).approved
     q.image_name = pathText.text.substring(pathText.text.lastIndexOf('/') + 1)
     switch (comboBoxThemes.currentIndex)
@@ -200,9 +204,100 @@ Item {
   }
 
   Rectangle {
+    id: toolbar
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 64
+
+    Row {
+      id: scrollViewToolbar
+
+      anchors.left: parent.left
+      anchors.leftMargin: 8
+      width: scrollView.width
+      anchors.verticalCenter: parent.verticalCenter
+      spacing: 8
+
+      ComboBox {
+        id: themesComboBox
+        width: 140
+
+        Component.onCompleted: {
+          var m = []
+          m.push("All themes")
+          for (var i in questionModel.getThemesNames()) {
+            m.push(questionModel.getThemesNames()[i])
+          }
+          themesComboBox.model = m
+        }
+
+        onCurrentIndexChanged: {
+          if (currentIndex == -1)
+            return
+          if (currentIndex === 0)
+          {
+            questionModel.setTheme("");
+          }
+          else
+          {
+            var t = questionModel.getThemesNames()[currentIndex + 1]
+            questionModel.setTheme(t);
+          }
+        }
+
+        Text {
+          anchors.bottom: parent.top
+          anchors.margins: 4
+          text: "Тема"
+          opacity: 0.54
+          color: "#fff"
+        }
+      }
+
+      Button {
+        text: "Новый"
+        onClicked: createQuestion()
+      }
+
+      Button {
+        text: "Из шаблона"
+        onClicked: createQuestionFromTemplate()
+      }
+    }
+
+    Row {
+      id: commonToolbar
+
+      anchors.left: scrollViewToolbar.right
+      anchors.leftMargin: 8
+      anchors.right: parent.right
+      anchors.rightMargin: 8
+      anchors.verticalCenter: parent.verticalCenter
+      spacing: 8
+
+      Button {
+        id: saveButton
+        text: "Сохранить"
+        onClicked: {
+          updateQuestionFromUI(panel.currentIndex)
+          questionModel.toJSON()
+        }
+      }
+
+      Button {
+        text: "Загрузить"
+        onClicked: {
+          jsonOpenDialog.open()
+        }
+      }
+    }
+  }
+
+  Rectangle {
     id: questionItem
 
-    anchors.top: parent.top
+    anchors.top: toolbar.bottom
     anchors.left: scrollView.right
     anchors.right: parent.right
     anchors.leftMargin: 16
@@ -399,17 +494,6 @@ Item {
     }
   }
 
-  Button {
-    anchors.right: parent.right
-    anchors.top: parent.top
-    width: 32
-    height: 32
-    text: "WTF"
-    onClicked: {
-      jsonOpenDialog.open()
-    }
-  }
-
   Rectangle {
     id: imagePreview
     anchors.bottom: statusBar.top
@@ -505,7 +589,7 @@ Item {
     id: scrollView
 
     anchors.left: parent.left
-    anchors.top: parent.top
+    anchors.top: toolbar.bottom
     anchors.bottom: parent.bottom
     width: 320
 
@@ -519,93 +603,42 @@ Item {
       currentIndex: -1
 
       onCurrentIndexChanged: {
-        if (currentIndex >= 0)
+        if (currentIndex >= 0) {
           updateUIFromQuestion(questionModel.get(currentIndex))
+          forceActiveFocus()
+        }
         else
           clearQuestion()
       }
 
-      header: Rectangle {
-        width: parent.width
-        height: 88
-
-        ComboBox {
-          id: themesComboBox
-
-          model: ["все", "лор", "соревнования", "механика"]
-          anchors.left: parent.left
-          anchors.right: parent.right
-          anchors.top: parent.top
-          anchors.margins: 8
-          anchors.topMargin: 24
-          onCurrentIndexChanged: {
-            if (currentIndex == -1)
-              return
-            console.log(currentIndex)
-            if (currentIndex === 0)
-            {
-              questionModel.setTheme("");
-            }
-            else if (currentIndex === 1)
-            {
-              questionModel.setTheme("heroes / items");
-            }
-            else if (currentIndex === 2)
-            {
-             questionModel.setTheme("tournaments");
-            }
-            else if (currentIndex === 3)
-            {
-              questionModel.setTheme("mechanics");
-            }
-          }
-
-          Text {
-            anchors.bottom: parent.top
-            anchors.margins: 4
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "Тема"
-            opacity: 0.54
-            color: "#fff"
-          }
-        }
-
-        Button {
-          id: saveButton
-
-          anchors.right: parent.horizontalCenter
-          anchors.top: themesComboBox.bottom
-          anchors.topMargin: 5
-          anchors.rightMargin: 4
-          text: "Сохранить"
-          onClicked: {
-            updateQuestionFromUI(panel.currentIndex)
-            questionModel.toJSON()
-          }
-        }
-
-        Button {
-          anchors.top: themesComboBox.bottom
-          anchors.topMargin: 5
-          anchors.leftMargin: 4
-          anchors.left: parent.horizontalCenter
-          text: "Новый"
-          onClicked: createQuestion()
-        }
-      }
-
-      delegate: Item {
+      delegate: FocusScope {
         id: del
         width: parent.width
-        height: index == panel.currentIndex? 80: 40
-        Behavior on height { NumberAnimation { easing.type: Easing.InOutQuad } }
+        height: 30
 
         Rectangle {
+          focus: true
+
           anchors.fill: parent
           anchors.bottomMargin: 1
-          color: approved? "#3F51B5": "#BF360C"
+          color:  approved? "#00897B" : "#F5F5F5"
           border.width: index === panel.currentIndex? 1: 0
           border.color: "#000"
+
+          Rectangle {
+            anchors.fill: parent
+            color: Qt.darker(parent.color, 1.2)
+            visible: index === panel.currentIndex
+          }
+
+          Keys.onDeletePressed: {
+            if (panel.currentIndex >= 0) {
+              questionModel.remove(panel.currentIndex)
+              panel.currentIndex = -1
+              if (questionModel.count > 0)
+                panel.currentIndex = 0
+            }
+          }
 
           Image {
             id: invisibleImage
@@ -637,7 +670,7 @@ Item {
             anchors.rightMargin: 8
             elide: Text.ElideRight
             text: "<b>" + (questionModel.count - index) + ".</b> " + text_en
-            color: "#fff"
+            color: approved? "#fff" : "#212121"
             opacity: 0.86
           }
         }

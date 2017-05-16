@@ -32,7 +32,7 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
     return QVariant();
   if (role > Qt::UserRole)
   {
-    const Question& question = m_questions.at(idx.row());
+    const Question& question = m_questions.at(idx.row() == -1 ? 0 : idx.row());
     switch (role) {
     case ROLE_ID:
       return question.id;
@@ -45,7 +45,7 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
     case ROLE_APPROVED:
       return question.approved;
     case ROLE_THEME:
-      return question.theme;
+      return question.theme.textEn;
     default:
       return QVariant();
     }
@@ -129,7 +129,8 @@ QString QuestionQueryModel::toJSON()
   {
     QJsonObject questionObject;
     QJsonObject themeObject;
-    themeObject["name"] = q.theme;
+    themeObject["name"] = q.theme.textEn;
+    themeObject["id"] = q.theme.id;
     questionObject["theme"] = themeObject;
     questionObject["image_name"] = q.imageName;
     questionObject["text_en"] = q.textEn;
@@ -166,6 +167,8 @@ QVariantMap QuestionQueryModel::get(int row)
     return QVariantMap();
   if (m_questions.count() == 0)
     return QVariantMap();
+  if (row == -1)
+    row = 1;
 
   for (auto role : m_roles.keys())
     result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
@@ -268,4 +271,12 @@ QModelIndex QuestionQueryModel::parent(const QModelIndex &child) const
 int QuestionQueryModel::count() const
 {
   return m_questions.count();
+}
+
+QStringList QuestionQueryModel::getThemesNames() const
+{
+  return QStringList()
+      << "Heroes / Items"
+      << "Tournaments"
+      << "Mechanics";
 }

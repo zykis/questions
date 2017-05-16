@@ -20,4 +20,5 @@ HEADERS += \
     questiontablemodel.h \
     initdb.h \
     answer.h \
-    quesiton.h
+    quesiton.h \
+    theme.h

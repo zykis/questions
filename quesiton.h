@@ -1,7 +1,13 @@
 #ifndef QUESITON_H
 #define QUESITON_H
-#include <QList>
+
+// Local
 #include "answer.h"
+#include "theme.h"
+
+// Qt
+#include <QList>
+
 
 struct Question
 {
@@ -9,7 +15,7 @@ struct Question
   QString textEn;
   QString textRu;
   QString imageName;
-  QString theme;
+  Theme theme;
   bool approved;
   QList<Answer> answers;
 };
