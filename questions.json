@@ -1,17 +1,6 @@
 [
     {
         "answers": [
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
-        "text_ru": "",
-        "theme": {
-            "name": ""
-        }
-    },
-    {
-        "answers": [
             {
                 "is_correct": "false",
                 "text_en": "18 000 000$",
@@ -38,6 +27,7 @@
         "text_en": "The Boston Major 2016 prize pool was:",
         "text_ru": "Каким был призовой фонд The Boston Major 2016?",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -69,7 +59,8 @@
         "text_en": "What effect is applied by active ability of Rod of Atos?",
         "text_ru": "Какой эффект, накладывает активная способность предмета Rod of Atos?",
         "theme": {
-            "name": "heroes / items"
+            "id": 0,
+            "name": "mechanics"
         }
     },
     {
@@ -100,6 +91,7 @@
         "text_en": "Which artefact isn't an attack modifier?",
         "text_ru": "Этот предмет не является модификатором атаки:",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -131,6 +123,7 @@
         "text_en": "Basic hero's magic defence is:",
         "text_ru": "Базовая магическая защита героя равна:",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     },
@@ -162,6 +155,7 @@
         "text_en": "Boston Major 2016 main event's format was:",
         "text_ru": "Формат основого события Boston Major:",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -193,6 +187,7 @@
         "text_en": "Which of following commands wasn't at Boston Major 2016 half-final?",
         "text_ru": "Какой из этих команд не было в полуфинале Boston Major 2016?",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -224,6 +219,7 @@
         "text_en": "Captain of Ad Finem's at Boston Major 2016 was:",
         "text_ru": "Капитаном команды Ad Finem на Boston Major 2016 являлся:",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -255,6 +251,7 @@
         "text_en": "What region are OG from?",
         "text_ru": "Какому региону принадлежит команда OG?",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -286,6 +283,7 @@
         "text_en": "Captain of OG on Boston Major 2016 was:",
         "text_ru": "Капитаном команды OG на Boston Major 2016 являлся:",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -317,6 +315,7 @@
         "text_en": "Beside following player (NOtail, ana, JerAx, Fly, ***) in OG on Boston Major was:",
         "text_ru": "Помимо перечисленных игроков (NOtail, ana, JerAx, Fly, ***) составе OG на Boston Major 2016 был:",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -348,6 +347,7 @@
         "text_en": "Who is a winner of Boston Major?",
         "text_ru": "Кто является победителем Boston Major?",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -379,6 +379,7 @@
         "text_en": "How much mana will gave you 1 point of intelligence?",
         "text_ru": "Сколько очков маны добавляет единица интеллекта?",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     },
@@ -410,6 +411,7 @@
         "text_en": "How many intellegence needed to increase ability damage by 1%?",
         "text_ru": "Сколько очков интеллекта необходимо, чтобы увеличить урон от способностей на 1%?",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     },
@@ -441,6 +443,7 @@
         "text_en": "How many HP granted by 1 strenght?",
         "text_ru": "Сколько очков здоровья добавляет единица силы?",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     },
@@ -472,6 +475,7 @@
         "text_en": "How many points of agility needed to improve your armor by 1?",
         "text_ru": "Сколько очков ловкости необходимо, чтобы повысить физическую броню на 1?",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     },
@@ -503,6 +507,7 @@
         "text_en": "Maximum stack's count of Quilling Spray applied to one hero:",
         "text_ru": "Максимальное количество стаков способности Quiling Spray (Bristleback) на одном герое:",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -534,6 +539,7 @@
         "text_en": "Stun duration of Treant's Protector's Invisible Tree on the max level?",
         "text_ru": "Длительность стана Treant Protector при выходе из невидимости за счёт способности \"Invisible tree\" на максимальном уровне прокачки:",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -565,6 +571,7 @@
         "text_en": "Dodge chance of Mortred's Blur on the first level of this ability?",
         "text_ru": "Вероятность уклонения способности Blur (Mortred) на 1-ом уровне прокачки?",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -596,6 +603,7 @@
         "text_en": "Which of these abilities CAN'T destroy an illusion?",
         "text_ru": "Какая из этих способностей НЕ способна уничтожить иллюзию?",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     },
@@ -627,6 +635,7 @@
         "text_en": "Damage type of Abbadon's Mist Coil is:",
         "text_ru": "Тип урона, наносимый первой способностью Аббадона \"Mist Coil\":",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -658,6 +667,7 @@
         "text_en": "Base Abbadon's movement speed is:",
         "text_ru": "Базовая скорость передвижения Аббадона равна:",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -689,6 +699,7 @@
         "text_en": "Base Abbadon's armor is:",
         "text_ru": "Базовый показатель брони Аббадона равен:",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -720,6 +731,7 @@
         "text_en": "Max duration of Sacred Arrow's stun (Mirana)?",
         "text_ru": "Максимальная длительность оглушения от способности Sacred Arrow (Mirana)?",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -751,6 +763,7 @@
         "text_en": "Barathrum can charge through Cogs?",
         "text_ru": "Barathrum может пробежать сквозь Cogs?",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -782,6 +795,7 @@
         "text_en": "Storm Spirit can fly through Void's chronosphere?",
         "text_ru": "Storm Spirit может пролететь сквозь хроносферу Void'а?",
         "theme": {
+            "id": 0,
             "name": "heroes / items"
         }
     },
@@ -813,6 +827,7 @@
         "text_en": "Winner of The International - 1?",
         "text_ru": "Кто стал победителем The International - 1?",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -844,6 +859,7 @@
         "text_en": "Prize for the first place at The International - 2015:",
         "text_ru": "Награда за первое место в The International - 2015:",
         "theme": {
+            "id": 0,
             "name": "tournaments"
         }
     },
@@ -875,6 +891,7 @@
         "text_en": "Format of Grind Final The International 1:",
         "text_ru": "Формат грандфинала The International 1:",
         "theme": {
+            "id": 0,
             "name": "mechanics"
         }
     }

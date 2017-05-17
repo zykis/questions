@@ -82,7 +82,7 @@ void QuestionQueryModel::fromJSON(QString filePath)
     QJsonObject obj = qObj.toObject();
     Question q;
     QJsonObject themeObject = obj.value("theme").toObject();
-    q.theme = themeObject.value("name").toString();
+    q.theme.textEn = themeObject.value("name").toString();
     q.imageName = obj.value("image_name").toString();
     q.textEn = obj.value("text_en").toString();
     q.textRu = obj.value("text_ru").toString();
@@ -197,7 +197,7 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
   q.textRu = value.value("text_ru").toString();
   q.approved = value.value("approved").toString() == "true"? true: false;
   q.imageName = value.value("image_name").toString();
-  q.theme = value.value("theme").toString();
+  q.theme.textEn = value.value("theme").toString();
   q.answers.clear();
 
   for (int i = 0; i < value.value("answers").toList().count(); i++)

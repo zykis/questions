@@ -47,6 +47,9 @@ Item {
 
     // 0 - EN, 1 - RU
     var lang = comboBoxLanguage.currentIndex
+    console.log("LANG: " + lang)
+    console.log("question.text_en = " + question.text_en)
+    console.log("question.text_ru = " + question.text_ru)
     switch (lang) {
       case 0: // EN
         questionText.text = question.text_en
@@ -137,7 +140,8 @@ Item {
 
     switch(lang) {
       case 0: // EN
-        q.text_en = questionText.text
+        if (questionText.text !== "")
+          q.text_en = questionText.text
 
         if (answer1.text !== "")
           a1.text_en = answer1.text
@@ -150,7 +154,8 @@ Item {
         break;
 
       case 1: // RU
-        q.text_ru = questionText.text
+        if (questionText.text !== "")
+          q.text_ru = questionText.text
 
         if (answer1.text !== "")
           a1.text_ru = answer1.text
@@ -578,6 +583,8 @@ Item {
       var path = fileUrl.toString();
       path = path.replace(/^(file:\/{2})/,"");
       questionModel.fromJSON(path)
+      panel.model = []
+      panel.model = questionModel
     }
   }
 
