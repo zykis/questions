@@ -18,6 +18,13 @@ struct Question
   Theme theme;
   bool approved;
   QList<Answer> answers;
+
+  Question()
+  {
+    approved = false;
+    for(int i = 0; i < 4; i++)
+      answers.append(Answer());
+  }
 };
 
 #endif // QUESITON_H

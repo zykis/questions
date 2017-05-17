@@ -4,12 +4,13 @@ QT += qml quick sql
 CONFIG += c++11
 
 SOURCES += main.cpp \
-    questiontablemodel.cpp
+    questiontablemodel.cpp \
+    proxymodel.cpp
 
 RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
-QML_IMPORT_PATH =
+
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -21,4 +22,5 @@ HEADERS += \
     initdb.h \
     answer.h \
     quesiton.h \
-    theme.h
+    theme.h \
+    proxymodel.h

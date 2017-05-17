@@ -5,5 +5,7 @@
         <file>questions.json</file>
         <file>icon.svg</file>
         <file>icon_black.svg</file>
+        <file>TemplatePage.qml</file>
+        <file>QuestionItem.qml</file>
     </qresource>
 </RCC>

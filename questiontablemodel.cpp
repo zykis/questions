@@ -46,6 +46,8 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
       return question.approved;
     case ROLE_THEME:
       return question.theme.textEn;
+    case ROLE_THEME_ID:
+      return question.theme.id;
     default:
       return QVariant();
     }
@@ -219,7 +221,6 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
 void QuestionQueryModel::create()
 {
   Question q;
-  q.approved = false;
   beginInsertRows(QModelIndex(), 0, 0);
   m_questions.prepend(q);
   endInsertRows();

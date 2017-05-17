@@ -3,23 +3,23 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "18 000 000$",
-                "text_ru": "18 000 000$"
+                "text_en": "",
+                "text_ru": ""
             },
             {
                 "is_correct": "false",
-                "text_en": "6 000 000$",
-                "text_ru": "6 000 000$"
+                "text_en": "",
+                "text_ru": ""
             },
             {
                 "is_correct": "false",
-                "text_en": "1 000 000$",
-                "text_ru": "1 000 000$"
+                "text_en": "",
+                "text_ru": ""
             },
             {
-                "is_correct": "true",
-                "text_en": "3 000 000$",
-                "text_ru": "3 000 000$"
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
             }
         ],
         "approved": "true",
@@ -33,6 +33,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "false",
                 "text_en": "Slow",
@@ -67,6 +107,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "Blight Stone",
                 "text_ru": "Blight Stone"
             },
@@ -97,6 +177,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "25%",
@@ -129,6 +249,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "16 commands, signle-elimination",
@@ -163,6 +323,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "OG",
                 "text_ru": "OG"
             },
@@ -195,6 +395,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "Thug",
                 "text_ru": "Thug"
             },
@@ -225,6 +465,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "Europe",
@@ -259,6 +539,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "Miracle",
                 "text_ru": "Miracle"
             },
@@ -289,6 +609,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "S4",
@@ -323,6 +683,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "Ad Finem",
                 "text_ru": "Ad Finem"
             },
@@ -353,6 +753,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "12",
@@ -385,6 +825,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "16",
@@ -419,6 +899,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "12",
                 "text_ru": "12"
             },
@@ -451,6 +971,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "5",
                 "text_ru": "5"
             },
@@ -481,6 +1041,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "8",
@@ -515,6 +1115,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "1.5 sec",
                 "text_ru": "1.5 сек"
             },
@@ -545,6 +1185,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "false",
                 "text_en": "15%",
@@ -579,6 +1259,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "Glimpse (Disruptor)",
                 "text_ru": "Glimpse (Disruptor)"
             },
@@ -609,6 +1329,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "false",
                 "text_en": "Physical",
@@ -642,6 +1402,46 @@
     {
         "answers": [
             {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
                 "is_correct": "true",
                 "text_en": "310",
                 "text_ru": "310"
@@ -673,6 +1473,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "1.38",
@@ -707,6 +1547,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "1 sec",
                 "text_ru": "1 сек"
             },
@@ -739,6 +1619,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "No",
                 "text_ru": "Нет"
             },
@@ -769,6 +1689,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "Yes",
@@ -803,6 +1763,46 @@
         "answers": [
             {
                 "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
                 "text_en": "TongFu",
                 "text_ru": "TongFu"
             },
@@ -833,6 +1833,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "true",
                 "text_en": "6.000.000$",
@@ -865,6 +1905,46 @@
     },
     {
         "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
             {
                 "is_correct": "false",
                 "text_en": "BestOf3",
