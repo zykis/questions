@@ -223,7 +223,7 @@ Item {
       break;
     }
 
-    questionModel.set(row, q)
+    proxyModel.set(row, q)
     return q
   }
 

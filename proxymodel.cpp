@@ -47,8 +47,53 @@ QVariantMap ProxyModel::get(int row) const
   QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
   QList<Question> questions = src->questions();
 
-  int proxyIndex = mapFromSource(src->index(row, 0, createIndex(-1, -1))).row();
-  Question q = questions.at(proxyIndex);
+  QModelIndex miProxy = index(row, 0);
+  QModelIndex miSource = mapToSource(miProxy);
+  int sourceIndex = miSource.row();
+  Question q = questions.at(sourceIndex);
+
   result = (QVariantMap)q;
   return result;
+}
+
+void ProxyModel::set(int row, const QVariantMap &value)
+{
+  if (row < 0)
+    return;
+
+  QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
+  QList<Question> questions = src->questions();
+
+  QModelIndex miProxy = index(row, 0);
+  QModelIndex miSource = mapToSource(miProxy);
+  int sourceIndex = miSource.row();
+  Question q = questions.at(sourceIndex);
+
+  q.textEn = value.value("text_en").toString();
+  q.textRu = value.value("text_ru").toString();
+  q.approved = value.value("approved").toString() == "true"? true: false;
+  q.imageName = value.value("image_name").toString();
+  q.theme.textEn = value.value("theme").toString();
+  q.answers.clear();
+
+  QList<QVariant> rawAnswers = value.value("answers").toList();
+  QList<QVariantMap> answers;
+  for (QVariant v: rawAnswers) {
+    answers.append(v.toMap());
+  }
+
+  for (QVariantMap answer: answers)
+  {
+    Answer a;
+    a.textEn = answer["text_en"].toString();
+    a.textRu = answer["text_ru"].toString();
+    a.isCorrect = answer["is_correct"].toString() == "true"? true: false;
+
+    q.answers.append(a);
+  }
+
+  src->setQuestion(&q, sourceIndex);
+
+  QModelIndex mi = index(row, 0);
+  emit dataChanged(mi, mi);
 }

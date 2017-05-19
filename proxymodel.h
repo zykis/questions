@@ -21,6 +21,9 @@ class ProxyModel: public QSortFilterProxyModel
     Q_INVOKABLE int count() const;
     Q_INVOKABLE QVariantMap get(int row) const;
 
+public slots:
+    void set(int row, const QVariantMap &value);
+
   private:
     QString m_themeName;
 

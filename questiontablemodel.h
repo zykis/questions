@@ -28,8 +28,9 @@ public:
   Q_INVOKABLE void fromJSON(QString filePath);
   Q_INVOKABLE QString toJSON();
 
-  Q_INVOKABLE QVariantMap get(int row);
+//  Q_INVOKABLE QVariantMap get(int row);
   Q_INVOKABLE QStringList getThemesNames() const;
+  void setQuestion(Question* q, int row);
 
 public:
   Q_INVOKABLE int count() const;
