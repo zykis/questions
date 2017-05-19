@@ -94,6 +94,6 @@ void ProxyModel::set(int row, const QVariantMap &value)
 
   src->setQuestion(&q, sourceIndex);
 
-  QModelIndex mi = index(row, 0);
-  emit dataChanged(mi, mi);
+//  QModelIndex mi = index(row, 0);
+  emit dataChanged(miProxy, miProxy);
 }

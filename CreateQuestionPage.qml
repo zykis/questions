@@ -512,7 +512,7 @@ Item {
           anchors.fill: parent
           onClicked: {
             var data = updateQuestionFromUI(panel.currentIndex)
-            questionModel.set(panel.currentIndex, data)
+            proxyModel.set(panel.currentIndex, data)
             panel.currentIndex = index
           }
         }
