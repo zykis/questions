@@ -46,9 +46,22 @@ Item {
   }
 
   function updateUIFromQuestion(question) {
-
     // 0 - EN, 1 - RU
     var lang = questionItem.combo_languages.currentIndex
+
+//    console.log('\n')
+//    console.log("language ind: " + lang)
+//    for (var i in question)
+//    {
+//      console.log("q[%1] = %2".arg(i).arg(question[i]))
+//    }
+
+//    for (var j = 0; j < question.answers.length; j++)
+//    {
+//      console.log("%1 %2".arg(j).arg(question['answers'][j].text_en))
+//    }
+
+
     switch (lang) {
       case 0: // EN
         questionItem.questionText.text = question.text_en
@@ -77,11 +90,11 @@ Item {
     questionItem.answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
     questionItem.answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
 
-    if (question.theme === "heroes / items")
+    if (question.theme.text_en === "heroes / items")
       questionItem.combo_themes.currentIndex = 1
-    else if (question.theme === "tournaments")
+    else if (question.theme.text_en === "tournaments")
       questionItem.combo_themes.currentIndex = 2
-    else if (question.theme === "mechanics")
+    else if (question.theme.text_en === "mechanics")
       questionItem.combo_themes.currentIndex = 3
     else
       questionItem.combo_themes.currentIndex = 0
@@ -129,7 +142,12 @@ Item {
   }
 
   function updateQuestionFromUI(row) {
-    var q = questionModel.get(row)
+    var q = proxyModel.get(row)
+//    for (var i in q)
+//    {
+//      console.log("q[%1] = %2".arg(i).arg(q[i]))
+//    }
+
     // 0 - EN, 1 - RU
     var lang = questionItem.combo_languages.oldIndex
     var a1 = q.answers[0];
@@ -142,11 +160,8 @@ Item {
         if (questionItem.questionText.text !== "")
           q.text_en = questionItem.questionText.text
 
-        if (!a1 && (questionItem.answer1.text !== ""))
-          a1 = 1
-        if (a1 && (questionItem.answer1.text !== ""))
+        if ((a1) && (questionItem.answer1.text !== ""))
           a1.text_en = questionItem.answer1.text
-
         if ((a2) && (questionItem.answer2.text !== ""))
           a2.text_en = questionItem.answer2.text
         if ((a3) && (questionItem.answer3.text !== ""))
@@ -178,6 +193,7 @@ Item {
       a3.is_correct = questionItem.answer3CorrectRadio.checked? true: false
     if (a4)
       a4.is_correct = questionItem.answer4CorrectRadio.checked? true: false
+
     q.answers = []
     if (a1)
       q.answers.push(a1)
@@ -187,7 +203,8 @@ Item {
       q.answers.push(a3)
     if (a4)
       q.answers.push(a4)
-    q.approved = questionModel.get(row).approved
+
+    q.approved = proxyModel.get(row).approved
     q.image_name = questionItem.pathText.text.substring(questionItem.pathText.text.lastIndexOf('/') + 1)
     switch (questionItem.combo_themes.currentIndex)
     {
@@ -205,7 +222,6 @@ Item {
     default:
       break;
     }
-    console.log("q.theme: " + q.theme)
 
     questionModel.set(row, q)
     return q
@@ -306,7 +322,7 @@ Item {
 
     onLanguageComboIndexChanged: {
       updateQuestionFromUI(panel.currentIndex)
-      updateUIFromQuestion(questionModel.get(panel.currentIndex))
+      updateUIFromQuestion(proxyModel.get(panel.currentIndex))
     }
   }
 
@@ -420,11 +436,12 @@ Item {
 
       onCurrentIndexChanged: {
         if (currentIndex >= 0) {
-          updateUIFromQuestion(questionModel.get(currentIndex))
+          updateUIFromQuestion(proxyModel.get(currentIndex))
           forceActiveFocus()
         }
-        else
+        else {
           clearQuestion()
+        }
       }
 
       delegate: FocusScope {

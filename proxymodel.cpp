@@ -25,7 +25,7 @@ bool ProxyModel::filterAcceptsRow(int source_row, const QModelIndex &source_pare
 {
   Q_UNUSED(source_parent);
   QModelIndex mi = createIndex(source_row, 0);
-  QVariant themeName = sourceModel()->data(mi, ROLE_THEME);
+  QVariant themeName = sourceModel()->data(mi, ROLE_THEME_NAME);
 
   if (m_themeName == "")
     return true;
@@ -39,4 +39,16 @@ bool ProxyModel::filterAcceptsRow(int source_row, const QModelIndex &source_pare
 int ProxyModel::count() const
 {
   return rowCount();
+}
+
+QVariantMap ProxyModel::get(int row) const
+{
+  QVariantMap result;
+  QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
+  QList<Question> questions = src->questions();
+
+  int proxyIndex = mapFromSource(src->index(row, 0, createIndex(-1, -1))).row();
+  Question q = questions.at(proxyIndex);
+  result = (QVariantMap)q;
+  return result;
 }

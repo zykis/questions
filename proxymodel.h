@@ -13,10 +13,13 @@ class ProxyModel: public QSortFilterProxyModel
     ProxyModel(QObject* parent = nullptr);
     virtual ~ProxyModel();
 
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+//    QModelIndex mapFromSource(const QModelIndex &sourceIndex) const;
+//    QModelIndex mapToSource(const QModelIndex &proxyIndex) const;
+
     Q_INVOKABLE void setThemeName(QString themeName);
     Q_INVOKABLE int count() const;
-
-    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+    Q_INVOKABLE QVariantMap get(int row) const;
 
   private:
     QString m_themeName;

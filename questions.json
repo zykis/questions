@@ -22,57 +22,49 @@
                 "text_ru": ""
             }
         ],
-        "approved": "true",
+        "approved": "false",
         "image_name": "",
-        "text_en": "The Boston Major 2016 prize pool was:",
-        "text_ru": "Каким был призовой фонд The Boston Major 2016?",
+        "text_en": "",
+        "text_ru": "",
         "theme": {
             "id": 0,
-            "name": "tournaments"
+            "name": ""
         }
     },
     {
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "18 000 000$",
+                "text_ru": "18 000 000$"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "6 000 000$",
+                "text_ru": "6 000 000$"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "1 000 000$",
+                "text_ru": "1 000 000$"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
+                "text_en": "3 000 000$",
+                "text_ru": "3 000 000$"
+            }
+        ],
+        "approved": "true",
+        "image_name": "",
+        "text_en": "The Boston Major 2016 prize pool was:",
+        "text_ru": "Каким был призовой фонд The Boston Major 2016?",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
             {
                 "is_correct": "false",
                 "text_en": "Slow",
@@ -84,7 +76,7 @@
                 "text_ru": "Оглушение"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "Root",
                 "text_ru": "Обездвиживание"
             },
@@ -107,46 +99,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "Blight Stone",
                 "text_ru": "Blight Stone"
             },
@@ -161,7 +113,7 @@
                 "text_ru": "Desolator"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "Eye of Skadi",
                 "text_ru": "Eye of Skadi"
             }
@@ -177,46 +129,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "25%",
@@ -249,46 +161,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "16 commands, signle-elimination",
@@ -323,46 +195,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "OG",
                 "text_ru": "OG"
             },
@@ -377,7 +209,7 @@
                 "text_ru": "Evil Genuses"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "Virtus Pro",
                 "text_ru": "Virtus Pro"
             }
@@ -393,46 +225,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "false",
                 "text_en": "Thug",
@@ -465,46 +257,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "Europe",
@@ -539,46 +291,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "Miracle",
                 "text_ru": "Miracle"
             },
@@ -609,46 +321,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "S4",
@@ -683,46 +355,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "Ad Finem",
                 "text_ru": "Ad Finem"
             },
@@ -753,46 +385,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "12",
@@ -825,46 +417,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "16",
@@ -899,46 +451,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "12",
                 "text_ru": "12"
             },
@@ -971,46 +483,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "5",
                 "text_ru": "5"
             },
@@ -1041,46 +513,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "8",
@@ -1115,46 +547,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "1.5 sec",
                 "text_ru": "1.5 сек"
             },
@@ -1185,46 +577,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "false",
                 "text_en": "15%",
@@ -1259,46 +611,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "Glimpse (Disruptor)",
                 "text_ru": "Glimpse (Disruptor)"
             },
@@ -1329,46 +641,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "false",
                 "text_en": "Physical",
@@ -1402,46 +674,6 @@
     {
         "answers": [
             {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
                 "is_correct": "true",
                 "text_en": "310",
                 "text_ru": "310"
@@ -1473,46 +705,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "1.38",
@@ -1547,46 +739,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "1 sec",
                 "text_ru": "1 сек"
             },
@@ -1619,46 +771,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "No",
                 "text_ru": "Нет"
             },
@@ -1689,46 +801,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "Yes",
@@ -1763,46 +835,6 @@
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
                 "text_en": "TongFu",
                 "text_ru": "TongFu"
             },
@@ -1833,46 +865,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "true",
                 "text_en": "6.000.000$",
@@ -1905,46 +897,6 @@
     },
     {
         "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
-            },
             {
                 "is_correct": "false",
                 "text_en": "BestOf3",

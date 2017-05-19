@@ -18,8 +18,6 @@ int main(int argc, char *argv[])
   app.setApplicationName("questions");
   QSettings settings;
 
-//  database::initDB();
-
   QQmlApplicationEngine engine;
   QuestionQueryModel questionModel;
   if (settings.value("jsonFilePath", "").toString() != "") {

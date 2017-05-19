@@ -7,6 +7,7 @@
 
 // Qt
 #include <QList>
+#include <QVariantMap>
 
 
 struct Question
@@ -24,6 +25,24 @@ struct Question
     approved = false;
     for(int i = 0; i < 4; i++)
       answers.append(Answer());
+  }
+
+  operator QVariantMap()
+  {
+    QVariantMap vm;
+    vm["id"] = id;
+    vm["text_en"] = textEn;
+    vm["text_ru"] = textRu;
+    vm["approved"] = approved;
+    vm["theme"] = (QVariantMap)theme;
+
+    QVariantList vl;
+    for (Answer a: answers)
+    {
+      vl << (QVariantMap)a;
+    }
+    vm["answers"] = vl;
+    return vm;
   }
 };
 

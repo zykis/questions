@@ -9,7 +9,8 @@ struct Answer {
   QString textRu;
   bool isCorrect;
 
-  operator QVariantMap() const {
+  operator QVariantMap()
+  {
     QVariantMap vm;
     vm.insert("text_en", textEn);
     vm.insert("text_ru", textRu);

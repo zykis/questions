@@ -16,7 +16,7 @@ QuestionQueryModel::QuestionQueryModel(QObject *parent)
   m_roles[ROLE_TEXT_RU] = "text_ru";
   m_roles[ROLE_IMAGE_NAME] = "image_name";
   m_roles[ROLE_APPROVED] = "approved";
-  m_roles[ROLE_THEME] = "theme";
+  m_roles[ROLE_THEME_NAME] = "theme";
 }
 
 QHash<int, QByteArray> QuestionQueryModel::roleNames() const
@@ -44,7 +44,7 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
       return question.imageName;
     case ROLE_APPROVED:
       return question.approved;
-    case ROLE_THEME:
+    case ROLE_THEME_NAME:
       return question.theme.textEn;
     case ROLE_THEME_ID:
       return question.theme.id;
@@ -57,15 +57,15 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
 }
 
 
-QList<QVariantMap> QuestionQueryModel::answers(int questionRowID) const
-{
-  QList<QVariantMap> vml;
-  for (Answer a: m_questions.at(questionRowID).answers) {
-    QVariantMap vm = static_cast<QVariantMap>(a);
-    vml.append(vm);
-  }
-  return vml;
-}
+//QList<QVariantMap> QuestionQueryModel::answers(int questionRowID) const
+//{
+//  QList<QVariantMap> vml;
+//  for (Answer a: m_questions.at(questionRowID).answers) {
+//    QVariantMap vm = static_cast<QVariantMap>(a);
+//    vml.append(vm);
+//  }
+//  return vml;
+//}
 
 void QuestionQueryModel::fromJSON(QString filePath)
 {
@@ -89,6 +89,7 @@ void QuestionQueryModel::fromJSON(QString filePath)
     q.textEn = obj.value("text_en").toString();
     q.textRu = obj.value("text_ru").toString();
     q.approved = obj.value("approved").toString() == "true"? true: false;
+    q.answers.clear();
 
     QJsonArray answersArr = obj.value("answers").toArray();
     for (auto aObj: answersArr)
@@ -172,8 +173,8 @@ QVariantMap QuestionQueryModel::get(int row)
   if (row == -1)
     row = 1;
 
-  for (auto role : m_roles.keys())
-    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
+//  for (auto role : m_roles.keys())
+//    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
 
   Question q = m_questions.at(row);
   QVariantList answersList;
@@ -202,14 +203,19 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
   q.theme.textEn = value.value("theme").toString();
   q.answers.clear();
 
-  for (int i = 0; i < value.value("answers").toList().count(); i++)
+  QList<QVariant> rawAnswers = value.value("answers").toList();
+  QList<QVariantMap> answers;
+  for (QVariant v: rawAnswers) {
+    answers.append(v.toMap());
+  }
+
+  for (QVariantMap answer: answers)
   {
-    QVariantList answersList = value.value("answers").toList();
-    QVariantMap answerMap = answersList[i].toMap();
     Answer a;
-    a.textEn = answerMap.value("text_en").toString();
-    a.textRu = answerMap.value("text_ru").toString();
-    a.isCorrect = answerMap.value("is_correct").toString() == "true"? true: false;
+    a.textEn = answer["text_en"].toString();
+    a.textRu = answer["text_ru"].toString();
+    a.isCorrect = answer["is_correct"].toString() == "true"? true: false;
+
     q.answers.append(a);
   }
 
@@ -236,15 +242,15 @@ void QuestionQueryModel::remove(int row)
   }
 }
 
-void QuestionQueryModel::approve(int row)
-{
-  if (m_questions.count() > row)
-  {
-    m_questions[row].approved = true;
-    QModelIndex mi = createIndex(row, 0);
-    emit dataChanged(mi, mi);
-  }
-}
+//void QuestionQueryModel::approve(int row)
+//{
+//  if (m_questions.count() > row)
+//  {
+//    m_questions[row].approved = true;
+//    QModelIndex mi = createIndex(row, 0);
+//    emit dataChanged(mi, mi);
+//  }
+//}
 
 void QuestionQueryModel::setTheme(const QString &theme)
 {
@@ -280,4 +286,9 @@ QStringList QuestionQueryModel::getThemesNames() const
       << "Heroes / Items"
       << "Tournaments"
       << "Mechanics";
+}
+
+QList<Question> QuestionQueryModel::questions() const
+{
+  return m_questions;
 }

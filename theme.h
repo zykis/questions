@@ -8,7 +8,8 @@ struct Theme {
   QString textEn;
   QString textRu;
 
-  operator QVariantMap() const {
+  operator QVariantMap()
+  {
     QVariantMap vm;
     vm.insert("text_en", textEn);
     vm.insert("text_ru", textRu);
