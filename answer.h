@@ -17,6 +17,14 @@ struct Answer {
     vm.insert("isCorrect", isCorrect);
     return vm;
   }
+
+  Answer() {}
+  Answer(const QVariantMap& vm)
+  {
+    isCorrect = vm["isCorrect"].toBool();
+    textEn = vm["text_en"].toString();
+    textRu = vm["text_ru"].toString();
+  }
 };
 
 #endif // ANSWER_H

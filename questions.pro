@@ -5,7 +5,9 @@ CONFIG += c++11
 
 SOURCES += main.cpp \
     questiontablemodel.cpp \
-    proxymodel.cpp
+    proxymodel.cpp \
+    heroparser.cpp \
+    templatemanager.cpp
 
 RESOURCES += qml.qrc
 
@@ -23,4 +25,7 @@ HEADERS += \
     answer.h \
     quesiton.h \
     theme.h \
-    proxymodel.h
+    proxymodel.h \
+    hero.h \
+    heroparser.h \
+    templatemanager.h

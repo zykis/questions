@@ -24,11 +24,75 @@
         ],
         "approved": "false",
         "image_name": "",
+        "text_en": "What is a base movement speed of Bristleback?\n",
+        "text_ru": "Чему равна базовая скорость передвижения Bristleback?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base movement speed of Axe?\n",
+        "text_ru": "Чему равна базовая скорость передвижения Axe?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
         "text_en": "",
         "text_ru": "",
         "theme": {
             "id": 0,
-            "name": ""
+            "name": "tournaments"
         }
     },
     {
@@ -162,7 +226,7 @@
     {
         "answers": [
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "16 commands, signle-elimination",
                 "text_ru": "16 команд, signle-elimination"
             },
@@ -188,7 +252,7 @@
         "text_ru": "Формат основого события Boston Major:",
         "theme": {
             "id": 0,
-            "name": "tournaments"
+            "name": ""
         }
     },
     {
@@ -258,14 +322,14 @@
     {
         "answers": [
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "Europe",
                 "text_ru": "Европа"
             },
             {
                 "is_correct": "false",
-                "text_en": "USA",
-                "text_ru": "США"
+                "text_en": "CIS",
+                "text_ru": "СНГ"
             },
             {
                 "is_correct": "false",
@@ -300,7 +364,7 @@
                 "text_ru": "Notail"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "Fly",
                 "text_ru": "Fly"
             },
@@ -514,7 +578,7 @@
     {
         "answers": [
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "8",
                 "text_ru": "8"
             },
@@ -551,7 +615,7 @@
                 "text_ru": "1.5 сек"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "2.0 sec",
                 "text_ru": "2 сек"
             },

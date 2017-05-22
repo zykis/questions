@@ -16,7 +16,19 @@ Window {
   TemplatePage {
     id: templatePage
 
-    onAddRequested: stack.pop()
+    onAddRequested: {
+      stack.pop()
+      var questions = templateManager.generateQuestionsFromTemplate(q)
+      console.log(questions)
+      for (var qq in questions) {
+        console.log(qq)
+        for (var i in qq) {
+          console.log("question[%1]: %2".arg(i).arg(qq[i]))
+        }
+
+        questionModel.add(questions[qq])
+      }
+    }
     onCancelRequested: stack.pop()
   }
 

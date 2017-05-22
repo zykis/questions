@@ -45,92 +45,6 @@ Item {
     return ""
   }
 
-  function updateUIFromQuestion(question) {
-    // 0 - EN, 1 - RU
-    var lang = questionItem.combo_languages.currentIndex
-
-//    console.log('\n')
-//    console.log("language ind: " + lang)
-//    for (var i in question)
-//    {
-//      console.log("q[%1] = %2".arg(i).arg(question[i]))
-//    }
-
-//    for (var j = 0; j < question.answers.length; j++)
-//    {
-//      console.log("%1 %2".arg(j).arg(question['answers'][j].text_en))
-//    }
-
-
-    switch (lang) {
-      case 0: // EN
-        questionItem.questionText.text = question.text_en
-        questionItem.answer1.text = question.answers[0] !== undefined? question.answers[0].text_en: ""
-        questionItem.answer2.text = question.answers[1] !== undefined? question.answers[1].text_en: ""
-        questionItem.answer3.text = question.answers[2] !== undefined? question.answers[2].text_en: ""
-        questionItem.answer4.text = question.answers[3] !== undefined? question.answers[3].text_en: ""
-        break;
-
-      case 1:
-        questionItem.questionText.text = question.text_ru
-        questionItem.answer1.text = question.answers[0] !== undefined? question.answers[0].text_ru: ""
-        questionItem.answer2.text = question.answers[1] !== undefined? question.answers[1].text_ru: ""
-        questionItem.answer3.text = question.answers[2] !== undefined? question.answers[2].text_ru: ""
-        questionItem.answer4.text = question.answers[3] !== undefined? question.answers[3].text_ru: ""
-        break;
-    }
-
-    questionItem.answer1.placeholderText = question.answers[0]? question.answers[0].text_en === "" ? "Ответ 1" : question.answers[0].text_en : ""
-    questionItem.answer2.placeholderText = question.answers[1]? question.answers[1].text_en === "" ? "Ответ 2" : question.answers[1].text_en : ""
-    questionItem.answer3.placeholderText = question.answers[2]? question.answers[2].text_en === "" ? "Ответ 3" : question.answers[2].text_en : ""
-    questionItem.answer4.placeholderText = question.answers[3]? question.answers[3].text_en === "" ? "Ответ 4" : question.answers[3].text_en : ""
-
-    questionItem.answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? true: false: false
-    questionItem.answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? true: false: false
-    questionItem.answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
-    questionItem.answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
-
-    if (question.theme.text_en === "heroes / items")
-      questionItem.combo_themes.currentIndex = 1
-    else if (question.theme.text_en === "tournaments")
-      questionItem.combo_themes.currentIndex = 2
-    else if (question.theme.text_en === "mechanics")
-      questionItem.combo_themes.currentIndex = 3
-    else
-      questionItem.combo_themes.currentIndex = 0
-
-    if (question.image_name)
-    {
-      pathText.text = settings.questionsFolder + question.image_name
-      image.source = pathText.text
-    }
-    else
-    {
-      questionItem.pathText.text = ""
-      image.source = ""
-    }
-  }
-
-  function clearQuestion() {
-    questionItem.answer1.text = ""
-    questionItem.answer2.text = ""
-    questionItem.answer3.text = ""
-    questionItem.answer4.text = ""
-
-    questionItem.answer1CorrectRadio.checked = false
-    questionItem.answer2CorrectRadio.checked = false
-    questionItem.answer3CorrectRadio.checked = false
-    questionItem.answer4CorrectRadio.checked = false
-
-    questionItem.questionText.text = ""
-
-    questionItem.combo_themes.currentIndex = 0
-    questionItem.combo_languages.currentIndex = 0
-
-    questionItem.pathText.text = ""
-    image.source = ""
-  }
-
   function createQuestion() {
     questionModel.create()
     panel.currentIndex = -1
@@ -143,10 +57,7 @@ Item {
 
   function updateQuestionFromUI(row) {
     var q = proxyModel.get(row)
-//    for (var i in q)
-//    {
-//      console.log("q[%1] = %2".arg(i).arg(q[i]))
-//    }
+
 
     // 0 - EN, 1 - RU
     var lang = questionItem.combo_languages.oldIndex
@@ -436,11 +347,11 @@ Item {
 
       onCurrentIndexChanged: {
         if (currentIndex >= 0) {
-          updateUIFromQuestion(proxyModel.get(currentIndex))
+          questionItem.updateUIFromQuestion(proxyModel.get(currentIndex))
           forceActiveFocus()
         }
         else {
-          clearQuestion()
+          questionItem.clearQuestion()
         }
       }
 

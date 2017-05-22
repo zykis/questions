@@ -28,17 +28,20 @@ public:
   Q_INVOKABLE void fromJSON(QString filePath);
   Q_INVOKABLE QString toJSON();
 
-//  Q_INVOKABLE QVariantMap get(int row);
+  Q_INVOKABLE QVariantMap get(int row);
   Q_INVOKABLE QStringList getThemesNames() const;
   void setQuestion(Question* q, int row);
 
 public:
   Q_INVOKABLE int count() const;
   QList<Question> questions() const;
+  void setQuestions(QList<Question> questions);
 
 public slots:
   void set(int row, const QVariantMap& value);
   void create();
+  void add(QVariantMap q);
+//  void add(QList<Question> questionList);
   void remove(int row);
   void setTheme(const QString& theme);
 

@@ -16,6 +16,15 @@ struct Theme {
     vm.insert("id", id);
     return vm;
   }
+
+  Theme() {}
+
+  Theme(const QVariantMap &vm)
+  {
+    id = vm["id"].toInt();
+    textEn = vm["text_en"].toString();
+    textRu = vm["text_ru"].toString();
+  }
 };
 
 #endif // THEME_H

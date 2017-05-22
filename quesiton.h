@@ -44,6 +44,23 @@ struct Question
     vm["answers"] = vl;
     return vm;
   }
+
+  Question(const QVariantMap &vm)
+  {
+    id = vm["id"].toInt();
+    textEn = vm["text_en"].toString();
+    textRu = vm["text_ru"].toString();
+    approved = vm["approved"].toBool();
+    Theme t = vm["theme"].toMap();
+    theme = t;
+
+    answers.clear();
+    for (QVariant vma: vm["answers"].toList()) {
+      QVariantMap vmm = vma.toMap();
+      Answer a(vmm);
+      answers.append(a);
+    }
+  }
 };
 
 #endif // QUESITON_H

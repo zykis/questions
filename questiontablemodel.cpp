@@ -163,33 +163,33 @@ QString QuestionQueryModel::toJSON()
 }
 
 
-//QVariantMap QuestionQueryModel::get(int row)
-//{
-//  QVariantMap result;
-//  if (row >= m_questions.count())
-//    return QVariantMap();
-//  if (m_questions.count() == 0)
-//    return QVariantMap();
-//  if (row == -1)
-//    row = 1;
+QVariantMap QuestionQueryModel::get(int row)
+{
+  QVariantMap result;
+  if (row >= m_questions.count())
+    return QVariantMap();
+  if (m_questions.count() == 0)
+    return QVariantMap();
+  if (row == -1)
+    row = 1;
 
-////  for (auto role : m_roles.keys())
-////    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
+  for (auto role : m_roles.keys())
+    result[QString::fromLatin1(m_roles.value(role))] = index(row, 0, QModelIndex()).data(role);
 
-//  Question q = m_questions.at(row);
-//  QVariantList answersList;
-//  for (Answer& a: q.answers)
-//  {
-//    QVariantMap aMap;
-//    aMap["text_en"] = a.textEn;
-//    aMap["text_ru"] = a.textRu;
-//    aMap["is_correct"] = a.isCorrect;
-//    answersList.append(aMap);
-//  }
-//  result["answers"] = answersList;
+  Question q = m_questions.at(row);
+  QVariantList answersList;
+  for (Answer& a: q.answers)
+  {
+    QVariantMap aMap;
+    aMap["text_en"] = a.textEn;
+    aMap["text_ru"] = a.textRu;
+    aMap["is_correct"] = a.isCorrect;
+    answersList.append(aMap);
+  }
+  result["answers"] = answersList;
 
-//  return result;
-//}
+  return result;
+}
 
 void QuestionQueryModel::setQuestion(Question *q, int row)
 {
@@ -300,3 +300,17 @@ QList<Question> QuestionQueryModel::questions() const
 {
   return m_questions;
 }
+
+void QuestionQueryModel::setQuestions(QList<Question> questions)
+{
+  m_questions = questions;
+}
+
+void QuestionQueryModel::add(QVariantMap q)
+{
+  Question qq(q);
+  m_questions.prepend(qq);
+  QModelIndex mi = createIndex(0, 0);
+  emit dataChanged(mi, mi);
+}
+
