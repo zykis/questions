@@ -1,0 +1,174 @@
+[
+    {
+        "name":"Boston Major 2016", 
+        "prizepool": "$3,000,000", 
+        "prizes": [
+            "$1,000,000",
+            "$500,000",
+            "$250,000",
+            "$250,000",
+            "$125,000",
+            "$125,000",
+            "$125,000",
+            "$125,000",
+            "$62,500",
+            "$62,500",
+            "$62,500",
+            "$62,500",
+            "$62,500",
+            "$62,500",
+            "$62,500",
+            "$62,500",
+        ],
+        "places": [
+            "OG",
+            "Ad Finem",
+            "Evil Geniuses",
+            "Digital Chaos",
+            "Virtus.pro",
+            "WarriorsGaming.Unity",
+            "Team NP",
+            "LGD.Forever Young",
+            "iG Vitality",
+            "Wings Gaming",
+            "compLexity Gaming",
+            "MVP Phoenix",
+            "Team Faceless",
+            "EHOME",
+            "Newbee",
+            "LGD Gaming"
+        ],
+        "direct_invite_teams": [
+            "Wings",
+            "Digital Chaos",
+            "Evil Geniuses",
+            "Newbee",
+            "EHOME",
+            "LGD Gaming",
+            "OG",
+            "MVP Phoenix"
+        ],
+        "qualified_regions": [
+            "Americas": ["Team NP", "compLexity Gaming"],
+            "China": ["LGD.Forever Young", "iG Vitality"]
+            "Europe": ["Ad Finem", "Virtus.pro"]
+            "SEA": ["Team Faceless", "WarriorsGaming.Unity"]
+        ],
+        "trivias": [
+            {   
+                "RU": "This is the first Valve-sponsored event that Puppey will not attend as a player, as Team Secret finished 4th in the Europe Qualifier. The same goes for MMY, who is currently inactive.",
+                "EN": "This is the first Valve-sponsored event that Puppey will not attend as a player, as Team Secret finished 4th in the Europe Qualifier. The same goes for MMY, who is currently inactive."
+            },
+            {
+                "RU": "MiSeRy and DDC are the only players left who have attended every single Valve event as an active player. UNiVeRsE has also attended every Valve event, but was only a sub during The International 2011 while Hao is attending the major, but only as a sub for Newbee.",
+                "EN": "MiSeRy and DDC are the only players left who have attended every single Valve event as an active player. UNiVeRsE has also attended every Valve event, but was only a sub during The International 2011 while Hao is attending the major, but only as a sub for Newbee."
+            },
+            {
+                "RU": "Jabz will be the first Thai player to attend a Valve event since The International 2011.",
+                "EN": "Jabz will be the first Thai player to attend a Valve event since The International 2011."
+            }
+        ],
+        "groups": [
+            {
+                "name": "Group A",
+                "teams": [
+                    { 
+                        "name": "Digital Chaos",
+                        "wins": 2,
+                        "lose": 0
+                    },
+                    {
+                        "name": "Wings Gaming",
+                        "wins": 2,
+                        "lose": 1
+                    },
+                    {
+                        "name": "WarriorsGaming.Unity",
+                        "wins": 1,
+                        "lose": 2
+                    },
+                    {
+                        "name": "LGD.Forever Young",
+                        "wins": 0,
+                        "lose": 2
+                    }
+                ]
+            },
+            {
+                "name": "Group B",
+                "teams": [
+                    { 
+                        "name": "Virtus.pro",
+                        "wins": 2,
+                        "lose": 0
+                    },
+                    {
+                        "name": "Newbee",
+                        "wins": 2,
+                        "lose": 1
+                    },
+                    {
+                        "name": "Team NP",
+                        "wins": 1,
+                        "lose": 2
+                    },
+                    {
+                        "name": "MVP Phoenix",
+                        "wins": 0,
+                        "lose": 2
+                    }
+                ]
+            },
+            {
+                "name": "Group C",
+                "teams": [
+                    { 
+                        "name": "LGD Gaming",
+                        "wins": 2,
+                        "lose": 0
+                    },
+                    {
+                        "name": "compLexity Gaming",
+                        "wins": 2,
+                        "lose": 1
+                    },
+                    {
+                        "name": "Evil Geniuses",
+                        "wins": 1,
+                        "lose": 2
+                    },
+                    {
+                        "name": "Team Faceless",
+                        "wins": 0,
+                        "lose": 2
+                    }
+                ]
+            },
+            {
+                "name": "Group D",
+                "teams": [
+                    { 
+                        "name": "OG",
+                        "wins": 2,
+                        "lose": 0
+                    },
+                    {
+                        "name": "EHOME",
+                        "wins": 2,
+                        "lose": 1
+                    },
+                    {
+                        "name": "Ad Finem",
+                        "wins": 1,
+                        "lose": 2
+                    },
+                    {
+                        "name": "iG Vitality",
+                        "wins": 0,
+                        "lose": 2
+                    }
+                ]
+            },
+        ]
+    }
+]

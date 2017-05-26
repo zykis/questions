@@ -146,5 +146,20 @@ QVariantList TemplateManager::generateQuestionsFromTemplate(QVariantMap tmp)
     }
   }
 
+  else if (propertyName.split('.').first() == "tournament") {
+    QList<Hero> heroes = HeroParser::parse("heroes.json");
+    for (Hero h: heroes) {
+      Question q;
+      Question t = temp;
+      QVariant property = h.getattr(key);
+      QString textEn = t.textEn.replace("$$" + propertyName, property.toString());
+      QString textRu = t.textRu.replace("$$" + propertyName, property.toString());
+
+      q.textEn = textEn;
+      q.textRu = textRu;
+      questions.append((QVariantMap)q);
+    }
+  }
+
   return questions;
 }

@@ -28,4 +28,5 @@ HEADERS += \
     proxymodel.h \
     hero.h \
     heroparser.h \
-    templatemanager.h
+    templatemanager.h \
+    tournament.h
