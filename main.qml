@@ -10,11 +10,13 @@ Window {
 
   CreateQuestionPage {
     id: questionPage
+    visible: false
     onTemplateRequested: stack.push(templatePage)
   }
 
   TemplatePage {
     id: templatePage
+    visible: false
 
     onAddRequested: {
       stack.pop()

@@ -1,0 +1,29 @@
+# вопросы по скилам
+
+CONDITION: ($$hero.ability.type == active)
+EN: What cooldown has a $$hero.ability ($$hero.name) on 1/2/3/4 levels?
+RU: Какой кудаун у способности $$hero.ability ($$hero.name) на 1/2/3/4 уровнях прокачки?
+
+CONDITION: (($$hero.ability.type == active) && ($$hero.ability.affects == enemies) && ($$hero.ability.damage != 0))
+EN: What type of damage is dealt by $$hero.ability ($$hero.name)?
+RU: Какой тип урона наносится способностью $$hero.ability ($$hero.name)?
+
+CONDITION: (($$hero.ability.type == active) && ($$hero.ability.affects == enemies) && ($$hero.ability.damage != 0))
+EN: Damage, dealt by $$hero.ability ($$hero.name) on 1/2/3/4 levels is:
+RU: Урон, наносимый способностью $$hero.ability ($$hero.name) на 1/2/3/4 уровнях прокачки равен:
+
+CONDITION: (($$hero.ability.type == active) && ($$hero.ability.affects == enemies) && (($$hero.ability.effect == stun) || ($$hero.ability.effect == root) || ($$hero.ability.effect == silence) || ($$hero.ability.effect == disarm)))
+EN: Duration of $$hero.ability.effect imposed by $$hero.ability.name ($$hero.name) on 1/2/3/4 levels is:
+RU: Длительность $$hero.ability.effect от способности $$hero.ability.name ($$hero.name) на 1/2/3/4 уровне прокачки равен:
+
+CONDITION: (($$hero.ability.type == active) && ($$hero.ability.affects == enemies) && (($$hero.ability.effect == stun) || ($$hero.ability.effect == root) || ($$hero.ability.effect == silence) || ($$hero.ability.effect == disarm) || ($$hero.ability.effect == slow)))
+EN: Does $$hero.ability.name ($$hero.name) affects targets with magic immunity?
+RU: Воздействует ли $$hero.ability.name ($$hero.name) на цель с иммунитетом к магии?
+
+CONDITION: (($$hero.ability.type == active) && ($$hero.ability.affects == enemies) && (($$hero.ability.target == unit) || ($$hero.ability.target == area)))
+EN: If Linkens Sphere blocks $$hero.ability.name ($$hero.name)?
+RU: Может ли Linkens Sphere заблокировать $$hero.ability.name ($$hero.name)?
+
+CONDITION: (($$hero.ability.type == passive) && ($$hero.name == Wraith King))
+EN: Does Silver Edge disables passive ability $$hero.ability.name ($$hero.name)?
+RU: Отключает ли Silver Edge пассивную способность $$hero.ability.name ($$hero.name)?

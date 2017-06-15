@@ -4,6 +4,21 @@
 #include <QString>
 #include <QVariant>
 
+typedef enum { AbilityTypeActive = 0, AbilityTypePassive, AbilityTypeAutocast } AbilityType;
+typedef enum { AbilityTargetNone = 0, AbilityTargetUnit, AbilityTargetArea } AbilityTarget;
+typedef enum { EffectStun = 0, EffectRoot } Effect;
+typedef enum { SpellImmunityPierceNo = 0, SpellImmunityPierceYes, SpellImmunityPiercePartially } SpellImmunityPierce;
+
+struct Ability {
+  QString name;
+  AbilityType type;
+  AbilityTarget target;
+  SpellImmunityPierce spellImmunityPierce;
+  QList<Effect> effects;
+
+  float duration;
+  float damage;
+};
 
 struct Hero {
   QString name;
@@ -19,6 +34,8 @@ struct Hero {
   float movement_speed;
   bool melee;
   float attack_range;
+
+  QList<Ability> abilities;
 
   QVariant getattr(QString key)
   {

@@ -1,0 +1,19 @@
+# вопросы по базовым характеристикам
+
+EN: Which hero possesses following base attributes: $$hero.str/$$hero.agi/$$hero.int?
+RU: Какой из героев обладает следующими базовыми аттрибутами: $$hero.str/$$hero.agi/$$hero.int?
+
+EN: Which hero possesses following attributes growth: $$hero.str_per_lvl/$$hero.agi_per_lvl/$$hero.int_per_lvl?
+RU: Какой из героев обладает следующим приростом аттрибутов: $$hero.str_per_lvl/$$hero.agi_per_lvl/$$hero.int_per_lvl?
+
+EN: Armor of $$hero.name at 1-st level is:
+RU: Броня $$hero.name на 1-ом уровне равна:
+
+EN: Base movement speed of $$hero.name is:
+RU: Базовая скорость передвижения $$hero.name равна:
+
+CONDITION: (($$hero.range == true) && ($$hero.name != "Monkey King"))
+EN: Base attack range of $$hero.name is:
+RU: Базовая дальность атаки $$hero.name равна:
+
+# вопросы по талантам

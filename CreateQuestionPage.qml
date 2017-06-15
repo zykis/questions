@@ -68,30 +68,30 @@ Item {
 
     switch(lang) {
       case 0: // EN
-        if (questionItem.questionText.text !== "")
+//        if (questionItem.questionText.text !== "")
           q.text_en = questionItem.questionText.text
 
-        if ((a1) && (questionItem.answer1.text !== ""))
+        if ((a1) /*&& (questionItem.answer1.text !== "")*/)
           a1.text_en = questionItem.answer1.text
-        if ((a2) && (questionItem.answer2.text !== ""))
+        if ((a2) /*&& (questionItem.answer2.text !== "")*/)
           a2.text_en = questionItem.answer2.text
-        if ((a3) && (questionItem.answer3.text !== ""))
+        if ((a3) /*&& (questionItem.answer3.text !== "")*/)
           a3.text_en = questionItem.answer3.text
-        if ((a4) && (questionItem.answer4.text !== ""))
+        if ((a4) /*&& (questionItem.answer4.text !== "")*/)
           a4.text_en = questionItem.answer4.text
         break;
 
       case 1: // RU
-        if (questionItem.questionText.text !== "")
+//        if (questionItem.questionText.text !== "")
           q.text_ru = questionItem.questionText.text
 
-        if ((a1) && (questionItem.answer1.text !== ""))
+        if ((a1) /*&& (questionItem.answer1.text !== "")*/)
           a1.text_ru = questionItem.answer1.text
-        if ((a2) && (questionItem.answer2.text !== ""))
+        if ((a2) /*&& (questionItem.answer2.text !== "")*/)
           a2.text_ru = questionItem.answer2.text
-        if ((a3) && (questionItem.answer3.text !== ""))
+        if ((a3) /*&& (questionItem.answer3.text !== "")*/)
           a3.text_ru = questionItem.answer3.text
-        if ((a4) && (questionItem.answer4.text !== ""))
+        if ((a4) /*&& (questionItem.answer4.text !== "")*/)
           a4.text_ru = questionItem.answer4.text
         break;
     }
@@ -413,7 +413,7 @@ Item {
             anchors.leftMargin: 4
             anchors.rightMargin: 8
             elide: Text.ElideRight
-            text: "<b>" + (proxyModel.count - index) + ".</b> " + text_en
+            text: "<b>" + (proxyModel.count - index) + ".</b> " + text_ru
             color: approved? "#fff" : "#212121"
             opacity: 0.86
           }

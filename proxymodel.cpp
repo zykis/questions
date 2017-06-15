@@ -46,12 +46,17 @@ QVariantMap ProxyModel::get(int row) const
   QVariantMap result;
   QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
   QList<Question> questions = src->questions();
+  if (questions.count() == 0)
+    return result;
 
   QModelIndex miProxy = index(row, 0);
   QModelIndex miSource = mapToSource(miProxy);
   int sourceIndex = miSource.row();
-  Question q = questions.at(sourceIndex);
+  if (sourceIndex == -1)
+    return result;
 
+
+  Question q = questions.at(sourceIndex);
   result = (QVariantMap)q;
   return result;
 }

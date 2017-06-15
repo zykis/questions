@@ -247,7 +247,8 @@ Rectangle {
         anchors.leftMargin: 48
         width: 180
         model: ["Английский", "Русский"]
-        property int oldIndex: 0
+        currentIndex: 1
+        property int oldIndex: currentIndex
 
         Text {
           anchors.right: parent.left

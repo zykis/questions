@@ -5,3 +5,5 @@ RU: Чему равна базовая сила $$hero.name?
 
 EN: What is a base movement speed of $$hero.name?
 RU: Чему равна базовая скорость передвижения $$hero.name?
+
+EN: 
