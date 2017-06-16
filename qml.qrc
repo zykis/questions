@@ -7,5 +7,6 @@
         <file>icon_black.svg</file>
         <file>TemplatePage.qml</file>
         <file>QuestionItem.qml</file>
+        <file>heroes.json</file>
     </qresource>
 </RCC>

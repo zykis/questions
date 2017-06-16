@@ -31,6 +31,15 @@ Rectangle {
     questionItem.answer3.placeholderText = question.answers[2]? question.answers[2].text_en === "" ? "Ответ 3" : question.answers[2].text_en : ""
     questionItem.answer4.placeholderText = question.answers[3]? question.answers[3].text_en === "" ? "Ответ 4" : question.answers[3].text_en : ""
 
+    console.log("updateUIFromQuestion")
+    console.log("question.answers[0]: ", question.answers[0])
+    console.log("question.answers[1]: ", question.answers[1])
+    console.log("question.answers[2]: ", question.answers[2])
+    console.log("question.answers[3]: ", question.answers[3])
+    console.log("question.answers[0].is_correct: ", question.answers[0].is_correct)
+    console.log("question.answers[1].is_correct: ", question.answers[1].is_correct)
+    console.log("question.answers[2].is_correct: ", question.answers[2].is_correct)
+    console.log("question.answers[3].is_correct: ", question.answers[3].is_correct)
     questionItem.answer1CorrectRadio.checked = question.answers[0] !== undefined? question.answers[0].is_correct? true: false: false
     questionItem.answer2CorrectRadio.checked = question.answers[1] !== undefined? question.answers[1].is_correct? true: false: false
     questionItem.answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false

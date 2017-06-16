@@ -27,3 +27,5 @@ RU: Может ли Linkens Sphere заблокировать $$hero.ability.nam
 CONDITION: (($$hero.ability.type == passive) && ($$hero.name == Wraith King))
 EN: Does Silver Edge disables passive ability $$hero.ability.name ($$hero.name)?
 RU: Отключает ли Silver Edge пассивную способность $$hero.ability.name ($$hero.name)?
+
+RU: Сколько маны требуется для активации способности $$hero.ability.name ($$hero.name) на 1/2/3/4 уровне прокачки?

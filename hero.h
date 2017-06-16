@@ -16,8 +16,15 @@ struct Ability {
   SpellImmunityPierce spellImmunityPierce;
   QList<Effect> effects;
 
+  int levels;
+
   float duration;
   float damage;
+
+  QVariant getattr(QString key)
+  {
+    return QVariant();
+  }
 };
 
 struct Hero {
@@ -63,6 +70,8 @@ struct Hero {
       return melee;
     if (key == "attack_range")
       return attack_range;
+    if (key == "ability")
+      return QVariant();
 
     qWarning() << QString("No key: %1 in hero").arg(key);
     return QVariant();

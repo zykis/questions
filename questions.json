@@ -2,9 +2,9 @@
     {
         "answers": [
             {
-                "is_correct": "false",
-                "text_en": "110/160/21/260",
-                "text_ru": "110/160/21/260"
+                "is_correct": "true",
+                "text_en": "110/160/210/260",
+                "text_ru": "110/160/210/260"
             },
             {
                 "is_correct": "false",
@@ -14,12 +14,12 @@
             {
                 "is_correct": "false",
                 "text_en": "90/110/130/150",
-                "text_ru": ""
+                "text_ru": "90/110/130/150"
             },
             {
                 "is_correct": "false",
                 "text_en": "130/180/230/280",
-                "text_ru": ""
+                "text_ru": "130/180/230/280"
             }
         ],
         "approved": "false",
@@ -34,7 +34,7 @@
     {
         "answers": [
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": "15 сек"
             },
@@ -130,7 +130,7 @@
     {
         "answers": [
             {
-                "is_correct": "false",
+                "is_correct": "true",
                 "text_en": "Lion",
                 "text_ru": "Lion"
             },
@@ -162,7 +162,7 @@
     {
         "answers": [
             {
-                "is_correct": "false",
+                "is_correct": "true",
                 "text_en": "",
                 "text_ru": "1350"
             },
@@ -236,7 +236,7 @@
                 "text_ru": "Побегут в сторону фонтана"
             },
             {
-                "is_correct": "false",
+                "is_correct": "true",
                 "text_en": "",
                 "text_ru": "Будут стоят на месте"
             },
