@@ -3,6 +3,3622 @@
         "answers": [
             {
                 "is_correct": "true",
+                "text_en": "",
+                "text_ru": "110/160/210/260"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": "120/170/250/310"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": "90/110/130/150"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": "130/180/230/280"
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Zeus?\n",
+        "text_ru": "Урон способности Fissure (Earth Shaker) на 1/2/3/4 уровне прокачки равен соответственно:",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Wraith King?\n",
+        "text_ru": "Чему равна базовая сила Wraith King?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "false",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Witch Doctor?\n",
+        "text_ru": "Чему равна базовая сила Witch Doctor?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Winter Wyvern?\n",
+        "text_ru": "Чему равна базовая сила Winter Wyvern?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Windranger?\n",
+        "text_ru": "Чему равна базовая сила Windranger?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Weaver?\n",
+        "text_ru": "Чему равна базовая сила Weaver?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Warlock?\n",
+        "text_ru": "Чему равна базовая сила Warlock?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Visage?\n",
+        "text_ru": "Чему равна базовая сила Visage?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Viper?\n",
+        "text_ru": "Чему равна базовая сила Viper?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Venomancer?\n",
+        "text_ru": "Чему равна базовая сила Venomancer?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Vengeful Spirit?\n",
+        "text_ru": "Чему равна базовая сила Vengeful Spirit?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Ursa?\n",
+        "text_ru": "Чему равна базовая сила Ursa?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Undying?\n",
+        "text_ru": "Чему равна базовая сила Undying?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Underlord?\n",
+        "text_ru": "Чему равна базовая сила Underlord?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Tusk?\n",
+        "text_ru": "Чему равна базовая сила Tusk?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Troll Warlord?\n",
+        "text_ru": "Чему равна базовая сила Troll Warlord?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Treant Protector?\n",
+        "text_ru": "Чему равна базовая сила Treant Protector?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Tiny?\n",
+        "text_ru": "Чему равна базовая сила Tiny?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Tinker?\n",
+        "text_ru": "Чему равна базовая сила Tinker?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Timbersaw?\n",
+        "text_ru": "Чему равна базовая сила Timbersaw?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Tidehunter?\n",
+        "text_ru": "Чему равна базовая сила Tidehunter?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Terrorblade?\n",
+        "text_ru": "Чему равна базовая сила Terrorblade?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Templar Assassin?\n",
+        "text_ru": "Чему равна базовая сила Templar Assassin?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Techies?\n",
+        "text_ru": "Чему равна базовая сила Techies?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Sven?\n",
+        "text_ru": "Чему равна базовая сила Sven?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Storm Spirit?\n",
+        "text_ru": "Чему равна базовая сила Storm Spirit?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Spirit Breaker?\n",
+        "text_ru": "Чему равна базовая сила Spirit Breaker?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Spectre?\n",
+        "text_ru": "Чему равна базовая сила Spectre?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Sniper?\n",
+        "text_ru": "Чему равна базовая сила Sniper?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Slark?\n",
+        "text_ru": "Чему равна базовая сила Slark?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Sladar?\n",
+        "text_ru": "Чему равна базовая сила Sladar?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Skywrath Mage?\n",
+        "text_ru": "Чему равна базовая сила Skywrath Mage?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Silencer?\n",
+        "text_ru": "Чему равна базовая сила Silencer?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Shadow Shaman?\n",
+        "text_ru": "Чему равна базовая сила Shadow Shaman?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Shadow Fiend?\n",
+        "text_ru": "Чему равна базовая сила Shadow Fiend?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Shadow Demon?\n",
+        "text_ru": "Чему равна базовая сила Shadow Demon?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Sand King?\n",
+        "text_ru": "Чему равна базовая сила Sand King?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Rubic?\n",
+        "text_ru": "Чему равна базовая сила Rubic?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Riki?\n",
+        "text_ru": "Чему равна базовая сила Riki?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Razor?\n",
+        "text_ru": "Чему равна базовая сила Razor?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Queen of Pain?\n",
+        "text_ru": "Чему равна базовая сила Queen of Pain?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Pugna?\n",
+        "text_ru": "Чему равна базовая сила Pugna?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Pudge?\n",
+        "text_ru": "Чему равна базовая сила Pudge?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Puck?\n",
+        "text_ru": "Чему равна базовая сила Puck?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Phoenix?\n",
+        "text_ru": "Чему равна базовая сила Phoenix?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Phantom Lancer?\n",
+        "text_ru": "Чему равна базовая сила Phantom Lancer?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Phantom Assassin?\n",
+        "text_ru": "Чему равна базовая сила Phantom Assassin?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Outworld Devourer?\n",
+        "text_ru": "Чему равна базовая сила Outworld Devourer?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Oracle?\n",
+        "text_ru": "Чему равна базовая сила Oracle?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Omniknight?\n",
+        "text_ru": "Чему равна базовая сила Omniknight?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Ogre Magi?\n",
+        "text_ru": "Чему равна базовая сила Ogre Magi?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Nyx Assassin?\n",
+        "text_ru": "Чему равна базовая сила Nyx Assassin?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Night Stalker?\n",
+        "text_ru": "Чему равна базовая сила Night Stalker?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Necrophos?\n",
+        "text_ru": "Чему равна базовая сила Necrophos?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Nature Prophet?\n",
+        "text_ru": "Чему равна базовая сила Nature Prophet?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Naga Siren?\n",
+        "text_ru": "Чему равна базовая сила Naga Siren?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Morphling?\n",
+        "text_ru": "Чему равна базовая сила Morphling?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Monkey King?\n",
+        "text_ru": "Чему равна базовая сила Monkey King?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Mirana?\n",
+        "text_ru": "Чему равна базовая сила Mirana?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Meepo?\n",
+        "text_ru": "Чему равна базовая сила Meepo?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Medusa?\n",
+        "text_ru": "Чему равна базовая сила Medusa?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Magnus?\n",
+        "text_ru": "Чему равна базовая сила Magnus?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Lycan?\n",
+        "text_ru": "Чему равна базовая сила Lycan?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Luna?\n",
+        "text_ru": "Чему равна базовая сила Luna?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Lone Druid?\n",
+        "text_ru": "Чему равна базовая сила Lone Druid?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Lion?\n",
+        "text_ru": "Чему равна базовая сила Lion?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Lina?\n",
+        "text_ru": "Чему равна базовая сила Lina?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Lifestealer?\n",
+        "text_ru": "Чему равна базовая сила Lifestealer?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Lich?\n",
+        "text_ru": "Чему равна базовая сила Lich?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Leshrac?\n",
+        "text_ru": "Чему равна базовая сила Leshrac?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Legion Commander?\n",
+        "text_ru": "Чему равна базовая сила Legion Commander?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Kunkka?\n",
+        "text_ru": "Чему равна базовая сила Kunkka?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Keeper of the Light?\n",
+        "text_ru": "Чему равна базовая сила Keeper of the Light?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Juggernaut?\n",
+        "text_ru": "Чему равна базовая сила Juggernaut?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Jakiro?\n",
+        "text_ru": "Чему равна базовая сила Jakiro?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Io?\n",
+        "text_ru": "Чему равна базовая сила Io?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Invoker?\n",
+        "text_ru": "Чему равна базовая сила Invoker?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Huskar?\n",
+        "text_ru": "Чему равна базовая сила Huskar?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Gyrocopter?\n",
+        "text_ru": "Чему равна базовая сила Gyrocopter?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Faceless Void?\n",
+        "text_ru": "Чему равна базовая сила Faceless Void?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Enigma?\n",
+        "text_ru": "Чему равна базовая сила Enigma?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Enchantress?\n",
+        "text_ru": "Чему равна базовая сила Enchantress?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Ember Spirit?\n",
+        "text_ru": "Чему равна базовая сила Ember Spirit?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Elder Titan?\n",
+        "text_ru": "Чему равна базовая сила Elder Titan?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Earthshaker?\n",
+        "text_ru": "Чему равна базовая сила Earthshaker?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Earth Spirit?\n",
+        "text_ru": "Чему равна базовая сила Earth Spirit?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Drow Ranger?\n",
+        "text_ru": "Чему равна базовая сила Drow Ranger?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Dragon Knight?\n",
+        "text_ru": "Чему равна базовая сила Dragon Knight?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Doom?\n",
+        "text_ru": "Чему равна базовая сила Doom?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Disruptor?\n",
+        "text_ru": "Чему равна базовая сила Disruptor?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Death Prophet?\n",
+        "text_ru": "Чему равна базовая сила Death Prophet?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Dazzle?\n",
+        "text_ru": "Чему равна базовая сила Dazzle?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Dark Seer?\n",
+        "text_ru": "Чему равна базовая сила Dark Seer?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Crystal Maiden?\n",
+        "text_ru": "Чему равна базовая сила Crystal Maiden?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Clockwerk?\n",
+        "text_ru": "Чему равна базовая сила Clockwerk?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Clinkz?\n",
+        "text_ru": "Чему равна базовая сила Clinkz?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Chen?\n",
+        "text_ru": "Чему равна базовая сила Chen?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Chaos Knight?\n",
+        "text_ru": "Чему равна базовая сила Chaos Knight?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Centaur Warrunner?\n",
+        "text_ru": "Чему равна базовая сила Centaur Warrunner?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Broodmother?\n",
+        "text_ru": "Чему равна базовая сила Broodmother?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Bristleback?\n",
+        "text_ru": "Чему равна базовая сила Bristleback?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Brewmaster?\n",
+        "text_ru": "Чему равна базовая сила Brewmaster?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Bounty Hunter?\n",
+        "text_ru": "Чему равна базовая сила Bounty Hunter?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Bloodseeker?\n",
+        "text_ru": "Чему равна базовая сила Bloodseeker?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Beastmaster?\n",
+        "text_ru": "Чему равна базовая сила Beastmaster?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Batrider?\n",
+        "text_ru": "Чему равна базовая сила Batrider?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Bane?\n",
+        "text_ru": "Чему равна базовая сила Bane?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Axe?\n",
+        "text_ru": "Чему равна базовая сила Axe?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Arc Warden?\n",
+        "text_ru": "Чему равна базовая сила Arc Warden?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Antimage?\n",
+        "text_ru": "Чему равна базовая сила Antimage?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Ancient Apparation?\n",
+        "text_ru": "Чему равна базовая сила Ancient Apparation?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Alchemist?\n",
+        "text_ru": "Чему равна базовая сила Alchemist?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            },
+            {
+                "is_correct": "true",
+                "text_en": "",
+                "text_ru": ""
+            }
+        ],
+        "approved": "false",
+        "image_name": "",
+        "text_en": "What is a base strength of the Abaddon?\n",
+        "text_ru": "Чему равна базовая сила Abaddon?\n",
+        "theme": {
+            "id": 0,
+            "name": ""
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
                 "text_en": "110/160/210/260",
                 "text_ru": "110/160/210/260"
             },

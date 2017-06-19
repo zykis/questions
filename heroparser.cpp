@@ -23,7 +23,12 @@ QList<Hero> HeroParser::parse(QString heroesFilePath)
   QByteArray ba = jsonFile.readAll();
   jsonFile.close();
 
-  QJsonDocument document = QJsonDocument::fromJson(ba);
+  QJsonParseError error;
+  QJsonDocument document = QJsonDocument::fromJson(ba, &error);
+  if (document.isNull())
+  {
+    qDebug() << "heroes.json parse error: " << error.errorString();
+  }
   for (auto qObj: document.array())
   {
     QJsonObject obj = qObj.toObject();

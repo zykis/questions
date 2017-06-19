@@ -3,7 +3,6 @@
 
 #include <QSortFilterProxyModel>
 
-
 class ProxyModel: public QSortFilterProxyModel
 {
   Q_OBJECT
@@ -20,6 +19,7 @@ class ProxyModel: public QSortFilterProxyModel
     Q_INVOKABLE void setThemeName(QString themeName);
     Q_INVOKABLE int count() const;
     Q_INVOKABLE QVariantMap get(int row) const;
+//    Q_INVOKABLE void add(QVariantMap q);
 
 public slots:
     void set(int row, const QVariantMap &value);

@@ -241,7 +241,7 @@
     },
     {
         "name":"Night Stalker", "str": 23, "str_per_level": 3.1, "agi": 18, "agi_per_level": 2.25, "int": 16, "int_per_level": 1.6,
-        "movement_speed": 295, "armor": 5s.57, "melee": true, "attack_range": 150
+        "movement_speed": 295, "armor": 5.57, "melee": true, "attack_range": 150
     },
     {
         "name":"Nyx Assassin", "str": 18, "str_per_level": 2.3, "agi": 19, "agi_per_level": 2.2, "int": 18, "int_per_level": 2.1,
@@ -450,5 +450,5 @@
     {
         "name":"Zeus", "str": 19, "str_per_level": 2.6, "agi": 11, "agi_per_level": 1.2, "int": 22, "int_per_level": 2.7,
         "movement_speed": 300, "armor": 1.57, "melee": false, "attack_range": 350
-    },
+    }
 ]

@@ -132,7 +132,7 @@ QVariantList TemplateManager::generateQuestionsFromTemplate(QVariantMap tmp)
   QString key = propertyName.split('.').at(1);
 
   if (propertyName.split('.').first() == "hero") {
-    QList<Hero> heroes = HeroParser::parse("heroes.json");
+    QList<Hero> heroes = HeroParser::parse(":/heroes.json");
     for (Hero h: heroes) {
       Question q;
       Question t = temp;
