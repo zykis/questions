@@ -1,7 +1,56 @@
 [
     {
         "name":"Abaddon", "str": 23, "str_per_level": 2.6, "agi": 17, "agi_per_level": 1.5, "int": 21, "int_per_level": 2,
-        "movement_speed": 310, "armor": 1.43, "melee": true, "attack_range": 150
+        "movement_speed": 310, "armor": 1.43, "melee": true, "attack_range": 150,
+        "abilities": [
+          {
+            "name": "Mist Coild",
+            "target": "unit",
+
+            "cooldowns": [4.5],
+            "mana": [50, 60, 70, 80],
+
+            "effects": [
+              {
+                "type": "damage",
+                "damage_type": "magical",
+                "blocked_by_linken": true,
+                "blocked_by_bkb": true,
+                "values": [100, 150, 200, 250]
+              },
+              {
+                "type": "hp_removal",
+                "damage_type": "pure",
+                "blocked_by_linken": false,
+                "blocked_by_bkb": false,
+                "values": [100, 150, 200, 250]
+              }
+            ]
+          },
+          {
+            "name": "Aphotic Shield",
+            "target": "unit",
+
+            "cooldowns": [12, 10, 8, 6],
+            "mana": [115],
+
+            "effects": [
+              {
+                "type": "damage",
+                "damage_type": "magical",
+                "blocked_by_linken": true,
+                "blocked_by_bkb": false,
+                "values": [110, 140, 170, 200]
+              },
+              {
+                "type": "shield",
+                "blocked_by_linken": false,
+                "blocked_by_bkb": false,
+                "values": [110, 140, 170, 200]
+              }
+            ]
+          }
+        ]
     },
     {
         "name":"Alchemist", "str": 25, "str_per_level": 2.1, "agi": 11, "agi_per_level": 1.2, "int": 25, "int_per_level": 1.8,

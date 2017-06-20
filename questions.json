@@ -2,41 +2,14 @@
     {
         "answers": [
             {
+                "is_correct": "false",
+                "text_en": "Yes",
+                "text_ru": "Да"
+            },
+            {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": "110/160/210/260"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "120/170/250/310"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "90/110/130/150"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "130/180/230/280"
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Zeus?\n",
-        "text_ru": "Урон способности Fissure (Earth Shaker) на 1/2/3/4 уровне прокачки равен соответственно:",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
                 "is_correct": "false",
@@ -47,24 +20,29 @@
                 "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Wraith King?\n",
-        "text_ru": "Чему равна базовая сила Wraith King?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Can fountain restore HP to hero, affected by Ice Blast's (Ancient Apparation) debuff?",
+        "text_ru": "Может ли фонтан восстанавливать здоровью герою, находящемуся под действием дебаффа от Ice Blast (Ancient Apparation)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 2,
+            "name": "tournaments"
         }
     },
     {
         "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "Yes",
+                "text_ru": "Да"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
+            },
             {
                 "is_correct": "false",
                 "text_en": "",
@@ -74,6 +52,28 @@
                 "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
+            }
+        ],
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Can Terrorblade, affected by Ice Blast (Ancient Apparation) effectively apply Sunder?",
+        "text_ru": "Может ли эффективно быть применена способность Sunder (Terrorblade) под действием дебаффа от Ice Blast (Ancient Apparation)?",
+        "theme": {
+            "id": 2,
+            "name": "tournaments"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "Yes",
+                "text_ru": "Да"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
                 "is_correct": "false",
@@ -81,3538 +81,1522 @@
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Witch Doctor?\n",
-        "text_ru": "Чему равна базовая сила Witch Doctor?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Winter Wyvern?\n",
-        "text_ru": "Чему равна базовая сила Winter Wyvern?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Windranger?\n",
-        "text_ru": "Чему равна базовая сила Windranger?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Weaver?\n",
-        "text_ru": "Чему равна базовая сила Weaver?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Warlock?\n",
-        "text_ru": "Чему равна базовая сила Warlock?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Visage?\n",
-        "text_ru": "Чему равна базовая сила Visage?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Viper?\n",
-        "text_ru": "Чему равна базовая сила Viper?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Venomancer?\n",
-        "text_ru": "Чему равна базовая сила Venomancer?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Vengeful Spirit?\n",
-        "text_ru": "Чему равна базовая сила Vengeful Spirit?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Ursa?\n",
-        "text_ru": "Чему равна базовая сила Ursa?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Undying?\n",
-        "text_ru": "Чему равна базовая сила Undying?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Underlord?\n",
-        "text_ru": "Чему равна базовая сила Underlord?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Tusk?\n",
-        "text_ru": "Чему равна базовая сила Tusk?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Troll Warlord?\n",
-        "text_ru": "Чему равна базовая сила Troll Warlord?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Treant Protector?\n",
-        "text_ru": "Чему равна базовая сила Treant Protector?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Tiny?\n",
-        "text_ru": "Чему равна базовая сила Tiny?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Tinker?\n",
-        "text_ru": "Чему равна базовая сила Tinker?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Timbersaw?\n",
-        "text_ru": "Чему равна базовая сила Timbersaw?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Tidehunter?\n",
-        "text_ru": "Чему равна базовая сила Tidehunter?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Terrorblade?\n",
-        "text_ru": "Чему равна базовая сила Terrorblade?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Templar Assassin?\n",
-        "text_ru": "Чему равна базовая сила Templar Assassin?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Techies?\n",
-        "text_ru": "Чему равна базовая сила Techies?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Sven?\n",
-        "text_ru": "Чему равна базовая сила Sven?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Storm Spirit?\n",
-        "text_ru": "Чему равна базовая сила Storm Spirit?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Spirit Breaker?\n",
-        "text_ru": "Чему равна базовая сила Spirit Breaker?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Spectre?\n",
-        "text_ru": "Чему равна базовая сила Spectre?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Sniper?\n",
-        "text_ru": "Чему равна базовая сила Sniper?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Slark?\n",
-        "text_ru": "Чему равна базовая сила Slark?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Sladar?\n",
-        "text_ru": "Чему равна базовая сила Sladar?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Skywrath Mage?\n",
-        "text_ru": "Чему равна базовая сила Skywrath Mage?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Silencer?\n",
-        "text_ru": "Чему равна базовая сила Silencer?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Shadow Shaman?\n",
-        "text_ru": "Чему равна базовая сила Shadow Shaman?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Shadow Fiend?\n",
-        "text_ru": "Чему равна базовая сила Shadow Fiend?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Shadow Demon?\n",
-        "text_ru": "Чему равна базовая сила Shadow Demon?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Sand King?\n",
-        "text_ru": "Чему равна базовая сила Sand King?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Rubic?\n",
-        "text_ru": "Чему равна базовая сила Rubic?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Riki?\n",
-        "text_ru": "Чему равна базовая сила Riki?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Razor?\n",
-        "text_ru": "Чему равна базовая сила Razor?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Queen of Pain?\n",
-        "text_ru": "Чему равна базовая сила Queen of Pain?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Pugna?\n",
-        "text_ru": "Чему равна базовая сила Pugna?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Pudge?\n",
-        "text_ru": "Чему равна базовая сила Pudge?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Puck?\n",
-        "text_ru": "Чему равна базовая сила Puck?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Phoenix?\n",
-        "text_ru": "Чему равна базовая сила Phoenix?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Phantom Lancer?\n",
-        "text_ru": "Чему равна базовая сила Phantom Lancer?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Phantom Assassin?\n",
-        "text_ru": "Чему равна базовая сила Phantom Assassin?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Outworld Devourer?\n",
-        "text_ru": "Чему равна базовая сила Outworld Devourer?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Oracle?\n",
-        "text_ru": "Чему равна базовая сила Oracle?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Omniknight?\n",
-        "text_ru": "Чему равна базовая сила Omniknight?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Ogre Magi?\n",
-        "text_ru": "Чему равна базовая сила Ogre Magi?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Nyx Assassin?\n",
-        "text_ru": "Чему равна базовая сила Nyx Assassin?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Night Stalker?\n",
-        "text_ru": "Чему равна базовая сила Night Stalker?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Necrophos?\n",
-        "text_ru": "Чему равна базовая сила Necrophos?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Nature Prophet?\n",
-        "text_ru": "Чему равна базовая сила Nature Prophet?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Naga Siren?\n",
-        "text_ru": "Чему равна базовая сила Naga Siren?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Morphling?\n",
-        "text_ru": "Чему равна базовая сила Morphling?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Monkey King?\n",
-        "text_ru": "Чему равна базовая сила Monkey King?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Mirana?\n",
-        "text_ru": "Чему равна базовая сила Mirana?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Meepo?\n",
-        "text_ru": "Чему равна базовая сила Meepo?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Medusa?\n",
-        "text_ru": "Чему равна базовая сила Medusa?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Magnus?\n",
-        "text_ru": "Чему равна базовая сила Magnus?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Lycan?\n",
-        "text_ru": "Чему равна базовая сила Lycan?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Luna?\n",
-        "text_ru": "Чему равна базовая сила Luna?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Lone Druid?\n",
-        "text_ru": "Чему равна базовая сила Lone Druid?\n",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
-            },
-            {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Lion?\n",
-        "text_ru": "Чему равна базовая сила Lion?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Can the destination of Ice Blast (Ancient Apparation) be spotted by an enemy, owning a Gem of True Sight?",
+        "text_ru": "Может ли конечная точка способности Ice Blast (Ancient Apparation) быть замечена противником при наличии у него Gem of True Sight?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 2,
+            "name": "tournaments"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Lina?\n",
-        "text_ru": "Чему равна базовая сила Lina?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Can Black King Bar defend you against instant death, caused by Ice Blast (Ancient Apparation)?",
+        "text_ru": "Может ли Black King Bar защитить от мгновенной смерти от способности Ice Blast (Ancient Apparation)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 3,
+            "name": "mechanics"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "8/9/10",
+                "text_ru": "8/9/10"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "10/11/12",
+                "text_ru": "10/11/12"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5/6/7",
+                "text_ru": "5/6/7"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "17",
+                "text_ru": "17"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Lifestealer?\n",
-        "text_ru": "Чему равна базовая сила Lifestealer?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Duration of Ice Blast's (Ancient Apparation) debuff on 1/2/3 level, owning an Aghanim Scepter:",
+        "text_ru": "Длительность дебаффа способности Ice Blast (Ancient Apparation) на 1/2/3 уровнях прокачки при наличии Aghanim Sceptre:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 3,
+            "name": "mechanics"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "8/9/10",
+                "text_ru": "8/9/10"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "10/11/12",
+                "text_ru": "10/11/12"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5/6/7",
+                "text_ru": "5/6/7"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "8",
+                "text_ru": "8"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Lich?\n",
-        "text_ru": "Чему равна базовая сила Lich?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Duration of Ice Blast's (Ancient Apparation) debuff on 1/2/3/ level:",
+        "text_ru": "Длительность дебаффа способности Ice Blast (Ancient Apparation) на 1/2/3 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 3,
+            "name": "mechanics"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "250/350/450",
+                "text_ru": "250/350/450"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "100/150/200",
+                "text_ru": "100/150/200"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "30/60/90",
+                "text_ru": "30/60/90"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "200/220/240",
+                "text_ru": "200/220/240"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Leshrac?\n",
-        "text_ru": "Чему равна базовая сила Leshrac?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Starting damage, caused by Ice Blast (Ancient Apparation) on 1/2/3 levels:",
+        "text_ru": "Начальный урон от способности Ice Blast (Ancient Apparation) на 1/2/3 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "10%/11%/12%",
+                "text_ru": "10%/11%/12%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "12%/14%/16%",
+                "text_ru": "12%/14%/16%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5%/6%/7%",
+                "text_ru": "5%/6%/7%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "9%",
+                "text_ru": "9%"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Legion Commander?\n",
-        "text_ru": "Чему равна базовая сила Legion Commander?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Threshhold of death from Ice Blast (Ancient Apparation) on 1/2/3 levels:",
+        "text_ru": "Порог здоровья для смерти от Ice Blast (Ancient Apparation) на 1/2/3 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "12.5/20/32",
+                "text_ru": "12.5/20/32"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5/10/15",
+                "text_ru": "5/10/15"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "4/6/8",
+                "text_ru": "4/6/8"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "25/50/75",
+                "text_ru": "25/50/75"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Kunkka?\n",
-        "text_ru": "Чему равна базовая сила Kunkka?\n",
+        "approved": "true",
+        "image_name": "AA_IceBlast.png",
+        "text_en": "Periodic damage, caused by Ice Blast (Ancient Apparation) on 1/2/3 levels:",
+        "text_ru": "Периодический урон от способности Ice Blast (Ancient Apparation) на 1/2/3 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "With help of Black King Bar",
+                "text_ru": "С помощью Black King Bar"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "By clicking on buff icon",
+                "text_ru": "Кликом по иконке бафа"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Can not be removed",
+                "text_ru": "Нельзя убрать"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Keeper of the Light?\n",
-        "text_ru": "Чему равна базовая сила Keeper of the Light?\n",
+        "approved": "true",
+        "image_name": "AA_ChillingTouch.png",
+        "text_en": "How can you remove Chilling Touch (Ancient Apparation) buff from yourself?",
+        "text_ru": "Как можно убрать с себя бафф от Chilling Touch (Ancient Apparation)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "5400",
+                "text_ru": "5400"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "320",
+                "text_ru": "320"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "400",
+                "text_ru": "400"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "1200",
+                "text_ru": "1200"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Juggernaut?\n",
-        "text_ru": "Чему равна базовая сила Juggernaut?\n",
+        "approved": "true",
+        "image_name": "AA_ChillingTouch.png",
+        "text_en": "Maximum total amount of additional damage, that can be dealt with Chilling Touch (Ancient Apparation) before reductions?",
+        "text_ru": "Максимальное количество дополнительного урона, которое может быть нанесено с помощью Chilling Touch (до рассчётов брони)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Jakiro?\n",
-        "text_ru": "Чему равна базовая сила Jakiro?\n",
+        "approved": "true",
+        "image_name": "AA_ChillingTouch.png",
+        "text_en": "If buff from Chilling Touch applied on Ancient Apparation, if cast zone was outside him?",
+        "text_ru": "Применяется ли модификатор атаки от Chilling Touch на самого Ancient Apparation, если он находился вне зоны каста?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Io?\n",
-        "text_ru": "Чему равна базовая сила Io?\n",
+        "approved": "true",
+        "image_name": "AA_ChillingTouch.png",
+        "text_en": "Does Chilling Touch (Ancient Apparation) applied to all Meepos?",
+        "text_ru": "Применяется ли модификатор атаки от Chilling Touch (Ancient Apparation) для всех клонов Meepo?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Invoker?\n",
-        "text_ru": "Чему равна базовая сила Invoker?\n",
+        "approved": "true",
+        "image_name": "AA_ChillingTouch.png",
+        "text_en": "Can damage by Chilling Touch's buff (Ancient Apparation) be blocked with Black King Bar?",
+        "text_ru": "Может ли урон от от способности Chilling Touch (Ancient Apparation) быть заблокирован с помощью Black King Bar?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Huskar?\n",
-        "text_ru": "Чему равна базовая сила Huskar?\n",
+        "approved": "true",
+        "image_name": "AA_IceVortex.png",
+        "text_en": "Does Ice Vortex increase movement speed of Ancient Apparation, when he runs through it?",
+        "text_ru": "Увеличивает ли скорость передвижения Ice Vortex для самого Ancient Apparation, когда он проходит через него?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "15%/20%/25%/30%",
+                "text_ru": "15%/20%/25%/30%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5%/10%/15%/20%",
+                "text_ru": "5%/10%/15%/20%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "3%/6%/9%/12%",
+                "text_ru": "3%/6%/9%/12%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "12%",
+                "text_ru": "12%"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Gyrocopter?\n",
-        "text_ru": "Чему равна базовая сила Gyrocopter?\n",
+        "approved": "true",
+        "image_name": "AA_IceVortex.png",
+        "text_en": "Movement speed removal, caused by Ice Vortex (Ancient Apparation) on 1/2/3/4 levels:",
+        "text_ru": "Уменьшение скорости передвижения от Ice Vortex (Ancient Apparation) на 1/2/3/4 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "15%/20%/25%/30% ",
+                "text_ru": "15%/20%/25%/30% "
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5%/10%/15%/20%",
+                "text_ru": "5%/10%/15%/20%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "3%/6%/9%/12%",
+                "text_ru": "3%/6%/9%/12%"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "12%",
+                "text_ru": "12%"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Faceless Void?\n",
-        "text_ru": "Чему равна базовая сила Faceless Void?\n",
+        "approved": "true",
+        "image_name": "AA_IceVortex.png",
+        "text_en": "Reduce rating of magic armor, caused by Ice Vortex (Ancient Apparation) on 1/2/3/4 levels:",
+        "text_ru": "Уменьшение магической защиты от Ice Vortex (Ancient Apparation) на 1/2/3/4 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "1700",
+                "text_ru": "1700"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "600",
+                "text_ru": "600"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "400",
+                "text_ru": "400"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "900",
+                "text_ru": "900"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Enigma?\n",
-        "text_ru": "Чему равна базовая сила Enigma?\n",
+        "approved": "true",
+        "image_name": "AA_IceVortex.png",
+        "text_en": "What is a range of Ice Vortex (Ancient Apparation)?",
+        "text_ru": "Чему равна дальность применения способности Ice Vortex (Ancient Apparation)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Enchantress?\n",
-        "text_ru": "Чему равна базовая сила Enchantress?\n",
+        "approved": "true",
+        "image_name": "AA_IceVortex.png",
+        "text_en": "Обеспечивает ли вижн Ice Vortex (Ancient Apparation)?",
+        "text_ru": "Does Ice Vortex (Ancient Apparation) provides ground vision?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Ember Spirit?\n",
-        "text_ru": "Чему равна базовая сила Ember Spirit?\n",
+        "approved": "true",
+        "image_name": "AA_IceVortex.png",
+        "text_en": "Can Ice Vortex (Ancient Apparation) be DISSPELED with a help of Black King Bar?",
+        "text_ru": "Можно ли развеять Ice Vortex (Ancient Apparation) с помощью Black King Bar?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "30/50/70/90 (un. per second)",
+                "text_ru": "30/50/70/90 (ед. в секунду)"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "50 (un. per second)",
+                "text_ru": "50 (ед. в секунду)"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "10/20/30/40 (un. per second)",
+                "text_ru": "10/20/30/40 (ед. в секунду)"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "50/80/110/140 (un. per second)",
+                "text_ru": "50/80/110/140 (ед. в секунду)"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Elder Titan?\n",
-        "text_ru": "Чему равна базовая сила Elder Titan?\n",
+        "approved": "true",
+        "image_name": "AA_ColdFeet.png",
+        "text_en": "Damagem dealt by Cold Feet (Ancient Apparation) on 1/2/3/4 levels:",
+        "text_ru": "Урон, наносимый способностью Cold Feet (Ancient Apparation) на 1/2/3/4 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "4",
+                "text_ru": "4"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5",
+                "text_ru": "5"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "2",
+                "text_ru": "2"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "7",
+                "text_ru": "7"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Earthshaker?\n",
-        "text_ru": "Чему равна базовая сила Earthshaker?\n",
+        "approved": "true",
+        "image_name": "AA_ColdFeet.png",
+        "text_en": "Time in seconds, needed to avoid Cold Feet's stun (Ancient Apparation):",
+        "text_ru": "Время в секундах, необходимое для того, чтобы избежать применения стана от Cold Feet (Ancient Apparation):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "300",
+                "text_ru": "300"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "240",
+                "text_ru": "240"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "540",
+                "text_ru": "540"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "740",
+                "text_ru": "740"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Earth Spirit?\n",
-        "text_ru": "Чему равна базовая сила Earth Spirit?\n",
+        "approved": "true",
+        "image_name": "AA_ColdFeet.png",
+        "text_en": "Distance to avoid Cold Feet's stun (Ancient Apparation):",
+        "text_ru": "Дистанция, на которую нужно отойти, чтобы не получить стан от способности Cold Feet (Ancient Apparation):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "2/2.5/3/3.5",
+                "text_ru": "2/2.5/3/3.5"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "4/5/6/7",
+                "text_ru": "4/5/6/7"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "1/2/3/4",
+                "text_ru": "1/2/3/4"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "1.5/3/4.5/6",
+                "text_ru": "1.5/3/4.5/6"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Drow Ranger?\n",
-        "text_ru": "Чему равна базовая сила Drow Ranger?\n",
+        "approved": "true",
+        "image_name": "AA_ColdFeet.png",
+        "text_en": "Cold Feet's stun (Ancient Apparation) duration on 1/2/3/4 levels:",
+        "text_ru": "Длительность стана от способности Cold Feet (Ancient Apparation) на 1/2/3/4 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Increased duration of ultimate",
+                "text_ru": "Увеличение продолжительности ультимейта"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Increasing HP/MP regen",
+                "text_ru": "Увеличение ХП/МП регена"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Increasing attack speed",
+                "text_ru": "Увеличение скорости атаки"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Attributes of Aghanim's Sceptre",
+                "text_ru": "Аттрибуты от Aghanim Sceptre"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Dragon Knight?\n",
-        "text_ru": "Чему равна базовая сила Dragon Knight?\n",
+        "approved": "true",
+        "image_name": "Alchemist.png",
+        "text_en": "What gains Alchemist from using Aghanim's Sceptre on himself?",
+        "text_ru": "Что даёт Alchemist'у применение на себя Aghanim Sceptre?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Doom?\n",
-        "text_ru": "Чему равна базовая сила Doom?\n",
+        "approved": "true",
+        "image_name": "Alchemist.png",
+        "text_en": "Can Alchemist apply Aghanim's Sceptre on himself?",
+        "text_ru": "Может ли Alchemist применить на себя Aghanim Scepter?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Reliable",
+                "text_ru": "Надёжным"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Unreliable",
+                "text_ru": "Ненадёжным"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Disruptor?\n",
-        "text_ru": "Чему равна базовая сила Disruptor?\n",
+        "approved": "true",
+        "image_name": "Alchemist_Greevil'sGreed.png",
+        "text_en": "Gold, gained by Greevil's Greed (Alchemist) is:",
+        "text_ru": "Золото, добываемое способностью Greevil's Greed (Alchemist) является:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "30",
+                "text_ru": "30"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "40",
+                "text_ru": "40"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "60",
+                "text_ru": "60"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "10",
+                "text_ru": "10"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Death Prophet?\n",
-        "text_ru": "Чему равна базовая сила Death Prophet?\n",
+        "approved": "true",
+        "image_name": "Alchemist_Greevil'sGreed.png",
+        "text_en": "How much seconds should pass to drop stacks of Greevil's Greed (Alchemist)?",
+        "text_ru": "Через какое количество секунд спадает стаки способности Greevil's Greed (Alchemist)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Dazzle?\n",
-        "text_ru": "Чему равна базовая сила Dazzle?\n",
+        "approved": "true",
+        "image_name": "Alchemist_Greevil'sGreed.png",
+        "text_en": "Does Greevil's Greed (Alchemist) stacks?",
+        "text_ru": "Стакается ли способность Greevil's Greed (Alchemist)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "16/20/24/28",
+                "text_ru": "16/20/24/28"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "40/46/52/58",
+                "text_ru": "40/46/52/58"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "4/8/12/16",
+                "text_ru": "4/8/12/16"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "5/10/20/25",
+                "text_ru": "5/10/20/25"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Dark Seer?\n",
-        "text_ru": "Чему равна базовая сила Dark Seer?\n",
+        "approved": "true",
+        "image_name": "Alchemist_Greevil'sGreed.png",
+        "text_en": "Maximum additional gold, gained by Greevil's Greed (Alchemist) on 1/2/3/4 levels:",
+        "text_ru": "Максимальное дополнительное количество золота способности Greevil's Greed (Alchemist) на 1/2/3/4 уровне прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Crystal Maiden?\n",
-        "text_ru": "Чему равна базовая сила Crystal Maiden?\n",
+        "approved": "true",
+        "image_name": "Alchemist_UnstableConcoction.png",
+        "text_en": "Can Alchemist deny himself with Unstable Concoction?",
+        "text_ru": "Может ли Alchemist заденаиться с помощью Unstable Concoction?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "200",
+                "text_ru": "200"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "400",
+                "text_ru": "400"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "600",
+                "text_ru": "600"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "0",
+                "text_ru": "0"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Clockwerk?\n",
-        "text_ru": "Чему равна базовая сила Clockwerk?\n",
+        "approved": "true",
+        "image_name": "Alchemist_UnstableConcoction.png",
+        "text_en": "What is a radius of Unstable Concoction's explotion (Alchemist)?",
+        "text_ru": "Какой радиус разрыва у Unstable Concoction (Alchemist)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Clinkz?\n",
-        "text_ru": "Чему равна базовая сила Clinkz?\n",
+        "approved": "true",
+        "image_name": "Alchemist_UnstableConcoction.png",
+        "text_en": "Can enemies see a timer under Alchemist, while using Unstable Concoction?",
+        "text_ru": "Видят ли враги таймер над головой Alchemist во время раскручивания Unstable Concoction?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Physical",
+                "text_ru": "Физический"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Magical",
+                "text_ru": "Магический"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Pure",
+                "text_ru": "Чистый"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Chen?\n",
-        "text_ru": "Чему равна базовая сила Chen?\n",
+        "approved": "true",
+        "image_name": "Alchemist_UnstableConcoction.png",
+        "text_en": "Type of damage, dealt by Unstable Concoction (Alchemist):",
+        "text_ru": "Тип урона, наносимый способностью Unstable Concoction (Alchemist):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "4/5/6/7",
+                "text_ru": "4/5/6/7"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "7/8/9/10",
+                "text_ru": "7/8/9/10"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "2/5/8/11",
+                "text_ru": "2/5/8/11"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "8",
+                "text_ru": "8"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Chaos Knight?\n",
-        "text_ru": "Чему равна базовая сила Chaos Knight?\n",
+        "approved": "true",
+        "image_name": "Alchemist_AcidSpray.png",
+        "text_en": "Armor reduction, caused by Acid Spray (Alchemist) on 1/2/3/4 levels:",
+        "text_ru": "Снижение брони от Acid Spray (Alchemist) на 1/2/3/4 уровнях прокачки равно:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Physical",
+                "text_ru": "Физический"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Magical",
+                "text_ru": "Магический"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Pure",
+                "text_ru": "Чистый"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Centaur Warrunner?\n",
-        "text_ru": "Чему равна базовая сила Centaur Warrunner?\n",
+        "approved": "true",
+        "image_name": "Alchemist_AcidSpray.png",
+        "text_en": "Type of damage, dealt by Acid Spray (Alchemist):",
+        "text_ru": "Тип урона, наносимый способностью Acid Spray (Alchemist):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Broodmother?\n",
-        "text_ru": "Чему равна базовая сила Broodmother?\n",
+        "approved": "true",
+        "image_name": "Abaddon_BorrowedTime.png",
+        "text_en": "Can Abaddon be killed by Ice Blast's debuff (Ancient Apparation) during his ultimate?",
+        "text_ru": "Может ли Abaddon быть убит от дебаффа Ice Blast (Ancient Apparation) во время действия своего ультимейта?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Bristleback?\n",
-        "text_ru": "Чему равна базовая сила Bristleback?\n",
+        "approved": "true",
+        "image_name": "Abaddon_BorrowedTime.png",
+        "text_en": "Can Abaddon be killed during his ultimate by Culling Blade (Axe)?",
+        "text_ru": "Будет ли Abaddon c 1 ХП убит во время действия ультимейта, если на нём применён Culling Blade (Axe)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "400",
+                "text_ru": "400"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "600",
+                "text_ru": "600"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "800",
+                "text_ru": "800"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "200",
+                "text_ru": "200"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Brewmaster?\n",
-        "text_ru": "Чему равна базовая сила Brewmaster?\n",
+        "approved": "true",
+        "image_name": "Abaddon_BorrowedTime.png",
+        "text_en": "What is HP threshold of Abaddon's ultimate?",
+        "text_ru": "Каков порог срабатывания ХП ультимейта Abaddon?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Bounty Hunter?\n",
-        "text_ru": "Чему равна базовая сила Bounty Hunter?\n",
+        "approved": "true",
+        "image_name": "Abaddon_BorrowedTime.png",
+        "text_en": "Can Abaddon activate his utlimate under Axe's taunt?",
+        "text_ru": "Может ли ультимейт Abaddon'a быть активирован при нахождении его под агром Axe?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Bloodseeker?\n",
-        "text_ru": "Чему равна базовая сила Bloodseeker?\n",
+        "approved": "true",
+        "image_name": "Abaddon_BorrowedTime.png",
+        "text_en": "Can Abaddon activate his ultimate, while under Eul's Scepter action?",
+        "text_ru": "Может ли ультимейт Abaddon'a быть активирован при нахождении его под действием Eul's Scepter?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Beastmaster?\n",
-        "text_ru": "Чему равна базовая сила Beastmaster?\n",
+        "approved": "true",
+        "image_name": "Abaddon_BorrowedTime.png",
+        "text_en": "Can Abaddon activate his ultimate, while in stun?",
+        "text_ru": "Может ли ультимейт Abaddon'a быть активирован при нахождении в стане?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Batrider?\n",
-        "text_ru": "Чему равна базовая сила Batrider?\n",
+        "approved": "true",
+        "image_name": "Abaddon_CurseOfAvernus.png",
+        "text_en": "Does Curse of Avernus'es debuff (Abaddon) applies on Towers?",
+        "text_ru": "Накладывается ли дебафф на вышки от пассивной способности Curse of Avernus (Abaddon)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Bane?\n",
-        "text_ru": "Чему равна базовая сила Bane?\n",
+        "approved": "true",
+        "image_name": "Abaddon_AphoticShield.png",
+        "text_en": "Can Aphotic Shield (Abaddon) be applied on an ally, while an ally is under Black King Bar?",
+        "text_ru": "Может ли накладываться Aphotic Shield на союзника, находящегося под действием Black King Bar?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Axe?\n",
-        "text_ru": "Чему равна базовая сила Axe?\n",
+        "approved": "true",
+        "image_name": "Abaddon_AphoticShield.png",
+        "text_en": "Does Aphotic Shield (Abaddon) deal damage to invisible targets?",
+        "text_ru": "Наносит ли урон способность Aphotic Shield (Abaddon) невидимым целям?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Arc Warden?\n",
-        "text_ru": "Чему равна базовая сила Arc Warden?\n",
+        "approved": "true",
+        "image_name": "Abaddon_MistCoil.png",
+        "text_en": "Can Abaddon deny himself with Mist Coil?",
+        "text_ru": "Может ли Abaddon заденаить себя с помощью способности Mist Coil?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Physical",
+                "text_ru": "Физический"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Magical",
+                "text_ru": "Магический"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Pure",
+                "text_ru": "Чистый"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Antimage?\n",
-        "text_ru": "Чему равна базовая сила Antimage?\n",
+        "approved": "true",
+        "image_name": "Abaddon_MistCoil.png",
+        "text_en": "What type of damage Abaddon deals to himself by using Mistic Coil?",
+        "text_ru": "Какой тип урона наносит способность Mist Coild самому Abaddon при касте?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Yes",
+                "text_ru": "Да"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "No",
+                "text_ru": "Нет"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Ancient Apparation?\n",
-        "text_ru": "Чему равна базовая сила Ancient Apparation?\n",
+        "approved": "true",
+        "image_name": "Abaddon_MistCoil.png",
+        "text_en": "Can Mist Coil (Abaddon) be dodged with a Blink Dagger?",
+        "text_ru": "Можно ли уклониться от способности Mist Coild (Abaddon) с помощью Blink Dagger?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Phisycal",
+                "text_ru": "Физический"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "Magical",
+                "text_ru": "Магический"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "Pure",
+                "text_ru": "Чистый"
             },
             {
-                "is_correct": "true",
+                "is_correct": "false",
                 "text_en": "",
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Alchemist?\n",
-        "text_ru": "Чему равна базовая сила Alchemist?\n",
+        "approved": "true",
+        "image_name": "Abaddon_MistCoil.png",
+        "text_en": "Type of damage dealt to an enemy by Mist Coil (Abaddon):",
+        "text_ru": "Тип урона, наносимый врагу способностью Mist Coil (Abaddon):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "text_en": "4.5",
+                "text_ru": "4.5"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "10/8/6/4",
+                "text_ru": "10/8/6/4"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "4.5/4/3.5/3",
+                "text_ru": "4.5/4/3.5/3"
             },
             {
-                "is_correct": "true",
-                "text_en": "",
-                "text_ru": ""
+                "is_correct": "false",
+                "text_en": "7/6/5/4",
+                "text_ru": "7/6/5/4"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "What is a base strength of the Abaddon?\n",
-        "text_ru": "Чему равна базовая сила Abaddon?\n",
+        "approved": "true",
+        "image_name": "Abaddon_MistCoil.png",
+        "text_en": "Mist Coil's cooldown (Abaddon) on 1/2/3/4 levels:",
+        "text_ru": "Кулдаун способности Mist Coil (Abaddon) на 1/2/3/4 уровнях прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
@@ -3638,94 +1622,94 @@
                 "text_ru": "130/180/230/280"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "Урон способности Fissure (Earth Shaker) на 1/2/3/4 уровне прокачки равен соответственно:",
-        "text_ru": "Урон способности Fissure (Earth Shaker) на 1/2/3/4 уровне прокачки равен соответственно:",
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "Damage, dealt by Fissure (Earth Shaker) on 1/2/3/4 levels:",
+        "text_ru": "Урон способности Fissure (Earth Shaker) на 1/2/3/4 уровне прокачки:",
         "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "15 сек"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "3 сек"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "20 сек"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "7 сек"
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
-        "text_ru": "Кулдаун способности Fissure (Earth Shaker) равен:",
-        "theme": {
-            "id": 0,
-            "name": ""
-        }
-    },
-    {
-        "answers": [
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "8 сек"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "3 сек"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "5 сек"
-            },
-            {
-                "is_correct": "false",
-                "text_en": "",
-                "text_ru": "12 сек"
-            }
-        ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
-        "text_ru": "Длительность борозды от Fissure (Earth Shaker) равна:",
-        "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
+                "text_en": "15",
+                "text_ru": "15"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "3",
+                "text_ru": "3"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "20",
+                "text_ru": "20"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "7",
+                "text_ru": "7"
+            }
+        ],
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "Fissure's cooldown (Earth Shaker):",
+        "text_ru": "Кулдаун способности Fissure (Earth Shaker):",
+        "theme": {
+            "id": 1,
+            "name": "heroes / items"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "8",
+                "text_ru": "8"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "3",
+                "text_ru": "3"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "5",
+                "text_ru": "5"
+            },
+            {
+                "is_correct": "false",
+                "text_en": "12",
+                "text_ru": "12"
+            }
+        ],
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "Длительность борозды от Fissure (Earth Shaker):\nDuration of Fissure's forrow (Earth Shaker):",
+        "text_ru": "Длительность борозды от Fissure (Earth Shaker) равна:",
+        "theme": {
+            "id": 1,
+            "name": "heroes / items"
+        }
+    },
+    {
+        "answers": [
+            {
+                "is_correct": "true",
+                "text_en": "Magical",
                 "text_ru": "Магический"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "Pure",
                 "text_ru": "Чистый"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "Physical",
                 "text_ru": "Физический"
             },
             {
@@ -3734,13 +1718,13 @@
                 "text_ru": ""
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "qwe",
-        "text_ru": "Тип урона, наносимый способностью Fissure (Earth Shaker)?",
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "Type of damage, dealt by Fissure (Earth Shaker) is:",
+        "text_ru": "Тип урона, наносимый способностью Fissure (Earth Shaker):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
@@ -3766,109 +1750,109 @@
                 "text_ru": "Barathrum"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "What of these heroes CAN'T pass fissure with their abilities?",
         "text_ru": "Какой из этих героев не сможет пройти борозду от Fissure (Earth Shaker) с помощью способностей?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
+                "text_en": "1350",
                 "text_ru": "1350"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "600",
                 "text_ru": "600"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "150",
                 "text_ru": "150"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "850",
                 "text_ru": "850"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
-        "text_ru": "Длина борозды Fissure (Earth Shaker) равна:",
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "Length of the Fissure (Earth Shaker) is:",
+        "text_ru": "Длина борозды Fissure (Earth Shaker):",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "true",
-                "text_en": "",
+                "text_en": "225",
                 "text_ru": "225"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "170",
                 "text_ru": "170"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "350",
                 "text_ru": "350"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "50",
                 "text_ru": "50"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "Width of Fissure's stun (Eath Shaker) is:",
         "text_ru": "Ширина стана от Fissure равна:",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     },
     {
         "answers": [
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "They will try to find a path around",
                 "text_ru": "Будут пытаться обойти"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
-                "text_ru": "Побегут в сторону фонтана"
+                "text_en": "They will run into ally fountain's direction",
+                "text_ru": "Побегут в сторону союзного фонтана"
             },
             {
                 "is_correct": "true",
-                "text_en": "",
+                "text_en": "Will stay still",
                 "text_ru": "Будут стоят на месте"
             },
             {
                 "is_correct": "false",
-                "text_en": "",
+                "text_en": "Will be denied",
                 "text_ru": "Заденаются"
             }
         ],
-        "approved": "false",
-        "image_name": "",
-        "text_en": "",
-        "text_ru": "Что произойдёт с линейными крипами при столкновении с бороздой от Fissure (Earth Shaker)?",
+        "approved": "true",
+        "image_name": "ES_Fissure.png",
+        "text_en": "What will happen to ally linear creeps, when they clash with Fissure (Earth Shaker)?",
+        "text_ru": "Что произойдёт с союзными линейными крипами при столкновении с бороздой от Fissure (Earth Shaker)?",
         "theme": {
-            "id": 0,
-            "name": ""
+            "id": 1,
+            "name": "heroes / items"
         }
     }
 ]

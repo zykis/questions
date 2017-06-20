@@ -35,6 +35,7 @@ struct Question
     vm["text_ru"] = textRu;
     vm["approved"] = approved;
     vm["theme"] = (QVariantMap)theme;
+    vm["image_name"] = imageName;
 
     QVariantList vl;
     for (Answer a: answers)
@@ -53,6 +54,7 @@ struct Question
     approved = vm["approved"].toBool();
     Theme t = vm["theme"].toMap();
     theme = t;
+    imageName = vm["image_name"].toString();
 
     answers.clear();
     for (QVariant vma: vm["answers"].toList()) {

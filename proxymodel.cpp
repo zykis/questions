@@ -102,3 +102,50 @@ void ProxyModel::set(int row, const QVariantMap &value)
 //  QModelIndex mi = index(row, 0);
   emit dataChanged(miProxy, miProxy);
 }
+
+void ProxyModel::remove(int row)
+{
+  if (row < 0)
+    return;
+
+  QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
+  QList<Question> questions = src->questions();
+
+  if (questions.count() > row)
+  {
+    beginRemoveRows(QModelIndex(), 0, row);
+    questions.removeAt(row);
+    src->setQuestions(questions);
+    endRemoveRows();
+  }
+
+}
+
+Question ProxyModel::sourceQuestion(int row)
+{
+  if (row < 0)
+    return QVariantMap();
+
+  QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
+  QList<Question> questions = src->questions();
+  QModelIndex miProxy = index(row, 0);
+  QModelIndex miSource = mapToSource(miProxy);
+  int sourceIndex = miSource.row();
+  Question q = questions.at(sourceIndex);
+  return q;
+}
+
+void ProxyModel::approve(int row)
+{
+  if (row < 0)
+    return;
+
+  QuestionQueryModel* src = qobject_cast<QuestionQueryModel*>(sourceModel());
+  QList<Question> questions = src->questions();
+  QModelIndex miProxy = index(row, 0);
+  QModelIndex miSource = mapToSource(miProxy);
+  int sourceIndex = miSource.row();
+  Question q = questions[sourceIndex];
+  q.approved = true;
+  src->setQuestion(&q, sourceIndex);
+}

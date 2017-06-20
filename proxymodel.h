@@ -3,6 +3,7 @@
 
 #include <QSortFilterProxyModel>
 
+class Question;
 class ProxyModel: public QSortFilterProxyModel
 {
   Q_OBJECT
@@ -20,12 +21,15 @@ class ProxyModel: public QSortFilterProxyModel
     Q_INVOKABLE int count() const;
     Q_INVOKABLE QVariantMap get(int row) const;
 //    Q_INVOKABLE void add(QVariantMap q);
+    Q_INVOKABLE void remove(int row);
+    Q_INVOKABLE void approve(int row);
 
 public slots:
     void set(int row, const QVariantMap &value);
 
   private:
     QString m_themeName;
+    Question sourceQuestion(int row);
 
   signals:
     void countChanged();

@@ -8,5 +8,33 @@
         <file>TemplatePage.qml</file>
         <file>QuestionItem.qml</file>
         <file>heroes.json</file>
+        <file>question_images/AA_ChillingTouch.png</file>
+        <file>question_images/AA_ColdFeet.png</file>
+        <file>question_images/AA_IceBlast.png</file>
+        <file>question_images/AA_IceVortex.png</file>
+        <file>question_images/Abaddon_AphoticShield.png</file>
+        <file>question_images/Abaddon_BorrowedTime.png</file>
+        <file>question_images/Abaddon_CurseOfAvernus.png</file>
+        <file>question_images/Abaddon_MistCoil.png</file>
+        <file>question_images/Alchemist_AcidSpray.png</file>
+        <file>question_images/Alchemist_ChemicalRage.png</file>
+        <file>question_images/Alchemist_Greevil'sGreed.png</file>
+        <file>question_images/Alchemist_UnstableConcoction.png</file>
+        <file>question_images/lore_child.jpg</file>
+        <file>question_images/lore_invoker_race.jpg</file>
+        <file>question_images/lore_treant.jpg</file>
+        <file>question_images/mechanics_bara_cogs.jpg</file>
+        <file>question_images/mechanics_sacred_arrow.jpg</file>
+        <file>question_images/mechanics_storm_chronosphere.jpg</file>
+        <file>question_images/tournaments_TI1_grandfinal_qualification.jpg</file>
+        <file>question_images/tournaments_TI1_winner.jpg</file>
+        <file>question_images/tournaments_TI2015_prizepool.jpg</file>
+        <file>question_images/Item_Aghanim'sScepter.png</file>
+        <file>question_images/Alchemist.png</file>
+        <file>question_images/ES_Aftershock.png</file>
+        <file>question_images/ES_EchoSlam.png</file>
+        <file>question_images/ES_EnchantTotem.png</file>
+        <file>question_images/ES_Fissure.png</file>
+        <file>question_images/ES.png</file>
     </qresource>
 </RCC>

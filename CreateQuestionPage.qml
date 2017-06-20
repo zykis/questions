@@ -30,7 +30,7 @@ Item {
       return "Текст вопроса - пуст"
     }
 
-    if (questionItem.answer1.text === "" || answer2.text === "") {
+    if (questionItem.answer1.text === "" || questionItem.answer2.text === "") {
       return "Должно быть минимум 2 ответа"
     }
 
@@ -56,8 +56,10 @@ Item {
   }
 
   function updateQuestionFromUI(row) {
-    var q = proxyModel.get(row)
+    if (row === -1)
+      return
 
+    var q = proxyModel.get(row)
 
     // 0 - EN, 1 - RU
     var lang = questionItem.combo_languages.oldIndex
@@ -251,7 +253,7 @@ Item {
       anchors.fill: parent
       fillMode: Image.PreserveAspectFit
       asynchronous: true
-      visible: false
+      visible: true
     }
   }
 
@@ -276,7 +278,7 @@ Item {
             messageDialog.open()
           }
           else {
-            questionModel.approve(panel.currentIndex)
+            proxyModel.approve(panel.currentIndex)
           }
         }
       }
@@ -306,7 +308,8 @@ Item {
     height: 600
     nameFilters: [ "Image files (*.jpg *.png)" ]
     onAccepted: {
-      pathText.text = fileUrl
+      console.log("path: ", fileUrl)
+      questionItem.pathText.text = fileUrl
     }
   }
 
@@ -377,22 +380,22 @@ Item {
 
           Keys.onDeletePressed: {
             if (panel.currentIndex >= 0) {
-              questionModel.remove(panel.currentIndex)
+              proxyModel.remove(panel.currentIndex)
               panel.currentIndex = -1
-              if (questionModel.count > 0)
+              if (proxyModel.count > 0)
                 panel.currentIndex = 0
             }
           }
 
           Image {
             id: invisibleImage
-            source: image_name !== ""? settings.questionsFolder + image_name: ""
+            source: image_name !== ""? "qrc:///question_images/" + image_name: ""
             visible: false
           }
 
           Image {
             id: iconExists
-            source: invisibleImage.status === Image.Ready? "qrc:///icon.svg": "qrc:///icon_black.svg"
+            source: invisibleImage.status === Image.Ready? invisibleImage.source: "qrc:///icon_black.svg"
             visible: image_name
             sourceSize.width: 36
             sourceSize.height: 36
