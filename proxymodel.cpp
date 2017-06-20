@@ -78,7 +78,7 @@ void ProxyModel::set(int row, const QVariantMap &value)
   q.textRu = value.value("text_ru").toString();
   q.approved = value.value("approved").toString() == "true"? true: false;
   q.imageName = value.value("image_name").toString();
-  q.theme.textEn = value.value("theme").toString();
+  q.theme = (Theme)value.value("theme").toMap();
   q.answers.clear();
 
   QList<QVariant> rawAnswers = value.value("answers").toList();

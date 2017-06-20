@@ -36,24 +36,31 @@ Rectangle {
     questionItem.answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
     questionItem.answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
 
-    if (question.theme.text_en === "heroes / items")
-      questionItem.combo_themes.currentIndex = 1
-    else if (question.theme.text_en === "tournaments")
-      questionItem.combo_themes.currentIndex = 2
-    else if (question.theme.text_en === "mechanics")
-      questionItem.combo_themes.currentIndex = 3
-    else
-      questionItem.combo_themes.currentIndex = 0
+    console.log("updateUIFromQuestion theme: ", question.theme)
+    console.log("updateUIFromQuestion theme.id: ", question.theme.id)
+    switch (question.theme.id)
+    {
+      case 1:
+        questionItem.combo_themes.currentIndex = 1
+        break;
+      case 2:
+        questionItem.combo_themes.currentIndex = 2
+        break;
+      case 3:
+        questionItem.combo_themes.currentIndex = 3
+        break;
+      default:
+        questionItem.combo_themes.currentIndex = 0
+        break;
+    }
 
     if (question.image_name)
     {
       pathText.text = settings.questionsFolder + question.image_name
-//      image.source = pathText.text
     }
     else
     {
       questionItem.pathText.text = ""
-//      image.source = ""
     }
   }
 
@@ -219,15 +226,14 @@ Rectangle {
         anchors.right: parent.horizontalCenter
         anchors.rightMargin: 8
         width: 180
+        currentIndex: -1
 
-        Component.onCompleted: {
-          var m = []
-          m.push("All themes")
-          for (var i in questionModel.getThemesNames()) {
-            m.push(questionModel.getThemesNames()[i])
-          }
-          comboBoxThemes.model = m
-        }
+        model: [
+          "All themes",
+          "Items / Heroes",
+          "Tournaments",
+          "Mechanics"
+        ]
 
         Text {
           anchors.right: parent.left

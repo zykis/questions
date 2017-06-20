@@ -84,7 +84,11 @@ void QuestionQueryModel::fromJSON(QString filePath)
     QJsonObject obj = qObj.toObject();
     Question q;
     QJsonObject themeObject = obj.value("theme").toObject();
-    q.theme.textEn = themeObject.value("name").toString();
+    Theme theme;
+
+    theme.id = themeObject.value("id").toInt();
+    theme.textEn = themeObject.value("text_en").toString();
+    q.theme = theme;
     q.imageName = obj.value("image_name").toString();
     q.textEn = obj.value("text_en").toString();
     q.textRu = obj.value("text_ru").toString();
@@ -132,7 +136,7 @@ QString QuestionQueryModel::toJSON()
   {
     QJsonObject questionObject;
     QJsonObject themeObject;
-    themeObject["name"] = q.theme.textEn;
+    themeObject["text_en"] = q.theme.textEn;
     themeObject["id"] = q.theme.id;
     questionObject["theme"] = themeObject;
     questionObject["image_name"] = q.imageName;

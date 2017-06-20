@@ -119,22 +119,29 @@ Item {
 
     q.approved = proxyModel.get(row).approved
     q.image_name = questionItem.pathText.text.substring(questionItem.pathText.text.lastIndexOf('/') + 1)
+
+    var theme = {}
     switch (questionItem.combo_themes.currentIndex)
     {
-    case 0:
-      break;
     case 1:
-      q.theme = "heroes / items"
+      theme.id = 1
+      theme.text_en = "heroes / items"
       break;
     case 2:
-      q.theme = "tournaments"
+      theme.id = 2
+      theme.text_en = "tournaments"
       break;
     case 3:
-      q.theme = "mechanics"
+      theme.id = 3
+      theme.text_en = "mechanics"
       break;
     default:
+      theme.id = 0
       break;
     }
+
+    console.log("updateQuestionFromUI theme.id: ", theme.id)
+    q.theme = theme
 
     proxyModel.set(row, q)
     return q
