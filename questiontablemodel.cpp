@@ -45,7 +45,7 @@ QVariant QuestionQueryModel::data(const QModelIndex &idx, int role) const
     case ROLE_APPROVED:
       return question.approved;
     case ROLE_THEME_NAME:
-      return question.theme.textEn;
+      return question.theme.name;
     case ROLE_THEME_ID:
       return question.theme.id;
     default:
@@ -87,7 +87,7 @@ void QuestionQueryModel::fromJSON(QString filePath)
     Theme theme;
 
     theme.id = themeObject.value("id").toInt();
-    theme.textEn = themeObject.value("text_en").toString();
+    theme.name = themeObject.value("name").toString();
     q.theme = theme;
     q.imageName = obj.value("image_name").toString();
     q.textEn = obj.value("text_en").toString();
@@ -136,8 +136,8 @@ QString QuestionQueryModel::toJSON()
   {
     QJsonObject questionObject;
     QJsonObject themeObject;
-    themeObject["text_en"] = q.theme.textEn;
     themeObject["id"] = q.theme.id;
+    themeObject["name"] = q.theme.name;
     questionObject["theme"] = themeObject;
     questionObject["image_name"] = q.imageName;
     questionObject["text_en"] = q.textEn;
@@ -212,7 +212,7 @@ void QuestionQueryModel::set(int row, const QVariantMap &value)
   q.textRu = value.value("text_ru").toString();
   q.approved = value.value("approved").toString() == "true"? true: false;
   q.imageName = value.value("image_name").toString();
-  q.theme.textEn = value.value("theme").toString();
+  q.theme = value.value("theme").toMap();
   q.answers.clear();
 
   QList<QVariant> rawAnswers = value.value("answers").toList();

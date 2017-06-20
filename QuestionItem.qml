@@ -36,8 +36,6 @@ Rectangle {
     questionItem.answer3CorrectRadio.checked = question.answers[2] !== undefined? question.answers[2].is_correct? true: false: false
     questionItem.answer4CorrectRadio.checked = question.answers[3] !== undefined? question.answers[3].is_correct? true: false: false
 
-    console.log("updateUIFromQuestion theme: ", question.theme)
-    console.log("updateUIFromQuestion theme.id: ", question.theme.id)
     switch (question.theme.id)
     {
       case 1:
@@ -229,10 +227,10 @@ Rectangle {
         currentIndex: -1
 
         model: [
-          "All themes",
-          "Items / Heroes",
-          "Tournaments",
-          "Mechanics"
+          "all themes",
+          "heroes / items",
+          "tournaments",
+          "mechanics"
         ]
 
         Text {

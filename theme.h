@@ -5,15 +5,13 @@
 
 struct Theme {
   int id;
-  QString textEn;
-  QString textRu;
+  QString name;
 
   operator QVariantMap()
   {
     QVariantMap vm;
-    vm.insert("text_en", textEn);
-    vm.insert("text_ru", textRu);
     vm.insert("id", id);
+    vm.insert("name", name);
     return vm;
   }
 
@@ -22,8 +20,7 @@ struct Theme {
   Theme(const QVariantMap &vm)
   {
     id = vm["id"].toInt();
-    textEn = vm["text_en"].toString();
-    textRu = vm["text_ru"].toString();
+    name = vm["name"].toString();
   }
 };
 

@@ -125,20 +125,22 @@ Item {
     {
     case 1:
       theme.id = 1
-      theme.text_en = "heroes / items"
+      theme.name = "heroes / items"
       break;
     case 2:
       theme.id = 2
-      theme.text_en = "tournaments"
+      theme.name = "tournaments"
       break;
     case 3:
       theme.id = 3
-      theme.text_en = "mechanics"
+      theme.name = "mechanics"
       break;
     default:
       theme.id = 0
       break;
     }
+
+    console.log(theme.name)
     q.theme = theme
 
     proxyModel.set(row, q)
@@ -165,19 +167,18 @@ Item {
         id: themesComboBox
         width: 140
 
-        Component.onCompleted: {
-          var m = []
-          m.push("All themes")
-          for (var i in questionModel.getThemesNames()) {
-            m.push(questionModel.getThemesNames()[i])
-          }
-          themesComboBox.model = m
-        }
+        model: [
+          "all themes",
+          "heroes / items",
+          "tournaments",
+          "mechanics"
+        ]
 
         onCurrentIndexChanged: {
           if (currentIndex == -1)
             return
-          var t = questionModel.getThemesNames()[currentIndex - 1]
+          // var t = questionModel.getThemesNames()[currentIndex - 1]
+          var t = model[currentIndex]
           proxyModel.setThemeName(t);
         }
 
