@@ -139,8 +139,6 @@ Item {
       theme.id = 0
       break;
     }
-
-    console.log("updateQuestionFromUI theme.id: ", theme.id)
     q.theme = theme
 
     proxyModel.set(row, q)
